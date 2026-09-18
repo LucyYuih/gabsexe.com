@@ -46,11 +46,14 @@ gdjs.JogoCode.GDEndlessButtonObjects3= [];
 gdjs.JogoCode.GDTempoTextObjects1= [];
 gdjs.JogoCode.GDTempoTextObjects2= [];
 gdjs.JogoCode.GDTempoTextObjects3= [];
+gdjs.JogoCode.GDVerTextObjects1= [];
+gdjs.JogoCode.GDVerTextObjects2= [];
+gdjs.JogoCode.GDVerTextObjects3= [];
 
 
 gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDUpgradeButtonObjects1Objects = Hashtable.newFrom({"UpgradeButton": gdjs.JogoCode.GDUpgradeButtonObjects1});
 gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDUpgradeButtonObjects1Objects = Hashtable.newFrom({"UpgradeButton": gdjs.JogoCode.GDUpgradeButtonObjects1});
-gdjs.JogoCode.asyncCallback11919604 = function (runtimeScene, asyncObjectsList) {
+gdjs.JogoCode.asyncCallback11811484 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Bônus"), gdjs.JogoCode.GDB_95244nusObjects2);
 
@@ -60,7 +63,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Bônus"), gdjs.JogoCode.GDB_95244nus
 }
 gdjs.JogoCode.localVariables.length = 0;
 }
-gdjs.JogoCode.idToCallbackMap.set(11919604, gdjs.JogoCode.asyncCallback11919604);
+gdjs.JogoCode.idToCallbackMap.set(11811484, gdjs.JogoCode.asyncCallback11811484);
 gdjs.JogoCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -71,7 +74,7 @@ gdjs.JogoCode.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.JogoCode.localVariables);
 for (const obj of gdjs.JogoCode.GDB_95244nusObjects1) asyncObjectsList.addObject("Bônus", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8), (runtimeScene) => (gdjs.JogoCode.asyncCallback11919604(runtimeScene, asyncObjectsList)), 11919604, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8), (runtimeScene) => (gdjs.JogoCode.asyncCallback11811484(runtimeScene, asyncObjectsList)), 11811484, asyncObjectsList);
 }
 }
 
@@ -81,7 +84,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8)
 };gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDUpgradeButtonObjects1Objects = Hashtable.newFrom({"UpgradeButton": gdjs.JogoCode.GDUpgradeButtonObjects1});
 gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDUpgradeButton2Objects1Objects = Hashtable.newFrom({"UpgradeButton2": gdjs.JogoCode.GDUpgradeButton2Objects1});
 gdjs.JogoCode.mapOfEmptyGDASopaObjects = Hashtable.newFrom({"ASopa": []});
-gdjs.JogoCode.asyncCallback10321116 = function (runtimeScene, asyncObjectsList) {
+gdjs.JogoCode.asyncCallback11346420 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("ASopa"), gdjs.JogoCode.GDASopaObjects2);
 {for(var i = 0, len = gdjs.JogoCode.GDASopaObjects2.length ;i < len;++i) {
@@ -90,7 +93,7 @@ gdjs.copyArray(runtimeScene.getObjects("ASopa"), gdjs.JogoCode.GDASopaObjects2);
 }
 gdjs.JogoCode.localVariables.length = 0;
 }
-gdjs.JogoCode.idToCallbackMap.set(10321116, gdjs.JogoCode.asyncCallback10321116);
+gdjs.JogoCode.idToCallbackMap.set(11346420, gdjs.JogoCode.asyncCallback11346420);
 gdjs.JogoCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -100,20 +103,20 @@ gdjs.JogoCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.JogoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(8), (runtimeScene) => (gdjs.JogoCode.asyncCallback10321116(runtimeScene, asyncObjectsList)), 10321116, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(8), (runtimeScene) => (gdjs.JogoCode.asyncCallback11346420(runtimeScene, asyncObjectsList)), 11346420, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.JogoCode.asyncCallback13370340 = function (runtimeScene, asyncObjectsList) {
+};gdjs.JogoCode.asyncCallback9855476 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(1);
 }
 gdjs.JogoCode.localVariables.length = 0;
 }
-gdjs.JogoCode.idToCallbackMap.set(13370340, gdjs.JogoCode.asyncCallback13370340);
+gdjs.JogoCode.idToCallbackMap.set(9855476, gdjs.JogoCode.asyncCallback9855476);
 gdjs.JogoCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -123,7 +126,7 @@ gdjs.JogoCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.JogoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.JogoCode.asyncCallback13370340(runtimeScene, asyncObjectsList)), 13370340, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.JogoCode.asyncCallback9855476(runtimeScene, asyncObjectsList)), 9855476, asyncObjectsList);
 }
 }
 
@@ -132,7 +135,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), 
 
 };gdjs.JogoCode.mapOfEmptyGDASopaObjects = Hashtable.newFrom({"ASopa": []});
 gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDASopaObjects1Objects = Hashtable.newFrom({"ASopa": gdjs.JogoCode.GDASopaObjects1});
-gdjs.JogoCode.asyncCallback10423172 = function (runtimeScene, asyncObjectsList) {
+gdjs.JogoCode.asyncCallback12636548 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "Final");
 }
@@ -140,7 +143,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 }
 gdjs.JogoCode.localVariables.length = 0;
 }
-gdjs.JogoCode.idToCallbackMap.set(10423172, gdjs.JogoCode.asyncCallback10423172);
+gdjs.JogoCode.idToCallbackMap.set(12636548, gdjs.JogoCode.asyncCallback12636548);
 gdjs.JogoCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -150,7 +153,7 @@ gdjs.JogoCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.JogoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.JogoCode.asyncCallback10423172(runtimeScene, asyncObjectsList)), 10423172, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.JogoCode.asyncCallback12636548(runtimeScene, asyncObjectsList)), 12636548, asyncObjectsList);
 }
 }
 
@@ -158,6 +161,70 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 
 
 };gdjs.JogoCode.eventsList4 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.JogoCode.GDUpgradeButtonObjects1, gdjs.JogoCode.GDUpgradeButtonObjects2);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects2.length;i<l;++i) {
+    if ( gdjs.JogoCode.GDUpgradeButtonObjects2[i].getVariableNumber(gdjs.JogoCode.GDUpgradeButtonObjects2[i].getVariables().getFromIndex(0)) != 5 ) {
+        isConditionTrue_0 = true;
+        gdjs.JogoCode.GDUpgradeButtonObjects2[k] = gdjs.JogoCode.GDUpgradeButtonObjects2[i];
+        ++k;
+    }
+}
+gdjs.JogoCode.GDUpgradeButtonObjects2.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.JogoCode.GDUpgradeButtonObjects2 */
+{runtimeScene.getScene().getVariables().getFromIndex(0).sub(runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects2[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber());
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs.JogoCode.GDUpgradeButtonObjects1, gdjs.JogoCode.GDUpgradeButtonObjects2);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects2.length;i<l;++i) {
+    if ( gdjs.JogoCode.GDUpgradeButtonObjects2[i].getVariableNumber(gdjs.JogoCode.GDUpgradeButtonObjects2[i].getVariables().getFromIndex(0)) == 5 ) {
+        isConditionTrue_0 = true;
+        gdjs.JogoCode.GDUpgradeButtonObjects2[k] = gdjs.JogoCode.GDUpgradeButtonObjects2[i];
+        ++k;
+    }
+}
+gdjs.JogoCode.GDUpgradeButtonObjects2.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.JogoCode.GDUpgradeButtonObjects2 */
+{runtimeScene.getScene().getVariables().getFromIndex(0).sub(runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects2[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber());
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(gdjs.JogoCode.GDUpgradeButtonObjects1, gdjs.JogoCode.GDUpgradeButtonObjects2);
+
+{runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Upgraded").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects2[0].getVariables()).getFromIndex(0).getAsNumber()).add(1);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects2[0].getVariables()).getFromIndex(0).getAsNumber()).mul(runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Mult").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects2[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber());
+}
+}
+
+}
+
 
 {
 
@@ -175,7 +242,7 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects2.length;i<l;++i)
 }
 gdjs.JogoCode.GDUpgradeButtonObjects2.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(4).getChild("Base").add(1);
+{runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Base").add(1);
 }
 }
 
@@ -198,7 +265,7 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects2.length;i<l;++i)
 }
 gdjs.JogoCode.GDUpgradeButtonObjects2.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(4).getChild("Multiplayer").add(0.5);
+{runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Multiplayer").add(0.5);
 }
 }
 
@@ -221,7 +288,7 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects2.length;i<l;++i)
 }
 gdjs.JogoCode.GDUpgradeButtonObjects2.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(4).getChild("Porcentage").add(100);
+{runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Porcentage").add(100);
 }
 }
 
@@ -253,12 +320,60 @@ if (isConditionTrue_0) {
 
 {
 
+gdjs.copyArray(gdjs.JogoCode.GDUpgradeButtonObjects1, gdjs.JogoCode.GDUpgradeButtonObjects2);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects2.length;i<l;++i) {
+    if ( gdjs.JogoCode.GDUpgradeButtonObjects2[i].getVariableNumber(gdjs.JogoCode.GDUpgradeButtonObjects2[i].getVariables().getFromIndex(0)) == 4 ) {
+        isConditionTrue_0 = true;
+        gdjs.JogoCode.GDUpgradeButtonObjects2[k] = gdjs.JogoCode.GDUpgradeButtonObjects2[i];
+        ++k;
+    }
+}
+gdjs.JogoCode.GDUpgradeButtonObjects2.length = k;
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(9).add(1);
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs.JogoCode.GDUpgradeButtonObjects1, gdjs.JogoCode.GDUpgradeButtonObjects2);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects2.length;i<l;++i) {
+    if ( gdjs.JogoCode.GDUpgradeButtonObjects2[i].getVariableNumber(gdjs.JogoCode.GDUpgradeButtonObjects2[i].getVariables().getFromIndex(0)) == 6 ) {
+        isConditionTrue_0 = true;
+        gdjs.JogoCode.GDUpgradeButtonObjects2[k] = gdjs.JogoCode.GDUpgradeButtonObjects2[i];
+        ++k;
+    }
+}
+gdjs.JogoCode.GDUpgradeButtonObjects2.length = k;
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(11).setBoolean(true);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(4).add(0.01);
+}
+}
+
+}
+
+
+{
+
 /* Reuse gdjs.JogoCode.GDUpgradeButtonObjects1 */
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects1.length;i<l;++i) {
-    if ( gdjs.JogoCode.GDUpgradeButtonObjects1[i].getVariableNumber(gdjs.JogoCode.GDUpgradeButtonObjects1[i].getVariables().getFromIndex(0)) == 4 ) {
+    if ( gdjs.JogoCode.GDUpgradeButtonObjects1[i].getVariableNumber(gdjs.JogoCode.GDUpgradeButtonObjects1[i].getVariables().getFromIndex(0)) == 7 ) {
         isConditionTrue_0 = true;
         gdjs.JogoCode.GDUpgradeButtonObjects1[k] = gdjs.JogoCode.GDUpgradeButtonObjects1[i];
         ++k;
@@ -266,7 +381,7 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects1.length;i<l;++i)
 }
 gdjs.JogoCode.GDUpgradeButtonObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(7).add(1);
+{runtimeScene.getScene().getVariables().getFromIndex(5).sub(0.01);
 }
 }
 
@@ -291,6 +406,8 @@ gdjs.copyArray(runtimeScene.getObjects("UpgradesText"), gdjs.JogoCode.GDUpgrades
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Time");
 }
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Sec");
+}
 {gdjs.evtTools.sound.preloadSound(runtimeScene, "sementes-anhanguera.mp3");
 }
 {gdjs.evtTools.sound.preloadSound(runtimeScene, "bônus.mp3");
@@ -299,6 +416,16 @@ gdjs.copyArray(runtimeScene.getObjects("UpgradesText"), gdjs.JogoCode.GDUpgrades
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Stickerbush Symphony Restored to HD.mp3", 1, false, 100, 1);
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
 }
 
 }
@@ -346,9 +473,9 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDGabsObjects1.length;i<l;++i) {
 }
 gdjs.JogoCode.GDGabsObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(0).add(((runtimeScene.getScene().getVariables().getFromIndex(4).getChild("Base").getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(4).getChild("Multiplayer").getAsNumber()) * (runtimeScene.getScene().getVariables().getFromIndex(4).getChild("Porcentage").getAsNumber() / 100)) * runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(0).add(((runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Base").getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Multiplayer").getAsNumber()) * (runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Porcentage").getAsNumber() / 100)) * runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber());
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).add(runtimeScene.getScene().getVariables().getFromIndex(7).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(10).add(runtimeScene.getScene().getVariables().getFromIndex(9).getAsNumber());
 }
 }
 
@@ -362,7 +489,7 @@ gdjs.copyArray(runtimeScene.getObjects("GabismosText"), gdjs.JogoCode.GDGabismos
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.JogoCode.GDGabismosTextObjects1.length;i<l;++i) {
-    if ( gdjs.JogoCode.GDGabismosTextObjects1[i].getBehavior("Text").getText() != "Gabismos: " + gdjs.evtTools.common.toString(Math.round(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() / Math.pow(1000, Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()) / 3)) * 100) / 100) + runtimeScene.getScene().getVariables().getFromIndex(5).getChild(Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()) / 3)).getAsString() ) {
+    if ( gdjs.JogoCode.GDGabismosTextObjects1[i].getBehavior("Text").getText() != "Gabismos: " + gdjs.evtTools.common.toString(Math.round(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() / Math.pow(1000, Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()) / 3)) * 100) / 100) + runtimeScene.getScene().getVariables().getFromIndex(7).getChild(Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()) / 3)).getAsString() ) {
         isConditionTrue_0 = true;
         gdjs.JogoCode.GDGabismosTextObjects1[k] = gdjs.JogoCode.GDGabismosTextObjects1[i];
         ++k;
@@ -371,13 +498,13 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDGabismosTextObjects1.length;i<l;++i) 
 gdjs.JogoCode.GDGabismosTextObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() != 0);
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() >= 1);
 }
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.JogoCode.GDGabismosTextObjects1 */
 {for(var i = 0, len = gdjs.JogoCode.GDGabismosTextObjects1.length ;i < len;++i) {
-    gdjs.JogoCode.GDGabismosTextObjects1[i].getBehavior("Text").setText("Gabismos: " + gdjs.evtTools.common.toString(Math.round(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() / Math.pow(1000, Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()) / 3)) * 100) / 100) + runtimeScene.getScene().getVariables().getFromIndex(5).getChild(Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()) / 3)).getAsString() + gdjs.evtTools.string.newLine() + "Aura: " + runtimeScene.getScene().getVariables().getFromIndex(8).getAsString());
+    gdjs.JogoCode.GDGabismosTextObjects1[i].getBehavior("Text").setText("Gabismos: " + gdjs.evtTools.common.toString(Math.round(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() / Math.pow(1000, Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()) / 3)) * 100) / 100) + runtimeScene.getScene().getVariables().getFromIndex(7).getChild(Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()) / 3)).getAsString() + gdjs.evtTools.string.newLine() + "Aura: " + runtimeScene.getScene().getVariables().getFromIndex(10).getAsString());
 }
 }
 }
@@ -390,12 +517,12 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() < 1);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("GabismosText"), gdjs.JogoCode.GDGabismosTextObjects1);
 {for(var i = 0, len = gdjs.JogoCode.GDGabismosTextObjects1.length ;i < len;++i) {
-    gdjs.JogoCode.GDGabismosTextObjects1[i].getBehavior("Text").setText("Gabismos: " + runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() + gdjs.evtTools.string.newLine() + "Aura: " + runtimeScene.getScene().getVariables().getFromIndex(8).getAsString());
+    gdjs.JogoCode.GDGabismosTextObjects1[i].getBehavior("Text").setText("Gabismos: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.roundTo(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber(), 2)) + gdjs.evtTools.string.newLine() + "Aura: " + runtimeScene.getScene().getVariables().getFromIndex(10).getAsString());
 }
 }
 }
@@ -459,7 +586,7 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects1.length;i<l;++i)
 gdjs.JogoCode.GDUpgradeButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Upgraded").getChild(5).getAsNumber() >= 168);
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Upgraded").getChild(5).getAsNumber() >= 168);
 }
 }
 }
@@ -509,7 +636,7 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.JogoCode.GDUpgradeButtonObjects1 */
 gdjs.copyArray(runtimeScene.getObjects("UpgradesText"), gdjs.JogoCode.GDUpgradesTextObjects1);
 {for(var i = 0, len = gdjs.JogoCode.GDUpgradesTextObjects1.length ;i < len;++i) {
-    gdjs.JogoCode.GDUpgradesTextObjects1[i].getBehavior("Text").setText(runtimeScene.getScene().getVariables().getFromIndex(6).getChild("info").getChild("Name").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsString() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(6).getChild("info").getChild("Descrição").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsString() + gdjs.evtTools.string.newLine() + "Preço: " + gdjs.evtTools.common.toString(Math.round(runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber() / Math.pow(1000, Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber()) / 3)) * 100) / 100) + runtimeScene.getScene().getVariables().getFromIndex(5).getChild(Math.floor(gdjs.evtTools.common.log10(runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber()) / 3)).getAsString() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Upgraded").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsString() + " / " + runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Limit").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsString());
+    gdjs.JogoCode.GDUpgradesTextObjects1[i].getBehavior("Text").setText(runtimeScene.getScene().getVariables().getFromIndex(8).getChild("info").getChild("Name").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsString() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(8).getChild("info").getChild("Descrição").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsString() + gdjs.evtTools.string.newLine() + "Preço: " + gdjs.evtTools.common.toString(Math.round(Math.max(1, runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber()) / Math.pow(1000, Math.floor(gdjs.evtTools.common.log10(Math.max(1, runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber())) / 3)) * 100) / 100) + runtimeScene.getScene().getVariables().getFromIndex(7).getChild(Math.floor(gdjs.evtTools.common.log10(Math.max(1, runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber())) / 3)).getAsString() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Upgraded").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsString() + " / " + runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Limit").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsString());
 }
 }
 {for(var i = 0, len = gdjs.JogoCode.GDUpgradesTextObjects1.length ;i < len;++i) {
@@ -551,7 +678,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.JogoCode.mapOfEmptyGDASopaObjects) >= 1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13388004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12029604);
 }
 }
 if (isConditionTrue_0) {
@@ -579,7 +706,7 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDASopaObjects1.length;i<l;++i) {
 gdjs.JogoCode.GDASopaObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11251596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13340540);
 }
 }
 if (isConditionTrue_0) {
@@ -613,7 +740,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10748204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9805468);
 }
 }
 }
@@ -626,6 +753,25 @@ gdjs.JogoCode.GDASopaObjects1.length = 0;
 {for(var i = 0, len = gdjs.JogoCode.GDASopaObjects1.length ;i < len;++i) {
     gdjs.JogoCode.GDASopaObjects1[i].getBehavior("Resizable").setSize(64, 64);
 }
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__RepeatEveryXSeconds__Repeat.func(runtimeScene, "Sec", 1, null);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getScene().getVariables().getFromIndex(11).getAsBoolean();
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(0).add((((runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Base").getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Multiplayer").getAsNumber()) * (runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Porcentage").getAsNumber() / 100)) * runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber()) * (runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber()));
 }
 }
 
@@ -648,7 +794,7 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButton2Objects1.length;i<l;++i
 gdjs.JogoCode.GDUpgradeButton2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsNumber() >= 29000);
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(10).getAsNumber() >= 29000);
 }
 }
 if (isConditionTrue_0) {
@@ -675,7 +821,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.sound.isSoundOnChannelStopped(runtimeScene, 2);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13248916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10321116);
 }
 }
 if (isConditionTrue_0) {
@@ -729,22 +875,15 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButtonObjects1.length;i<l;++i)
 gdjs.JogoCode.GDUpgradeButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() >= runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber());
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() >= runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber());
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Upgraded").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber() < runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Limit").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber());
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Upgraded").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber() < runtimeScene.getScene().getVariables().getFromIndex(8).getChild("Limit").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber());
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.JogoCode.GDUpgradeButtonObjects1 */
-{runtimeScene.getScene().getVariables().getFromIndex(0).sub(runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber());
-}
-{runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Upgraded").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).add(1);
-}
-{runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Price").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).mul(runtimeScene.getScene().getVariables().getFromIndex(6).getChild("Mult").getChild(((gdjs.JogoCode.GDUpgradeButtonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.JogoCode.GDUpgradeButtonObjects1[0].getVariables()).getFromIndex(0).getAsNumber()).getAsNumber());
-}
 
 { //Subevents
 gdjs.JogoCode.eventsList4(runtimeScene);} //End of subevents
@@ -803,6 +942,9 @@ gdjs.JogoCode.GDEndlessButtonObjects3.length = 0;
 gdjs.JogoCode.GDTempoTextObjects1.length = 0;
 gdjs.JogoCode.GDTempoTextObjects2.length = 0;
 gdjs.JogoCode.GDTempoTextObjects3.length = 0;
+gdjs.JogoCode.GDVerTextObjects1.length = 0;
+gdjs.JogoCode.GDVerTextObjects2.length = 0;
+gdjs.JogoCode.GDVerTextObjects3.length = 0;
 
 gdjs.JogoCode.eventsList5(runtimeScene);
 gdjs.JogoCode.GDInventoryEmptyObjects1.length = 0;
@@ -850,6 +992,9 @@ gdjs.JogoCode.GDEndlessButtonObjects3.length = 0;
 gdjs.JogoCode.GDTempoTextObjects1.length = 0;
 gdjs.JogoCode.GDTempoTextObjects2.length = 0;
 gdjs.JogoCode.GDTempoTextObjects3.length = 0;
+gdjs.JogoCode.GDVerTextObjects1.length = 0;
+gdjs.JogoCode.GDVerTextObjects2.length = 0;
+gdjs.JogoCode.GDVerTextObjects3.length = 0;
 
 
 return;
