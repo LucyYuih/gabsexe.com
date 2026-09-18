@@ -61,9 +61,49 @@
       background: #000;
       pointer-events: none;
     }
+
+    #gameButton {
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.92);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+      transition: transform 0.15s ease, background 0.15s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    #gameButton:hover {
+      transform: scale(1.08);
+      background: #fff;
+    }
+
+    #gameButton:active {
+      transform: scale(0.96);
+    }
+
+    #gameButton::before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 11px solid transparent;
+      border-bottom: 11px solid transparent;
+      border-left: 17px solid #000;
+      margin-left: 4px;
+    }
+
   </style>
 </head>
 <body>
+  <a id="gameButton" href="/Game/" aria-label="Abrir jogo" title="Play"></a>
   <img id="imagem" src="./imagem.jpg" alt="" draggable="false">
 
   <div id="overlay" aria-hidden="true">
