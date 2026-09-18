@@ -648,7 +648,7 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDUpgradeButton2Objects1.length;i<l;++i
 gdjs.JogoCode.GDUpgradeButton2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsNumber() >= 0);
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsNumber() >= 29000);
 }
 }
 if (isConditionTrue_0) {
