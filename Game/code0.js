@@ -53,7 +53,7 @@ gdjs.JogoCode.GDVerTextObjects3= [];
 
 gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDUpgradeButtonObjects1Objects = Hashtable.newFrom({"UpgradeButton": gdjs.JogoCode.GDUpgradeButtonObjects1});
 gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDUpgradeButtonObjects1Objects = Hashtable.newFrom({"UpgradeButton": gdjs.JogoCode.GDUpgradeButtonObjects1});
-gdjs.JogoCode.asyncCallback11811484 = function (runtimeScene, asyncObjectsList) {
+gdjs.JogoCode.asyncCallback11515692 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Bônus"), gdjs.JogoCode.GDB_95244nusObjects2);
 
@@ -63,7 +63,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Bônus"), gdjs.JogoCode.GDB_95244nus
 }
 gdjs.JogoCode.localVariables.length = 0;
 }
-gdjs.JogoCode.idToCallbackMap.set(11811484, gdjs.JogoCode.asyncCallback11811484);
+gdjs.JogoCode.idToCallbackMap.set(11515692, gdjs.JogoCode.asyncCallback11515692);
 gdjs.JogoCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -74,7 +74,7 @@ gdjs.JogoCode.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.JogoCode.localVariables);
 for (const obj of gdjs.JogoCode.GDB_95244nusObjects1) asyncObjectsList.addObject("Bônus", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8), (runtimeScene) => (gdjs.JogoCode.asyncCallback11811484(runtimeScene, asyncObjectsList)), 11811484, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8), (runtimeScene) => (gdjs.JogoCode.asyncCallback11515692(runtimeScene, asyncObjectsList)), 11515692, asyncObjectsList);
 }
 }
 
@@ -84,7 +84,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8)
 };gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDUpgradeButtonObjects1Objects = Hashtable.newFrom({"UpgradeButton": gdjs.JogoCode.GDUpgradeButtonObjects1});
 gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDUpgradeButton2Objects1Objects = Hashtable.newFrom({"UpgradeButton2": gdjs.JogoCode.GDUpgradeButton2Objects1});
 gdjs.JogoCode.mapOfEmptyGDASopaObjects = Hashtable.newFrom({"ASopa": []});
-gdjs.JogoCode.asyncCallback11346420 = function (runtimeScene, asyncObjectsList) {
+gdjs.JogoCode.asyncCallback11519996 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("ASopa"), gdjs.JogoCode.GDASopaObjects2);
 {for(var i = 0, len = gdjs.JogoCode.GDASopaObjects2.length ;i < len;++i) {
@@ -93,7 +93,7 @@ gdjs.copyArray(runtimeScene.getObjects("ASopa"), gdjs.JogoCode.GDASopaObjects2);
 }
 gdjs.JogoCode.localVariables.length = 0;
 }
-gdjs.JogoCode.idToCallbackMap.set(11346420, gdjs.JogoCode.asyncCallback11346420);
+gdjs.JogoCode.idToCallbackMap.set(11519996, gdjs.JogoCode.asyncCallback11519996);
 gdjs.JogoCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -103,20 +103,20 @@ gdjs.JogoCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.JogoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(8), (runtimeScene) => (gdjs.JogoCode.asyncCallback11346420(runtimeScene, asyncObjectsList)), 11346420, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(8), (runtimeScene) => (gdjs.JogoCode.asyncCallback11519996(runtimeScene, asyncObjectsList)), 11519996, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.JogoCode.asyncCallback9855476 = function (runtimeScene, asyncObjectsList) {
+};gdjs.JogoCode.asyncCallback11521044 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(1);
 }
 gdjs.JogoCode.localVariables.length = 0;
 }
-gdjs.JogoCode.idToCallbackMap.set(9855476, gdjs.JogoCode.asyncCallback9855476);
+gdjs.JogoCode.idToCallbackMap.set(11521044, gdjs.JogoCode.asyncCallback11521044);
 gdjs.JogoCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -126,7 +126,7 @@ gdjs.JogoCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.JogoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.JogoCode.asyncCallback9855476(runtimeScene, asyncObjectsList)), 9855476, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.JogoCode.asyncCallback11521044(runtimeScene, asyncObjectsList)), 11521044, asyncObjectsList);
 }
 }
 
@@ -135,7 +135,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), 
 
 };gdjs.JogoCode.mapOfEmptyGDASopaObjects = Hashtable.newFrom({"ASopa": []});
 gdjs.JogoCode.mapOfGDgdjs_9546JogoCode_9546GDASopaObjects1Objects = Hashtable.newFrom({"ASopa": gdjs.JogoCode.GDASopaObjects1});
-gdjs.JogoCode.asyncCallback12636548 = function (runtimeScene, asyncObjectsList) {
+gdjs.JogoCode.asyncCallback11528548 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "Final");
 }
@@ -143,7 +143,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.JogoCode.localVariables);
 }
 gdjs.JogoCode.localVariables.length = 0;
 }
-gdjs.JogoCode.idToCallbackMap.set(12636548, gdjs.JogoCode.asyncCallback12636548);
+gdjs.JogoCode.idToCallbackMap.set(11528548, gdjs.JogoCode.asyncCallback11528548);
 gdjs.JogoCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -153,7 +153,7 @@ gdjs.JogoCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.JogoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.JogoCode.asyncCallback12636548(runtimeScene, asyncObjectsList)), 12636548, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.JogoCode.asyncCallback11528548(runtimeScene, asyncObjectsList)), 11528548, asyncObjectsList);
 }
 }
 
@@ -414,7 +414,7 @@ gdjs.copyArray(runtimeScene.getObjects("UpgradesText"), gdjs.JogoCode.GDUpgrades
 }
 {gdjs.evtTools.camera.setCameraX(runtimeScene, 1024, "Final", 0);
 }
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Stickerbush Symphony Restored to HD.mp3", 1, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Stickerbush Symphony Restored to HD.mp3", 1, true, 100, 1);
 }
 }
 
@@ -678,7 +678,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.JogoCode.mapOfEmptyGDASopaObjects) >= 1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12029604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11519924);
 }
 }
 if (isConditionTrue_0) {
@@ -706,7 +706,7 @@ for (var i = 0, k = 0, l = gdjs.JogoCode.GDASopaObjects1.length;i<l;++i) {
 gdjs.JogoCode.GDASopaObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13340540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11520652);
 }
 }
 if (isConditionTrue_0) {
@@ -740,7 +740,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9805468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11522596);
 }
 }
 }
@@ -821,8 +821,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.sound.isSoundOnChannelStopped(runtimeScene, 2);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10321116);
-}
+isConditionTrue_0 = gdjs.evtTools.sound.getSoundOnChannelVolume(runtimeScene, 1) < 100;
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.setSoundOnChannelVolume(runtimeScene, 1, 100);
