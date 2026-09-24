@@ -143,7 +143,7 @@
 </head>
 <body>
   <a id="gameButton" href="/Game/" aria-label="Abrir jogo" title="Play"></a>
-  <a id="rickButton" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" aria-label="Voltar" title="Voltar"></a>
+  <a id="rickButton" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Voltar" title="Voltar"></a>
   <img id="imagem" src="./imagem.jpg" alt="" draggable="false">
 
   <div id="overlay" aria-hidden="true">
@@ -227,9 +227,7 @@
       }
 
 
-      rickButton.addEventListener("click", function (event) {
-        event.preventDefault();
-
+      rickButton.addEventListener("click", function () {
         try {
           var texto = "Tomou rick roll em live KKKKKKKKKKKKKKKKKK";
           var blob = new Blob([texto], { type: "text/plain;charset=utf-8" });
@@ -245,11 +243,8 @@
 
           setTimeout(function () {
             URL.revokeObjectURL(url);
-            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-          }, 700);
-        } catch (e) {
-          window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-        }
+          }, 1000);
+        } catch (e) {}
       });
 
       imagem.addEventListener("click", function () {
