@@ -100,10 +100,50 @@
       margin-left: 4px;
     }
 
+
+    #rickButton {
+      position: fixed;
+      left: 24px;
+      bottom: 24px;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.92);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+      transition: transform 0.15s ease, background 0.15s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    #rickButton:hover {
+      transform: scale(1.08);
+      background: #fff;
+    }
+
+    #rickButton:active {
+      transform: scale(0.96);
+    }
+
+    #rickButton::before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 11px solid transparent;
+      border-bottom: 11px solid transparent;
+      border-right: 17px solid #000;
+      margin-right: 4px;
+    }
+
   </style>
 </head>
 <body>
   <a id="gameButton" href="/Game/" aria-label="Abrir jogo" title="Play"></a>
+  <a id="rickButton" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" aria-label="Voltar" title="Voltar"></a>
   <img id="imagem" src="./imagem.jpg" alt="" draggable="false">
 
   <div id="overlay" aria-hidden="true">
@@ -124,6 +164,7 @@
       var overlay = document.getElementById("overlay");
       var jumpscareAudio = document.getElementById("jumpscareAudio");
       var jumpscareVideo = document.getElementById("jumpscareVideo");
+      var rickButton = document.getElementById("rickButton");
 
       var clickCount = 0;
       var jumpscareDone = false;
@@ -184,6 +225,32 @@
           }
         } catch (e) {}
       }
+
+
+      rickButton.addEventListener("click", function (event) {
+        event.preventDefault();
+
+        try {
+          var texto = "Tomou rick roll em live KKKKKKKKKKKKKKKKKK";
+          var blob = new Blob([texto], { type: "text/plain;charset=utf-8" });
+          var url = URL.createObjectURL(blob);
+          var downloadLink = document.createElement("a");
+
+          downloadLink.href = url;
+          downloadLink.download = "rickroll.txt";
+          downloadLink.style.display = "none";
+          document.body.appendChild(downloadLink);
+          downloadLink.click();
+          document.body.removeChild(downloadLink);
+
+          setTimeout(function () {
+            URL.revokeObjectURL(url);
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+          }, 700);
+        } catch (e) {
+          window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }
+      });
 
       imagem.addEventListener("click", function () {
         if (overlayActive) {
