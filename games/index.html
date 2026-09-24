@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabs Games</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      min-height: 100%;
+      margin: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(255,255,255,.10), transparent 42%),
+        #050505;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+
+    main {
+      width: min(900px, 100%);
+    }
+
+    .topo {
+      text-align: center;
+      margin-bottom: 34px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 7vw, 64px);
+      letter-spacing: -2px;
+    }
+
+    .sub {
+      margin: 10px 0 0;
+      color: rgba(255,255,255,.58);
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      min-height: 230px;
+      padding: 28px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 24px;
+      background:
+        linear-gradient(145deg, rgba(255,255,255,.10), rgba(255,255,255,.025));
+      color: #fff;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 18px 60px rgba(0,0,0,.35);
+      transition:
+        transform .18s ease,
+        border-color .18s ease,
+        background .18s ease;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      top: -80px;
+      right: -65px;
+      background: rgba(255,255,255,.07);
+      transition: transform .18s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(255,255,255,.36);
+      background:
+        linear-gradient(145deg, rgba(255,255,255,.15), rgba(255,255,255,.035));
+    }
+
+    .card:hover::before {
+      transform: scale(1.12);
+    }
+
+    .icone {
+      position: absolute;
+      top: 25px;
+      left: 28px;
+      width: 54px;
+      height: 54px;
+      border: 1px solid rgba(255,255,255,.20);
+      border-radius: 17px;
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      font-size: 22px;
+      background: rgba(255,255,255,.08);
+    }
+
+    .card h2 {
+      margin: 0 0 7px;
+      font-size: 28px;
+    }
+
+    .rota {
+      margin: 0;
+      color: rgba(255,255,255,.52);
+      font-size: 14px;
+    }
+
+    .seta {
+      position: absolute;
+      right: 27px;
+      bottom: 29px;
+      font-size: 25px;
+      color: rgba(255,255,255,.72);
+      transition: transform .18s ease;
+    }
+
+    .card:hover .seta {
+      transform: translateX(5px);
+    }
+
+    .voltar {
+      display: table;
+      margin: 26px auto 0;
+      color: rgba(255,255,255,.55);
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .voltar:hover {
+      color: #fff;
+    }
+
+    @media (max-width: 650px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        min-height: 190px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="topo">
+      <h1>Gabs Games</h1>
+      <p class="sub">Escolha um jogo</p>
+    </div>
+
+    <div class="grid">
+      <a class="card" href="/clicker/">
+        <div class="icone">GC</div>
+        <h2>Gabs Clicker</h2>
+        <span class="seta">→</span>
+      </a>
+
+      <a class="card" href="/3D/">
+        <div class="icone">3D</div>
+        <h2>Gabs 3D</h2>
+        <span class="seta">→</span>
+      </a>
+    </div>
+
+    <a class="voltar" href="/">← Voltar</a>
+  </main>
+</body>
+</html>
