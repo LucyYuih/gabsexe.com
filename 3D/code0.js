@@ -432,14 +432,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.Gabs3DCode.asyncCallback14406124 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Gabs3DCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.Gabs3DCode.GDPlayerObjects2);
-
-gdjs.copyArray(runtimeScene.getObjects("tempo"), gdjs.Gabs3DCode.GDtempoObjects2);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Tempo");
-}
-{for(var i = 0, len = gdjs.Gabs3DCode.GDtempoObjects2.length ;i < len;++i) {
-    gdjs.Gabs3DCode.GDtempoObjects2[i].getBehavior("Text").setText(gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.func(runtimeScene, gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "Tempo"), null) + gdjs.evtTools.string.newLine() + "Altura: " + gdjs.evtTools.common.toString((( gdjs.Gabs3DCode.GDPlayerObjects2.length === 0 ) ? 0 :gdjs.Gabs3DCode.GDPlayerObjects2[0].getBehavior("Object3D").getZ())));
-}
 }
 {gdjs.evtTools.camera.showLayer(runtimeScene, "ui2");
 }
@@ -458,7 +451,6 @@ gdjs.Gabs3DCode.eventsList11 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Gabs3DCode.localVariables);
-for (const obj of gdjs.Gabs3DCode.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Gabs3DCode.asyncCallback14406124(runtimeScene, asyncObjectsList)), 14406124, asyncObjectsList);
 }
 }
@@ -520,6 +512,12 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("GameOver"), gdjs.Gabs3DCode.GDGameOverObjects1);
+{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 1);
+}
+{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
+}
+{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 3);
+}
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Video");
 }
 {for(var i = 0, len = gdjs.Gabs3DCode.GDGameOverObjects1.length ;i < len;++i) {
@@ -627,6 +625,8 @@ if (isConditionTrue_0) {
 {for(var i = 0, len = gdjs.Gabs3DCode.GDObstacleObjects1.length ;i < len;++i) {
     gdjs.Gabs3DCode.GDObstacleObjects1[i].setFaceResourceName("bottom", "gabsyellow.jpg");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "29-gabs.mp3", false, 100, 1);
 }
 }
 
