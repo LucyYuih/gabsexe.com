@@ -1,1 +1,1 @@
-var gdjs;(function(n){n.gdevelopLogo=""})(gdjs||(gdjs={}));
+var gdjs;(function(z){z.gdevelopLogo=""})(gdjs||(gdjs={}));

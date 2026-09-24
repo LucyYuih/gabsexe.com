@@ -98,16 +98,12 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("JumpButton"), gdjs.Gabs3DCode.GDJumpButtonObjects2);
 gdjs.copyArray(runtimeScene.getObjects("MovementJoystick"), gdjs.Gabs3DCode.GDMovementJoystickObjects2);
-{for(var i = 0, len = gdjs.Gabs3DCode.GDMovementJoystickObjects2.length ;i < len;++i) {
-    gdjs.Gabs3DCode.GDMovementJoystickObjects2[i].hide();
-}
-}
 {for(var i = 0, len = gdjs.Gabs3DCode.GDJumpButtonObjects2.length ;i < len;++i) {
-    gdjs.Gabs3DCode.GDJumpButtonObjects2[i].hide();
+    gdjs.Gabs3DCode.GDJumpButtonObjects2[i].deleteFromScene(runtimeScene);
 }
 }
 {for(var i = 0, len = gdjs.Gabs3DCode.GDMovementJoystickObjects2.length ;i < len;++i) {
-    gdjs.Gabs3DCode.GDMovementJoystickObjects2[i].ActivateControl(false, null);
+    gdjs.Gabs3DCode.GDMovementJoystickObjects2[i].deleteFromScene(runtimeScene);
 }
 }
 }

@@ -1,1 +1,1 @@
-var gdjs;(function(n){let w;(function(m){class RuntimeWatermark{constructor(){}displayAtStartup(){}display(){}hide(){}}m.RuntimeWatermark=RuntimeWatermark})(w=n.watermark||(n.watermark={}))})(gdjs||(gdjs={}));
+var gdjs;(function(n){let a;(function(r){class s{constructor(e,t,i){}displayAtStartup(){}display(){}}r.RuntimeWatermark=s})(a=n.watermark||(n.watermark={}))})(gdjs||(gdjs={}));
