@@ -1,0 +1,50 @@
+{
+  "directory": "",
+  "defaultZoom": 0.8,
+  "isPixelStage": false,
+  "boyfriend": [
+    770,
+    -80
+  ],
+  "girlfriend": [
+    10000,
+    130
+  ],
+  "opponent": [
+    0,
+    -100
+  ],
+  "stage_name": "evilHouse",
+  "sprites": [
+    {
+      "tag": "kitchen",
+      "image": "stages/bacon/evilHouse",
+      "x": -375,
+      "y": -425,
+      "scaleX": 1.15,
+      "scaleY": 1.15,
+      "scrollX": 1,
+      "scrollY": 1,
+      "zOrder": 0,
+      "camera": "game"
+    }
+  ],
+  "drawOrder": [
+    {
+      "type": "sprite",
+      "tag": "kitchen"
+    },
+    {
+      "type": "player",
+      "player": "girlfriend"
+    },
+    {
+      "type": "player",
+      "player": "opponent"
+    },
+    {
+      "type": "player",
+      "player": "boyfriend"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "stage_name": "boxingnight",
+  "zoom": 0.75,
+  "positions": {
+    "boyfriend": [
+      1117,
+      112
+    ],
+    "girlfriend": [
+      536,
+      156
+    ],
+    "opponent": [
+      73,
+      114
+    ]
+  },
+  "playerLayers": {
+    "girlfriend": {
+      "group": "gfGroup",
+      "zOrder": 2,
+      "visible": true,
+      "orderExpression": null,
+      "position": [
+        536,
+        156
+      ]
+    },
+    "opponent": {
+      "group": "dadGroup",
+      "zOrder": 3,
+      "visible": true,
+      "orderExpression": null,
+      "position": [
+        73,
+        114
+      ]
+    },
+    "boyfriend": {
+      "group": "boyfriendGroup",
+      "zOrder": 4,
+      "visible": true,
+      "orderExpression": null,
+      "position": [
+        1117,
+        112
+      ]
+    }
+  },
+  "drawOrder": [
+    {
+      "type": "sprite",
+      "id": "obj1",
+      "tag": "obj1"
+    },
+    {
+      "type": "sprite",
+      "id": "obj2",
+      "tag": "obj2"
+    },
+    {
+      "type": "player",
+      "id": "girlfriend",
+      "player": "girlfriend",
+      "group": "gfGroup",
+      "visible": true
+    },
+    {
+      "type": "player",
+      "id": "opponent",
+      "player": "opponent",
+      "group": "dadGroup",
+      "visible": true
+    },
+    {
+      "type": "player",
+      "id": "boyfriend",
+      "player": "boyfriend",
+      "group": "boyfriendGroup",
+      "visible": true
+    }
+  ],
+  "objectOrder": [
+    {
+      "target": "obj1",
+      "expression": "0",
+      "call": "setObjectOrder('obj1', 0)",
+      "value": 0
+    },
+    {
+      "target": "obj2",
+      "expression": "1",
+      "call": "setObjectOrder('obj2', 1)",
+      "value": 1
+    }
+  ],
+  "sprites": [
+    {
+      "tag": "obj1",
+      "image": "boxingnight2",
+      "x": -473.0,
+      "y": -292.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scrollX": 1.0,
+      "scrollY": 1.0,
+      "alpha": 1.0,
+      "visible": true,
+      "camera": "game",
+      "blendMode": "normal",
+      "flipX": false,
+      "flipY": false,
+      "animated": false,
+      "front": false,
+      "layer": "background",
+      "addIndex": 0,
+      "zOrder": 0,
+      "orderExpression": "0",
+      "frontExpression": "false"
+    },
+    {
+      "tag": "obj2",
+      "image": "boxingnight3",
+      "x": -473.0,
+      "y": -297.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scrollX": 1.0,
+      "scrollY": 1.0,
+      "alpha": 1.0,
+      "visible": true,
+      "camera": "game",
+      "blendMode": "normal",
+      "flipX": false,
+      "flipY": false,
+      "animated": false,
+      "front": false,
+      "layer": "background",
+      "addIndex": 1,
+      "zOrder": 1,
+      "orderExpression": "1",
+      "frontExpression": "false"
+    }
+  ],
+  "camera": {
+    "boyfriend": [
+      0,
+      0
+    ],
+    "girlfriend": [
+      0,
+      0
+    ],
+    "opponent": [
+      0,
+      0
+    ],
+    "speed": 1
+  },
+  "directory": "",
+  "isPixelStage": false,
+  "hide_girlfriend": false
+}

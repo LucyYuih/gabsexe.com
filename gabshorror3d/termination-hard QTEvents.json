@@ -1,0 +1,5301 @@
+{
+  "source": "termination/termination.json",
+  "bpm": 222,
+  "dodge_enabled": true,
+  "events": [
+    [
+      0.0,
+      "streetTV state",
+      "2",
+      ""
+    ],
+    [
+      0.0,
+      "TerminationIntro",
+      "3",
+      "player"
+    ],
+    [
+      0.0,
+      "TerminationIntro",
+      "0",
+      ""
+    ],
+    [
+      2.162162,
+      "TerminationIntro",
+      "1",
+      ""
+    ],
+    [
+      2.162162,
+      "TerminationIntro",
+      "2",
+      "player"
+    ],
+    [
+      4.324324,
+      "TerminationIntro",
+      "1",
+      "player"
+    ],
+    [
+      4.324324,
+      "TerminationIntro",
+      "2",
+      ""
+    ],
+    [
+      4.324324,
+      "streetTV state",
+      "3",
+      ""
+    ],
+    [
+      6.486486,
+      "TerminationIntro",
+      "0",
+      "player"
+    ],
+    [
+      6.486486,
+      "TerminationIntro",
+      "3",
+      ""
+    ],
+    [
+      7.567568,
+      "KB_AttackPrepare",
+      "",
+      "1"
+    ],
+    [
+      7.837838,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      8.108108,
+      "KB_AttackFire",
+      "",
+      "1"
+    ],
+    [
+      8.648649,
+      "streetTV state",
+      "0",
+      ""
+    ],
+    [
+      34.594595,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      34.864865,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      35.135135,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      36.756757,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      37.027027,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      37.297297,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      38.918919,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      39.189189,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      39.459459,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      39.662162,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      39.72973,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      41.081081,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      41.351351,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      41.621622,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      41.824324,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      41.891892,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      43.243243,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      43.513514,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      43.783784,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      45.405405,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      45.675676,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      45.945946,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      47.567568,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      47.837838,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      48.108108,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      48.310811,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      48.378378,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      49.72973,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      50.0,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      50.27027,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      50.472973,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      50.540541,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      51.351351,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      51.621622,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      51.891892,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      51.891892,
+      "streetTV state",
+      "1",
+      ""
+    ],
+    [
+      86.486486,
+      "KB_Pincer",
+      "0",
+      ""
+    ],
+    [
+      86.486486,
+      "streetTV state",
+      "0",
+      ""
+    ],
+    [
+      87.027027,
+      "KB_Pincer",
+      "1",
+      ""
+    ],
+    [
+      87.567568,
+      "KB_Pincer",
+      "2",
+      ""
+    ],
+    [
+      90.810811,
+      "KB_Pincer",
+      "3",
+      ""
+    ],
+    [
+      91.351351,
+      "KB_Pincer",
+      "4",
+      ""
+    ],
+    [
+      91.891892,
+      "KB_Pincer",
+      "5",
+      ""
+    ],
+    [
+      95.135135,
+      "KB_Pincer",
+      "6",
+      ""
+    ],
+    [
+      95.675676,
+      "KB_Pincer",
+      "7",
+      ""
+    ],
+    [
+      96.216216,
+      "KB_Pincer",
+      "8",
+      ""
+    ],
+    [
+      99.459459,
+      "KB_Pincer",
+      "9",
+      ""
+    ],
+    [
+      100.0,
+      "KB_Pincer",
+      "10",
+      ""
+    ],
+    [
+      100.540541,
+      "KB_Pincer",
+      "11",
+      ""
+    ],
+    [
+      103.445946,
+      "KB_Pincer",
+      "12",
+      ""
+    ],
+    [
+      103.783784,
+      "KB_Pincer",
+      "13",
+      ""
+    ],
+    [
+      103.783784,
+      "Set GF Speed",
+      "2",
+      ""
+    ],
+    [
+      104.864865,
+      "KB_Pincer",
+      "14",
+      ""
+    ],
+    [
+      105.945946,
+      "KB_Pincer",
+      "15",
+      ""
+    ],
+    [
+      107.027027,
+      "KB_Pincer",
+      "16",
+      ""
+    ],
+    [
+      108.108108,
+      "KB_Pincer",
+      "17",
+      ""
+    ],
+    [
+      109.189189,
+      "KB_Pincer",
+      "18",
+      ""
+    ],
+    [
+      110.27027,
+      "KB_Pincer",
+      "19",
+      ""
+    ],
+    [
+      111.351351,
+      "KB_Pincer",
+      "20",
+      ""
+    ],
+    [
+      118.918919,
+      "streetTV state",
+      "4",
+      ""
+    ],
+    [
+      120.0,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      120.27027,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      120.540541,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      121.081081,
+      "KB_Pincer",
+      "21",
+      ""
+    ],
+    [
+      121.081081,
+      "streetTV state",
+      "0",
+      ""
+    ],
+    [
+      128.648649,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      128.918919,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      129.189189,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      129.594595,
+      "newHealthGainMultiplier",
+      "1.075",
+      ""
+    ],
+    [
+      129.594595,
+      "newLossMultiplier",
+      "1.2875",
+      ""
+    ],
+    [
+      137.297297,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      137.567568,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      137.837838,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      137.871622,
+      "KB_Pincer",
+      "22",
+      ""
+    ],
+    [
+      138.243243,
+      "newDadDrainHealthValue",
+      "0.015",
+      ""
+    ],
+    [
+      138.378378,
+      "KB_Pincer",
+      "23",
+      ""
+    ],
+    [
+      138.378378,
+      "streetTV state",
+      "1",
+      ""
+    ],
+    [
+      138.378378,
+      "Set GF Speed",
+      "1",
+      ""
+    ],
+    [
+      138.378378,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      138.918919,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      139.459459,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      140.0,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      140.540541,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      141.081081,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      141.621622,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      142.162162,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      142.702703,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      143.243243,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      143.783784,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      144.324324,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      144.864865,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      145.405405,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      145.945946,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      146.486486,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      147.027027,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      147.027027,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      147.297297,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      147.567568,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      147.567568,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      148.108108,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      148.648649,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      149.189189,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      149.189189,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      149.459459,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      149.72973,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      149.72973,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      150.27027,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      150.810811,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      151.351351,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      151.351351,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      151.621622,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      151.891892,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      151.891892,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      152.432432,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      152.972973,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      153.513514,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      153.513514,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      153.783784,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      154.054054,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      154.054054,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      154.594595,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      155.135135,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      155.675676,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      155.675676,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      155.945946,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      156.216216,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      156.216216,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      156.756757,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      156.756757,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      157.027027,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      157.297297,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      157.297297,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      157.837838,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      158.108108,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      158.378378,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      158.378378,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      158.648649,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      158.918919,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      158.918919,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      159.189189,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      159.459459,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      159.459459,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      159.662162,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      159.72973,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      160.0,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      160.0,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      160.27027,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      160.540541,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      160.540541,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      161.081081,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      161.081081,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      161.351351,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      161.621622,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      161.621622,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      162.162162,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      162.432432,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      162.702703,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      162.702703,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      162.972973,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      163.243243,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      163.243243,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      163.513514,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      163.783784,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      163.783784,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      163.986486,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      164.054054,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      164.324324,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      164.864865,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      165.405405,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      165.945946,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      166.486486,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      167.027027,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      167.567568,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      168.108108,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      168.648649,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      169.189189,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      169.72973,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      170.27027,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      170.810811,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      171.351351,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      171.891892,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      172.432432,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      172.972973,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      172.972973,
+      "streetTV state",
+      "5",
+      ""
+    ],
+    [
+      172.972973,
+      "Alt Idle Animation",
+      "dad",
+      "-alt"
+    ],
+    [
+      172.977196,
+      "KB_Pincer",
+      "24",
+      ""
+    ],
+    [
+      173.243243,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      173.513514,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      174.054054,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      174.324324,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      174.594595,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      175.405405,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      175.675676,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      175.945946,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      176.216216,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      176.486486,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      176.756757,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      176.959459,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      177.027027,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      177.297297,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      177.567568,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      177.837838,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      178.378378,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      178.648649,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      178.918919,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      179.72973,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      180.0,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      180.27027,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      180.540541,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      180.810811,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      181.081081,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      182.702703,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      182.972973,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      183.243243,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      184.864865,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      185.135135,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      185.405405,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      189.72973,
+      "streetTV state",
+      "6",
+      ""
+    ],
+    [
+      189.72973,
+      "streetBG state",
+      "1",
+      ""
+    ],
+    [
+      189.72973,
+      "newDadDrainHealthValue",
+      "0.035",
+      ""
+    ],
+    [
+      189.72973,
+      "gfScared",
+      "true",
+      ""
+    ],
+    [
+      189.72973,
+      "Alt Idle Animation",
+      "dad",
+      ""
+    ],
+    [
+      189.72973,
+      "Screen Shake",
+      "0.54,0.0133",
+      "0.54,0.0132"
+    ],
+    [
+      190.202703,
+      "newDadDrainHealthValue",
+      "0.00525",
+      ""
+    ],
+    [
+      190.202703,
+      "newHealthGainMultiplier",
+      "1.1225",
+      ""
+    ],
+    [
+      190.202703,
+      "newLossMultiplier",
+      "1.1375",
+      ""
+    ],
+    [
+      190.27027,
+      "streetTV state",
+      "7",
+      ""
+    ],
+    [
+      190.27027,
+      "streetBG state",
+      "2",
+      ""
+    ],
+    [
+      190.27027,
+      "Change Character OPTIONAL",
+      "dad",
+      "kb-404-angry"
+    ],
+    [
+      190.27027,
+      "Change Character OPTIONAL",
+      "bf",
+      "bf-404"
+    ],
+    [
+      190.27027,
+      "Change Character OPTIONAL",
+      "gf",
+      "gf-404"
+    ],
+    [
+      207.567568,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      207.837838,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      208.108108,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      208.378378,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      208.648649,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      208.918919,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      209.72973,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      210.0,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      210.27027,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      210.540541,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      210.810811,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      211.081081,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      211.283784,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      211.351351,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      211.891892,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      212.162162,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      212.432432,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      212.972973,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      213.243243,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      213.513514,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      214.054054,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      214.324324,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      214.594595,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      214.864865,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      215.135135,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      215.405405,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      217.297297,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      217.567568,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      217.837838,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      219.459459,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      219.72973,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      220.0,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      223.783784,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      224.054054,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      224.324324,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      224.797297,
+      "newDadDrainHealthValue",
+      "0.0055",
+      ""
+    ],
+    [
+      224.864865,
+      "streetTV state",
+      "1",
+      ""
+    ],
+    [
+      224.864865,
+      "streetBG state",
+      "0",
+      ""
+    ],
+    [
+      224.864865,
+      "Change Character OPTIONAL",
+      "dad",
+      "kb"
+    ],
+    [
+      224.864865,
+      "Change Character OPTIONAL",
+      "bf",
+      "bf"
+    ],
+    [
+      224.864865,
+      "Change Character OPTIONAL",
+      "gf",
+      "gf"
+    ],
+    [
+      224.864865,
+      "newLossMultiplier",
+      "1.22",
+      ""
+    ],
+    [
+      224.864865,
+      "newHealthGainMultiplier",
+      "1.12",
+      ""
+    ],
+    [
+      225.27027,
+      "gfScared",
+      "false",
+      "its over here to make it more natural or something"
+    ],
+    [
+      228.108108,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      228.378378,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      228.648649,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      230.27027,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      230.540541,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      230.810811,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      231.351351,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      231.621622,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      231.891892,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      232.094595,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      232.162162,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      232.432432,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      232.702703,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      232.972973,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      233.175676,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      233.243243,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      241.621622,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      241.891892,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      242.162162,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      245.675676,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      245.945946,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      246.216216,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      246.486486,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      246.756757,
+      "KB_AlertDouble",
+      "",
+      ""
+    ],
+    [
+      247.027027,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      247.22973,
+      "KB_AttackFireDOUBLE",
+      "1",
+      ""
+    ],
+    [
+      247.297297,
+      "KB_AttackFireDOUBLE",
+      "",
+      ""
+    ],
+    [
+      248.648649,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      248.918919,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      249.189189,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      249.72973,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      250.0,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      250.27027,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      258.918919,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      259.189189,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      259.459459,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      262.702703,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      262.972973,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      263.243243,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      265.945946,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      266.216216,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      266.486486,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      267.027027,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      267.297297,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      267.567568,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      276.756757,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      277.027027,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      277.297297,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      277.567568,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      277.837838,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      278.108108,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      278.918919,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      279.189189,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      279.459459,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      279.72973,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      280.0,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      280.27027,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      281.081081,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      281.351351,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      281.621622,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      282.162162,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      282.432432,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      282.702703,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      283.243243,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      283.513514,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      283.783784,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      284.054054,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      284.324324,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      284.594595,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      293.513514,
+      "KB_AttackPrepare",
+      "",
+      ""
+    ],
+    [
+      293.783784,
+      "KB_Alert",
+      "",
+      ""
+    ],
+    [
+      294.054054,
+      "KB_AttackFire",
+      "",
+      ""
+    ],
+    [
+      294.054054,
+      "streetTV state",
+      "5",
+      ""
+    ],
+    [
+      294.054054,
+      "TerminationOutro",
+      "2",
+      ""
+    ],
+    [
+      294.054054,
+      "Alt Idle Animation",
+      "dad",
+      "-alt"
+    ],
+    [
+      295.135135,
+      "streetTV state",
+      "0",
+      ""
+    ],
+    [
+      296.216216,
+      "TerminationOutro",
+      "3",
+      ""
+    ],
+    [
+      298.378378,
+      "TerminationOutro",
+      "0",
+      ""
+    ],
+    [
+      300.540541,
+      "TerminationOutro",
+      "1",
+      ""
+    ],
+    [
+      302.702703,
+      "TerminationOutro",
+      "6",
+      ""
+    ],
+    [
+      304.864865,
+      "TerminationOutro",
+      "7",
+      ""
+    ],
+    [
+      307.027027,
+      "TerminationOutro",
+      "4",
+      ""
+    ],
+    [
+      309.189189,
+      "TerminationOutro",
+      "5",
+      ""
+    ]
+  ],
+  "hurt_notes": [
+    {
+      "time_ms": 7567.56756756757,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 7837.83783783784,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 8108.10810810811,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 11621.6216216216,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 11351.3513513514,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 11081.0810810811,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 10810.8108108108,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 10945.9459459459,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 11216.2162162162,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 11486.4864864865,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 11756.7567567568,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 11891.8918918919,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 12027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 12162.1621621622,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 12297.2972972973,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 12837.8378378378,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 15135.1351351351,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 15405.4054054054,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 15675.6756756757,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 15945.9459459459,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 15810.8108108108,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 15540.5405405405,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 15270.2702702703,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 16081.0810810811,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 16216.2162162162,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 16486.4864864865,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 16621.6216216216,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 16351.3513513514,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 17162.1621621622,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 19459.4594594595,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 19729.7297297297,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 20000.0,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 20270.2702702703,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 20135.1351351351,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 19864.8648648649,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 19594.5945945946,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 20540.5405405405,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 20810.8108108108,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 20945.9459459459,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 20675.6756756757,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 21486.4864864865,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 23783.7837837838,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 24054.054054054,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 24324.3243243243,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 24189.1891891892,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 23918.9189189189,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 24459.4594594595,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 24594.5945945946,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 24729.7297297297,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 24864.8648648649,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 25135.1351351351,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 25270.2702702703,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 25000.0,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 25810.8108108108,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 25945.9459459459,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 26351.3513513513,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 26486.4864864865,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 26621.6216216216,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 26756.7567567567,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 26891.8918918919,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 27027.027027027,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 27297.2972972973,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 27500.0,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 27567.5675675676,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 27770.2702702703,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 28108.1081081081,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 28378.3783783784,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 28581.0810810811,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 28648.6486486486,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 28851.3513513513,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 29189.1891891892,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 29459.4594594594,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 29324.3243243243,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 29594.5945945946,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 29729.7297297297,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 29864.8648648649,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 30000.0,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 30000.0,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 30270.2702702703,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 30675.6756756757,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 30810.8108108108,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 30945.9459459459,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 31081.0810810811,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 31216.2162162162,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 31351.3513513513,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 31621.6216216216,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 31824.3243243243,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 31891.8918918919,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 32094.5945945946,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 32432.4324324324,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 32702.7027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 32905.4054054054,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 32972.972972973,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 33175.6756756757,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 33513.5135135135,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 33648.6486486486,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 33783.7837837838,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 33918.9189189189,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 34054.054054054,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 34189.1891891892,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 34324.3243243243,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 34324.3243243243,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 34729.7297297297,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 35000.0,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 35270.2702702703,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 35540.5405405405,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 35810.8108108108,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 36081.0810810811,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 36351.3513513513,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 36621.6216216216,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 36891.8918918919,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 37162.1621621621,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 37432.4324324324,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 37702.7027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 37972.972972973,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 38243.2432432432,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 38513.5135135135,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 38783.7837837838,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 39054.054054054,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 39324.3243243243,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 39594.5945945946,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 39864.8648648648,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 40135.1351351351,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 40405.4054054054,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 40675.6756756757,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 40945.9459459459,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41216.2162162162,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41486.4864864865,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41756.7567567567,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41756.7567567567,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 42027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41216.2162162162,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 42162.1621621621,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 43378.3783783784,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 43648.6486486486,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 43918.9189189189,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 44189.1891891892,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 44459.4594594594,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 44729.7297297297,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 45000.0,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 45270.2702702702,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 45540.5405405405,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 45810.8108108108,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 46081.0810810811,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 46351.3513513513,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 46621.6216216216,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 46891.8918918919,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 47162.1621621621,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 47432.4324324324,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 47702.7027027027,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 47972.9729729729,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 48243.2432432432,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 48513.5135135135,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 48783.7837837838,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 49054.054054054,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 49324.3243243243,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 49594.5945945946,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 49864.8648648648,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 50135.1351351351,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 50405.4054054054,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 50675.6756756756,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 50405.4054054054,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 49864.8648648648,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 51351.3513513513,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 51891.8918918919,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 52972.9729729729,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 54459.4594594594,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 55540.5405405405,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 56216.2162162162,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 57837.8378378378,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 57972.9729729729,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 58108.1081081081,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 58243.2432432432,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 58445.9459459459,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 58716.2162162162,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 58986.4864864864,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 59189.1891891892,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 60270.2702702702,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 60540.5405405405,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 61621.6216216216,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 63108.1081081081,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 64189.1891891892,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 64864.8648648648,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 66486.4864864865,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 66621.6216216216,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 66756.7567567567,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 66891.8918918918,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 67094.5945945946,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 67364.8648648648,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 67635.1351351351,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 67837.8378378378,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 68918.9189189189,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 69189.1891891891,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 70810.8108108108,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 71081.081081081,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 73243.2432432432,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 72972.9729729729,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 75135.1351351351,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 75270.2702702702,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 75405.4054054054,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 75540.5405405405,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 75743.2432432432,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 76013.5135135135,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 76283.7837837837,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 76486.4864864864,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 77567.5675675675,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 77837.8378378378,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 79459.4594594594,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 79729.7297297297,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 81621.6216216216,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 81891.8918918918,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 83783.7837837837,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 83918.9189189189,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 84054.054054054,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 84189.1891891891,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 84391.8918918918,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 84662.1621621621,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 84932.4324324324,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 85135.1351351351,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 86216.2162162162,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 86486.4864864864,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 86756.7567567567,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 87297.2972972972,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 87297.2972972972,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 87027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 86756.7567567567,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 87837.8378378378,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 87837.8378378378,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 88108.108108108,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 88378.3783783783,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 88378.3783783783,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 87567.5675675675,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 88648.6486486486,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 88918.9189189188,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 88918.9189189188,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 89189.1891891891,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 89459.4594594594,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 89459.4594594594,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 89729.7297297297,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 89999.9999999999,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 89999.9999999999,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 90270.2702702702,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 90540.5405405405,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 90540.5405405405,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 90810.8108108107,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91081.081081081,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91081.081081081,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 91351.3513513513,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91621.6216216216,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91621.6216216216,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 92162.1621621621,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 92432.4324324324,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 92702.7027027026,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91891.8918918918,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 92972.9729729729,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 93243.2432432432,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 93243.2432432432,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 93513.5135135134,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 93783.7837837837,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 93783.7837837837,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 94054.054054054,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 94324.3243243242,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 94594.5945945945,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 94864.8648648648,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 95405.4054054053,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 95675.6756756756,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 95945.9459459459,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 95135.1351351351,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 96216.2162162161,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 96351.3513513513,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 96486.4864864864,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 96621.6216216215,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 96756.7567567567,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 96891.8918918918,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 97027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 97162.1621621621,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 97837.8378378378,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 97567.5675675675,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 98108.108108108,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 97297.2972972972,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 98378.3783783783,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 98513.5135135134,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 98648.6486486486,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 98783.7837837837,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 98918.9189189188,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 99054.054054054,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 99189.1891891891,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 99324.3243243242,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 99729.7297297296,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 99999.9999999999,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 100270.27027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 99459.4594594594,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 101351.351351351,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 101891.891891892,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 102162.162162162,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 102432.432432432,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 101621.621621622,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 103513.513513513,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 103783.783783784,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 103783.783783784,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 105945.945945946,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 105945.945945946,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 108108.108108108,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 108108.108108108,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 110270.27027027,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 110270.27027027,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 112432.432432432,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 112432.432432432,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 112432.432432432,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 114594.594594594,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 114594.594594594,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 114594.594594594,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 116756.756756757,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 116756.756756757,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 116756.756756757,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 118918.918918919,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 118918.918918919,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 118918.918918919,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 118918.918918919,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 129729.72972973,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 130810.810810811,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 131891.891891892,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 132972.972972973,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 134054.054054054,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 135135.135135135,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 136216.216216216,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 137297.297297297,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 137567.567567568,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 137837.837837838,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 138108.108108108,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 138378.378378378,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 138378.378378378,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 139459.459459459,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 140540.540540541,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 141621.621621622,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 147027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 148108.108108108,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 149189.189189189,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 150270.27027027,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 160810.810810811,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 161891.891891892,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 163783.783783784,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 163783.783783784,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 169459.45945946,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 170540.540540541,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 172432.432432433,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 172432.432432433,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 178108.108108109,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 179189.18918919,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 181081.081081082,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 181081.081081082,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 186756.756756757,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 187837.837837838,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 189729.72972973,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 189729.72972973,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 189763.513513514,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 189797.297297298,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 189831.081081082,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 189864.864864865,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 189898.648648649,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 189932.432432433,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 189966.216216217,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 190000.000000001,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 190033.783783784,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 190067.567567568,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 190101.351351352,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 190135.135135136,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 190168.91891892,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 194594.594594595,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 195135.135135136,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 196013.513513514,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 196554.054054055,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 196959.45945946,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 197162.162162163,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 197364.864864866,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 197567.567567568,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 203513.513513514,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 204054.054054055,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 204662.162162163,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 205202.702702703,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 205608.108108109,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 205810.810810812,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 206013.513513514,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 206216.216216217,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 211891.891891893,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 212432.432432433,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 214256.756756758,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 214662.162162163,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 214864.864864866,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 214459.45945946,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 220540.540540542,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 221081.081081082,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 223108.108108109,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 223310.810810812,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 223513.513513515,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 222905.405405406,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 224864.864864866,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 225945.945945947,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 227432.432432434,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 228513.513513515,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 229189.18918919,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 230810.810810812,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 230945.945945947,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 231081.081081082,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 231216.216216217,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 231351.351351352,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 231486.486486488,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 231418.91891892,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 231621.621621623,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 231689.18918919,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 231756.756756758,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 231959.459459461,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 231891.891891893,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 232027.027027028,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 232162.162162163,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 233243.243243244,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 233513.513513515,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 234594.594594596,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 236081.081081082,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 237162.162162163,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 237837.837837839,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 239459.459459461,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 239594.594594596,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 239729.729729731,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 239864.864864866,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 240000.000000001,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 240067.567567569,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 240135.135135136,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 240270.270270271,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 240337.837837839,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 240405.405405407,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 240608.108108109,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 240540.540540542,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 240675.675675677,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 240810.810810812,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 241891.891891893,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 242162.162162163,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 243783.783783785,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 244054.054054055,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 243243.243243245,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 246216.216216217,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 245945.945945947,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 248108.108108109,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 248378.37837838,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 248243.243243245,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 248513.513513515,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 248648.64864865,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 248716.216216218,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 248783.783783785,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 248986.486486488,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 248918.91891892,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 249054.054054055,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 249256.756756758,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 249189.189189191,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 249324.324324326,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 249459.459459461,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 250540.540540542,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 250810.810810812,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 252702.702702704,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 252432.432432434,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 251891.891891893,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 254594.594594596,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 254864.864864866,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 256756.756756758,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 257027.027027028,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 257162.162162164,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 256891.891891893,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 257297.297297299,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 257432.432432434,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 257364.864864866,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 257635.135135137,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 257567.567567569,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 257702.702702704,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 257905.405405407,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 257837.837837839,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 257972.972972974,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 258108.10810811,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 259189.189189191,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 259459.459459461,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 260540.540540542,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 262027.027027029,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 263243.243243245,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 263108.10810811,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 263783.783783785,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 263986.486486488,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 265405.405405407,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 265540.540540542,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 265675.675675677,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 265675.675675677,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 265540.540540542,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 265810.810810812,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 266013.513513515,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 265945.945945947,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266013.513513515,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266081.081081083,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266283.783783785,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 266216.216216218,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 266351.351351353,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 266283.783783785,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 266554.054054055,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266554.054054055,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 266486.486486488,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266621.621621623,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266756.756756758,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 267567.567567569,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 267837.837837839,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 268108.10810811,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 269189.189189191,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 270675.675675677,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 271891.891891893,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 272297.297297299,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 272432.432432434,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 272635.135135136,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 274054.054054055,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274189.189189191,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274189.189189191,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 274324.324324326,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 274324.324324326,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274459.459459461,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 274932.432432434,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274864.864864866,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 275000.000000001,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 275202.702702704,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 275202.702702704,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 275135.135135136,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 275270.270270272,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 274932.432432434,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 275405.405405407,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274662.162162163,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 274594.594594596,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 274729.729729731,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 274662.162162163,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 276216.216216217,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 276486.486486488,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 276756.756756758,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 278243.243243244,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 278378.37837838,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 278513.513513515,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 278648.64864865,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 277837.837837839,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 279324.324324326,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 279864.864864866,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 280540.540540542,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 280540.540540542,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 280540.540540542,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 280675.675675677,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 280810.810810812,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 280945.945945947,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 281283.783783785,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 281824.324324326,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 281081.081081082,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 282702.702702704,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 282837.837837839,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 282972.972972974,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 283108.108108109,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 282837.837837839,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 282972.972972974,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 283108.108108109,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 282702.702702704,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 283243.243243244,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 283310.810810812,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 283378.37837838,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 283581.081081082,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 283513.513513515,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 283648.64864865,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 283851.351351353,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 283783.783783785,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 283918.91891892,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 284054.054054055,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 284054.054054055,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 284864.864864866,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 284864.864864866,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 285135.135135136,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 284662.162162163,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 285405.405405407,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 286891.891891893,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 287027.027027028,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 287162.162162163,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 287297.297297298,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 286486.486486488,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289189.18918919,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 289189.18918919,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 289189.18918919,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289324.324324325,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289459.459459461,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289594.594594596,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289729.729729731,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289932.432432434,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 290472.972972974,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 291486.486486488,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 291621.621621623,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 291621.621621623,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 291756.756756758,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 291351.351351352,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 291351.351351352,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 291486.486486488,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 291756.756756758,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 291959.459459461,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 292027.027027028,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 291891.891891893,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 292567.567567569,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 292500.000000001,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 292432.432432433,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 292702.702702704,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 292229.729729731,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 292162.162162163,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 292297.297297298,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 292702.702702704,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 293783.783783785,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 293851.351351352,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 293918.91891892,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 293310.810810812,
+      "lane": 1,
+      "player": true
+    }
+  ]
+}

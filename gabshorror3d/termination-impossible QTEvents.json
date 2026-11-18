@@ -1,0 +1,10761 @@
+{
+  "source": "extermination/extermination-insane.json",
+  "bpm": 222,
+  "dodge_enabled": true,
+  "events": [
+    [
+      0.0,
+      "streetTV state",
+      "2",
+      ""
+    ],
+    [
+      0.0,
+      "TerminationIntro",
+      "3",
+      "player"
+    ],
+    [
+      0.0,
+      "TerminationIntro",
+      "0",
+      ""
+    ],
+    [
+      0.0,
+      "newDodgeDuration",
+      "0.15",
+      ""
+    ],
+    [
+      0.0,
+      "newDodgeCooldown",
+      "0.09225",
+      ""
+    ],
+    [
+      2.162162,
+      "TerminationIntro",
+      "1",
+      ""
+    ],
+    [
+      2.162162,
+      "TerminationIntro",
+      "2",
+      "player"
+    ],
+    [
+      3.243243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      3.243243,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      3.513514,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      3.783784,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      3.986486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      4.054054,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      4.256757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      4.324324,
+      "TerminationIntro",
+      "1",
+      "player"
+    ],
+    [
+      4.324324,
+      "TerminationIntro",
+      "2",
+      ""
+    ],
+    [
+      4.324324,
+      "streetTV state",
+      "3",
+      ""
+    ],
+    [
+      4.324324,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      6.486486,
+      "TerminationIntro",
+      "0",
+      "player"
+    ],
+    [
+      6.486486,
+      "TerminationIntro",
+      "3",
+      ""
+    ],
+    [
+      7.567568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      7.567568,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      7.837838,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      8.108108,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      8.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      8.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      8.581081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      8.648649,
+      "streetTV state",
+      "0",
+      ""
+    ],
+    [
+      8.648649,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      8.851351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      8.918919,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      18.378378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      18.378378,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      18.648649,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      18.918919,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      19.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      19.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      19.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      19.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      20.540541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      20.540541,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      20.810811,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      21.081081,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      21.283784,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      21.351351,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      21.554054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      21.621622,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      27.297297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      27.297297,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      27.567568,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      27.837838,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      28.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      28.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      28.108108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      28.108108,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      28.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      28.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      28.378378,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      28.648649,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      28.851351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      28.918919,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      29.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      29.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      34.054054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      34.054054,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      34.324324,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      34.594595,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      34.797297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      34.864865,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      35.067568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      35.135135,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      36.756757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      36.756757,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      37.027027,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      37.297297,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      37.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      37.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      37.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      37.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      37.837838,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      37.837838,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      38.108108,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      38.378378,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      38.581081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      38.648649,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      38.851351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      38.918919,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      41.351351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      41.351351,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      41.621622,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      41.891892,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      42.094595,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      42.162162,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      42.162162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      42.162162,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      42.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      42.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      42.432432,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      42.702703,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      42.905405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      42.972973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      43.175676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      43.243243,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      43.445946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      43.513514,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      44.864865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      44.864865,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      45.135135,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      45.405405,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      45.608108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      45.675676,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      45.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      45.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      47.027027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      47.027027,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      47.297297,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      47.567568,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      47.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      47.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      48.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      48.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      50.810811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      50.810811,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      51.081081,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      51.351351,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      51.554054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      51.621622,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      51.824324,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      51.891892,
+      "streetTV state",
+      "1",
+      ""
+    ],
+    [
+      51.891892,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      55.135135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      55.135135,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      55.405405,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      55.675676,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      55.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      55.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      56.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      56.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      58.648649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      58.648649,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      58.918919,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      59.189189,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      59.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      59.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      59.459459,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      59.459459,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      59.662162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      59.72973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      59.72973,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      60.0,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      60.202703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      60.27027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      60.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      60.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      73.513514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      73.513514,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      73.783784,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      74.054054,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      74.256757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      74.324324,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      74.527027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      74.594595,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      76.756757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      76.756757,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      77.027027,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      77.297297,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      77.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      77.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      77.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      77.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      78.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      78.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      81.351351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      81.351351,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      81.621622,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      81.891892,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      82.094595,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      82.162162,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      82.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      82.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      86.486486,
+      "KB_Pincer",
+      "0",
+      ""
+    ],
+    [
+      86.486486,
+      "streetTV state",
+      "0",
+      ""
+    ],
+    [
+      87.027027,
+      "KB_Pincer",
+      "1",
+      ""
+    ],
+    [
+      87.567568,
+      "KB_Pincer",
+      "2",
+      ""
+    ],
+    [
+      90.810811,
+      "KB_Pincer",
+      "3",
+      ""
+    ],
+    [
+      90.810811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      90.810811,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      91.081081,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      91.351351,
+      "KB_Pincer",
+      "4",
+      ""
+    ],
+    [
+      91.351351,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      91.554054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      91.621622,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      91.824324,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      91.891892,
+      "KB_Pincer",
+      "5",
+      ""
+    ],
+    [
+      91.891892,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      94.594595,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      94.594595,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      94.864865,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      95.135135,
+      "KB_Pincer",
+      "6",
+      ""
+    ],
+    [
+      95.135135,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      95.337838,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      95.405405,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      95.608108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      95.675676,
+      "KB_Pincer",
+      "7",
+      ""
+    ],
+    [
+      95.675676,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      96.216216,
+      "KB_Pincer",
+      "8",
+      ""
+    ],
+    [
+      96.486486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      96.486486,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      96.756757,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      97.027027,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      97.22973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      97.297297,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      97.297297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      97.297297,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      97.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      97.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      97.567568,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      97.837838,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      98.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      98.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      98.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      98.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      99.459459,
+      "KB_Pincer",
+      "9",
+      ""
+    ],
+    [
+      99.459459,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      99.459459,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      99.72973,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      100.0,
+      "KB_Pincer",
+      "10",
+      ""
+    ],
+    [
+      100.0,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      100.202703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      100.27027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      100.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      100.540541,
+      "KB_Pincer",
+      "11",
+      ""
+    ],
+    [
+      100.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      102.702703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      102.702703,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      102.972973,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      103.243243,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      103.445946,
+      "KB_Pincer",
+      "12",
+      ""
+    ],
+    [
+      103.445946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      103.513514,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      103.716216,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      103.783784,
+      "KB_Pincer",
+      "13",
+      ""
+    ],
+    [
+      103.783784,
+      "Set GF Speed",
+      "2",
+      ""
+    ],
+    [
+      103.783784,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      104.864865,
+      "KB_Pincer",
+      "14",
+      ""
+    ],
+    [
+      105.945946,
+      "KB_Pincer",
+      "15",
+      ""
+    ],
+    [
+      107.027027,
+      "KB_Pincer",
+      "16",
+      ""
+    ],
+    [
+      107.027027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      107.027027,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      107.297297,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      107.567568,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      107.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      107.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      108.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      108.108108,
+      "KB_Pincer",
+      "17",
+      ""
+    ],
+    [
+      108.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      109.189189,
+      "KB_Pincer",
+      "18",
+      ""
+    ],
+    [
+      110.27027,
+      "KB_Pincer",
+      "19",
+      ""
+    ],
+    [
+      111.351351,
+      "KB_Pincer",
+      "20",
+      ""
+    ],
+    [
+      111.351351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      111.351351,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      111.621622,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      111.891892,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      112.094595,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      112.162162,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      112.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      112.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      113.513514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      113.513514,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      113.783784,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      114.054054,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      114.256757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      114.324324,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      114.527027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      114.594595,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      115.675676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      115.675676,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      115.945946,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      116.216216,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      116.418919,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      116.486486,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      116.689189,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      116.756757,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      117.837838,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      117.837838,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      118.108108,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      118.378378,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      118.581081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      118.648649,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      118.851351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      118.918919,
+      "streetTV state",
+      "4",
+      ""
+    ],
+    [
+      118.918919,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      120.0,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      120.0,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      120.27027,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      120.540541,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      120.743243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      120.810811,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      121.013514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      121.081081,
+      "KB_Pincer",
+      "21",
+      ""
+    ],
+    [
+      121.081081,
+      "streetTV state",
+      "0",
+      ""
+    ],
+    [
+      121.081081,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      122.162162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      122.162162,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      122.432432,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      122.702703,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      122.905405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      122.972973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      123.175676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      123.243243,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      124.324324,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      124.324324,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      124.594595,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      124.864865,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      125.067568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      125.135135,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      125.337838,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      125.405405,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      126.486486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      126.486486,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      126.756757,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      127.027027,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      127.22973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      127.297297,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      127.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      127.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      128.648649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      128.648649,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      128.918919,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      129.189189,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      129.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      129.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      129.594595,
+      "newHealthGainMultiplier",
+      "1.075",
+      ""
+    ],
+    [
+      129.594595,
+      "newLossMultiplier",
+      "1.2875",
+      ""
+    ],
+    [
+      129.662162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      129.72973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      131.891892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      131.891892,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      132.162162,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      132.432432,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      132.635135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      132.702703,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      132.905405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      132.972973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      135.135135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      135.135135,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      135.405405,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      135.675676,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      135.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      135.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      136.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      136.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      137.297297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      137.297297,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      137.567568,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      137.837838,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      137.871622,
+      "KB_Pincer",
+      "22",
+      ""
+    ],
+    [
+      138.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      138.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      138.243243,
+      "newDadDrainHealthValue",
+      "0.015",
+      ""
+    ],
+    [
+      138.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      138.378378,
+      "KB_Pincer",
+      "23",
+      ""
+    ],
+    [
+      138.378378,
+      "streetTV state",
+      "1",
+      ""
+    ],
+    [
+      138.378378,
+      "Set GF Speed",
+      "1",
+      ""
+    ],
+    [
+      138.378378,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      138.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      138.581081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      138.648649,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      138.918919,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      139.459459,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      140.0,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      140.540541,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      141.081081,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      141.621622,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      142.162162,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      142.702703,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      142.702703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      142.702703,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      142.972973,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      143.243243,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      143.243243,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      143.445946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      143.513514,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      143.716216,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      143.783784,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      143.783784,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      144.324324,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      144.864865,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      145.135135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      145.135135,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      145.405405,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      145.405405,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      145.675676,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      145.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      145.945946,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      145.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      146.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      146.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      146.486486,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      147.027027,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      147.027027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      147.027027,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      147.297297,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      147.567568,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      147.567568,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      147.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      147.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      148.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      148.108108,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      148.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      148.108108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      148.108108,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      148.378378,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      148.648649,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      148.648649,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      148.851351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      148.918919,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      149.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      149.189189,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      149.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      149.72973,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      150.27027,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      150.540541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      150.540541,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      150.810811,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      150.810811,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      151.081081,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      151.283784,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      151.351351,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      151.351351,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      151.351351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      151.351351,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      151.554054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      151.621622,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      151.621622,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      151.891892,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      151.891892,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      152.094595,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      152.162162,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      152.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      152.432432,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      152.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      152.972973,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      153.513514,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      153.513514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      153.513514,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      153.783784,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      154.054054,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      154.054054,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      154.256757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      154.324324,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      154.527027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      154.594595,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      154.594595,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      155.135135,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      155.675676,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      155.675676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      155.675676,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      155.945946,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      156.216216,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      156.216216,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      156.418919,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      156.486486,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      156.689189,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      156.756757,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      156.756757,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      156.756757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      156.756757,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      157.027027,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      157.297297,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      157.297297,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      157.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      157.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      157.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      157.837838,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      157.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      158.108108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      158.108108,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      158.378378,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      158.378378,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      158.648649,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      158.851351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      158.918919,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      158.918919,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      158.918919,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      158.918919,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      159.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      159.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      159.189189,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      159.459459,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      159.459459,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      159.662162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      159.72973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      159.932432,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      160.0,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      160.0,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      160.0,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      160.0,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      160.202703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      160.27027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      160.27027,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      160.540541,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      160.540541,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      160.743243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      160.810811,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      161.013514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      161.081081,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      161.081081,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      161.081081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      161.081081,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      161.351351,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      161.621622,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      161.621622,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      161.824324,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      161.891892,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      162.094595,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      162.162162,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      162.162162,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      162.432432,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      162.432432,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      162.702703,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      162.702703,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      162.972973,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      163.175676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      163.243243,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      163.243243,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      163.243243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      163.243243,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      163.445946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      163.513514,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      163.513514,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      163.783784,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      163.783784,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      163.986486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      164.054054,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      164.256757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      164.324324,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      164.324324,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      164.527027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      164.594595,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      164.864865,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      165.405405,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      165.945946,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      166.486486,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      167.027027,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      167.567568,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      168.108108,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      168.648649,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      168.648649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      168.648649,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      168.918919,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      169.189189,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      169.189189,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      169.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      169.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      169.662162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      169.72973,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      169.72973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      170.27027,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      170.810811,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      170.810811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      170.810811,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      171.081081,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      171.351351,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      171.351351,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      171.554054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      171.621622,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      171.824324,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      171.891892,
+      "Alarm Gradient",
+      "left",
+      "0.375"
+    ],
+    [
+      171.891892,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      172.432432,
+      "Alarm Gradient",
+      "right",
+      "0.375"
+    ],
+    [
+      172.972973,
+      "streetTV state",
+      "5",
+      ""
+    ],
+    [
+      172.972973,
+      "Alt Idle Animation",
+      "dad",
+      "-alt"
+    ],
+    [
+      172.972973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      172.972973,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      172.977196,
+      "KB_Pincer",
+      "24",
+      ""
+    ],
+    [
+      173.243243,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      173.513514,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      173.716216,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      173.783784,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      173.986486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      174.054054,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      174.054054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      174.054054,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      174.324324,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      174.594595,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      174.797297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      174.864865,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      175.067568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      175.135135,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      175.405405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      175.405405,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      175.675676,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      175.945946,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      176.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      176.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      176.216216,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      176.216216,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      176.418919,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      176.486486,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      176.486486,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      176.756757,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      176.959459,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      177.027027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      177.22973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      177.297297,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      177.297297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      177.297297,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      177.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      177.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      177.567568,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      177.837838,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      178.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      178.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      178.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      178.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      178.378378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      178.378378,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      178.648649,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      178.918919,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      179.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      179.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      179.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      179.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      179.72973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      179.72973,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      180.0,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      180.27027,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      180.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      180.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      180.540541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      180.540541,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      180.743243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      180.810811,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      180.810811,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      181.081081,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      181.283784,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      181.351351,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      181.554054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      181.621622,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      181.824324,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      181.891892,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      182.702703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      182.702703,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      182.972973,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      183.243243,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      183.445946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      183.513514,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      183.716216,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      183.783784,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      184.864865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      184.864865,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      185.135135,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      185.405405,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      185.608108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      185.675676,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      185.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      185.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      187.027027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      187.027027,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      187.297297,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      187.567568,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      187.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      187.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      188.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      188.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      188.378378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      188.378378,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      188.648649,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      188.918919,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      189.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      189.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      189.189189,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      189.189189,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      189.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      189.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      189.459459,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      189.72973,
+      "streetTV state",
+      "6",
+      ""
+    ],
+    [
+      189.72973,
+      "streetBG state",
+      "1",
+      ""
+    ],
+    [
+      189.72973,
+      "newDadDrainHealthValue",
+      "0.035",
+      ""
+    ],
+    [
+      189.72973,
+      "gfScared",
+      "true",
+      ""
+    ],
+    [
+      189.72973,
+      "Alt Idle Animation",
+      "dad",
+      ""
+    ],
+    [
+      189.72973,
+      "Screen Shake",
+      "0.54,0.0133",
+      "0.54,0.0132"
+    ],
+    [
+      189.72973,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      189.932432,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      190.0,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      190.202703,
+      "newDadDrainHealthValue",
+      "0.00525",
+      ""
+    ],
+    [
+      190.202703,
+      "newHealthGainMultiplier",
+      "1.1225",
+      ""
+    ],
+    [
+      190.202703,
+      "newLossMultiplier",
+      "1.1375",
+      ""
+    ],
+    [
+      190.202703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      190.27027,
+      "streetTV state",
+      "7",
+      ""
+    ],
+    [
+      190.27027,
+      "streetBG state",
+      "2",
+      ""
+    ],
+    [
+      190.27027,
+      "Change Character OPTIONAL",
+      "dad",
+      "kb-404-angry"
+    ],
+    [
+      190.27027,
+      "Change Character OPTIONAL",
+      "bf",
+      "bf-404"
+    ],
+    [
+      190.27027,
+      "Change Character OPTIONAL",
+      "gf",
+      "gf-404"
+    ],
+    [
+      190.27027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      193.513514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      193.513514,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      193.783784,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      194.054054,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      194.256757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      194.324324,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      194.527027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      194.594595,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      197.027027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      197.027027,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      197.297297,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      197.567568,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      197.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      197.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      197.837838,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      197.837838,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      198.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      198.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      198.108108,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      198.378378,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      198.581081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      198.648649,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      198.851351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      198.918919,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      204.864865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      204.864865,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      205.135135,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      205.405405,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      205.608108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      205.675676,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      205.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      205.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      207.567568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      207.567568,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      207.837838,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      208.108108,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      208.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      208.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      208.378378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      208.378378,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      208.581081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      208.648649,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      208.648649,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      208.918919,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      209.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      209.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      209.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      209.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      209.662162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      209.72973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      209.72973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      209.72973,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      210.0,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      210.27027,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      210.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      210.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      210.540541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      210.540541,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      210.743243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      210.810811,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      210.810811,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      211.081081,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      211.283784,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      211.351351,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      211.554054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      211.621622,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      211.824324,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      211.891892,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      211.891892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      211.891892,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      212.162162,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      212.432432,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      212.635135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      212.702703,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      212.905405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      212.972973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      212.972973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      212.972973,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      213.243243,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      213.513514,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      213.716216,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      213.783784,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      213.986486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      214.054054,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      214.054054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      214.054054,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      214.324324,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      214.594595,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      214.797297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      214.864865,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      215.067568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      215.135135,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      215.135135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      215.135135,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      215.405405,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      215.675676,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      215.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      215.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      216.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      216.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      217.297297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      217.297297,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      217.567568,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      217.837838,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      218.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      218.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      218.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      218.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      219.459459,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      219.459459,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      219.72973,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      220.0,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      220.202703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      220.27027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      220.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      220.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      220.540541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      220.540541,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      220.810811,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      221.081081,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      221.283784,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      221.351351,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      221.554054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      221.621622,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      221.621622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      221.621622,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      221.891892,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      222.162162,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      222.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      222.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      222.635135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      222.702703,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      222.972973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      222.972973,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      223.243243,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      223.513514,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      223.716216,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      223.783784,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      223.783784,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      223.783784,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      223.986486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      224.054054,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      224.054054,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      224.324324,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      224.527027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      224.594595,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      224.797297,
+      "newDadDrainHealthValue",
+      "0.0055",
+      ""
+    ],
+    [
+      224.797297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      224.864865,
+      "streetTV state",
+      "1",
+      ""
+    ],
+    [
+      224.864865,
+      "streetBG state",
+      "0",
+      ""
+    ],
+    [
+      224.864865,
+      "Change Character OPTIONAL",
+      "dad",
+      "kb"
+    ],
+    [
+      224.864865,
+      "Change Character OPTIONAL",
+      "bf",
+      "bf"
+    ],
+    [
+      224.864865,
+      "Change Character OPTIONAL",
+      "gf",
+      "gf"
+    ],
+    [
+      224.864865,
+      "newLossMultiplier",
+      "1.22",
+      ""
+    ],
+    [
+      224.864865,
+      "newHealthGainMultiplier",
+      "1.12",
+      ""
+    ],
+    [
+      224.864865,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      225.27027,
+      "gfScared",
+      "false",
+      "its over here to make it more natural or something"
+    ],
+    [
+      227.027027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      227.027027,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      227.297297,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      227.567568,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      227.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      227.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      228.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      228.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      228.108108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      228.108108,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      228.378378,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      228.648649,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      228.851351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      228.918919,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      229.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      229.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      229.459459,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      229.459459,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      229.72973,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      230.0,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      230.202703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      230.27027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      230.27027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      230.27027,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      230.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      230.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      230.540541,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      230.810811,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      231.013514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      231.081081,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      231.283784,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      231.351351,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      231.351351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      231.351351,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      231.621622,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      231.891892,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      232.094595,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      232.162162,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      232.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      232.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      232.432432,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      232.432432,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      232.702703,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      232.972973,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      233.175676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      233.243243,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      233.445946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      233.513514,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      236.756757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      236.756757,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      237.027027,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      237.297297,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      237.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      237.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      237.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      237.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      240.0,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      240.0,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      240.27027,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      240.540541,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      240.743243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      240.810811,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      241.013514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      241.081081,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      241.621622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      241.621622,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      241.891892,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      242.162162,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      242.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      242.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      242.635135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      242.702703,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      244.324324,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      244.324324,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      244.594595,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      244.864865,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      245.067568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      245.135135,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      245.337838,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      245.405405,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      245.675676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      245.675676,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      245.945946,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      246.216216,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      246.418919,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      246.486486,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      246.486486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      246.486486,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      246.689189,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      246.756757,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      246.756757,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      247.027027,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      247.22973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      247.297297,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      247.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      247.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      247.567568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      247.567568,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      247.837838,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      248.108108,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      248.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      248.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      248.581081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      248.648649,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      248.648649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      248.648649,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      248.918919,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      249.189189,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      249.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      249.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      249.662162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      249.72973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      249.72973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      249.72973,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      250.0,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      250.27027,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      250.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      250.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      250.743243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      250.810811,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      251.013514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      251.081081,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      255.135135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      255.135135,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      255.405405,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      255.675676,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      255.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      255.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      256.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      256.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      257.297297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      257.297297,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      257.567568,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      257.837838,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      258.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      258.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      258.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      258.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      258.378378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      258.378378,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      258.648649,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      258.918919,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      259.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      259.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      259.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      259.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      261.621622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      261.621622,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      261.891892,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      262.162162,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      262.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      262.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      262.635135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      262.702703,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      262.702703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      262.702703,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      262.972973,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      263.243243,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      263.445946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      263.513514,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      263.716216,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      263.783784,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      265.135135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      265.135135,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      265.405405,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      265.675676,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      265.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      265.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      265.945946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      265.945946,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      266.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      266.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      266.216216,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      266.486486,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      266.689189,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      266.756757,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      266.959459,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      267.027027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      267.027027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      267.027027,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      267.297297,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      267.567568,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      267.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      267.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      268.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      268.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      269.189189,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      269.189189,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      269.459459,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      269.72973,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      269.932432,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      270.0,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      270.202703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      270.27027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      271.621622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      271.621622,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      271.891892,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      272.162162,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      272.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      272.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      272.432432,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      272.432432,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      272.635135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      272.702703,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      272.702703,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      272.972973,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      273.175676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      273.243243,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      273.445946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      273.513514,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      274.594595,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      274.594595,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      274.864865,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      275.135135,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      275.337838,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      275.405405,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      275.405405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      275.405405,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      275.608108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      275.675676,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      275.675676,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      275.945946,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      276.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      276.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      276.418919,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      276.486486,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      276.756757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      276.756757,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      277.027027,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      277.297297,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      277.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      277.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      277.567568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      277.567568,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      277.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      277.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      277.837838,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      278.108108,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      278.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      278.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      278.581081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      278.648649,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      278.918919,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      278.918919,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      279.189189,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      279.459459,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      279.662162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      279.72973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      279.72973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      279.72973,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      279.932432,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      280.0,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      280.0,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      280.27027,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      280.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      280.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      280.743243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      280.810811,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      281.013514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      281.081081,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      281.081081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      281.081081,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      281.351351,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      281.621622,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      281.824324,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      281.891892,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      282.094595,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      282.162162,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      282.162162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      282.162162,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      282.432432,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      282.702703,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      282.905405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      282.972973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      283.175676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      283.243243,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      283.243243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      283.243243,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      283.513514,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      283.783784,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      283.986486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      284.054054,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      284.054054,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      284.054054,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      284.256757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      284.324324,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      284.324324,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      284.594595,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      284.797297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      284.864865,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      285.067568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      285.135135,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      285.337838,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      285.405405,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      285.405405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      285.405405,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      285.675676,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      285.945946,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      286.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      286.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      286.418919,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      286.486486,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      287.567568,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      287.567568,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      287.837838,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      288.108108,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      288.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      288.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      288.378378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      288.378378,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      288.581081,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      288.648649,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      288.648649,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      288.918919,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      289.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      289.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      289.391892,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      289.459459,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      289.72973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      289.72973,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      290.0,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      290.27027,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      290.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      290.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      290.743243,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      290.810811,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      292.162162,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      292.162162,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      292.432432,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      292.702703,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      292.905405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      292.972973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      292.972973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      292.972973,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      293.175676,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      293.243243,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      293.243243,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      293.513514,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      293.716216,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      293.783784,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      293.986486,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      294.054054,
+      "streetTV state",
+      "5",
+      ""
+    ],
+    [
+      294.054054,
+      "TerminationOutro",
+      "2",
+      ""
+    ],
+    [
+      294.054054,
+      "Alt Idle Animation",
+      "dad",
+      "-alt"
+    ],
+    [
+      294.054054,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      294.256757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      294.324324,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      295.135135,
+      "streetTV state",
+      "0",
+      ""
+    ],
+    [
+      295.135135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      295.135135,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      295.405405,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      295.675676,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      295.878378,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      295.945946,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      296.148649,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      296.216216,
+      "TerminationOutro",
+      "3",
+      ""
+    ],
+    [
+      296.216216,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      297.297297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      297.297297,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      297.567568,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      297.837838,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      298.040541,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      298.108108,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      298.310811,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      298.378378,
+      "TerminationOutro",
+      "0",
+      ""
+    ],
+    [
+      298.378378,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      299.459459,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      299.459459,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      299.72973,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      300.0,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      300.202703,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      300.27027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      300.472973,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      300.540541,
+      "TerminationOutro",
+      "1",
+      ""
+    ],
+    [
+      300.540541,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      301.621622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      301.621622,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      301.891892,
+      "KB_Alert",
+      "4",
+      ""
+    ],
+    [
+      302.162162,
+      "KB_AttackFire",
+      "quadruple",
+      "instakill"
+    ],
+    [
+      302.364865,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      302.432432,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      302.635135,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      302.702703,
+      "TerminationOutro",
+      "6",
+      ""
+    ],
+    [
+      302.702703,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      302.905405,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      302.972973,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      303.783784,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      303.783784,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      304.054054,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      304.324324,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      304.527027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      304.594595,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      304.797297,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      304.864865,
+      "TerminationOutro",
+      "7",
+      ""
+    ],
+    [
+      304.864865,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      305.945946,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      305.945946,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      306.216216,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      306.486486,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      306.689189,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      306.756757,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      306.959459,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      307.027027,
+      "TerminationOutro",
+      "4",
+      ""
+    ],
+    [
+      307.027027,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      308.108108,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      308.108108,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      308.378378,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      308.648649,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      308.851351,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      308.918919,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      309.121622,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      309.189189,
+      "TerminationOutro",
+      "5",
+      ""
+    ],
+    [
+      309.189189,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      310.27027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      310.27027,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      310.540541,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      310.810811,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      311.013514,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      311.081081,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      311.283784,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      311.351351,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      316.756757,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      316.756757,
+      "KB_Alert",
+      "1",
+      ""
+    ],
+    [
+      317.027027,
+      "KB_Alert",
+      "3",
+      ""
+    ],
+    [
+      317.297297,
+      "KB_AttackFire",
+      "triple",
+      "instakill"
+    ],
+    [
+      317.5,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      317.567568,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ],
+    [
+      317.77027,
+      "KB_AttackPrepare",
+      "0",
+      ""
+    ],
+    [
+      317.837838,
+      "KB_AttackFire",
+      "1",
+      "instakill"
+    ]
+  ],
+  "hurt_notes": [
+    {
+      "time_ms": 7567.56756756757,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 7837.83783783784,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 8108.10810810811,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 11621.6216216216,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 11351.3513513514,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 11081.0810810811,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 10810.8108108108,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 10945.9459459459,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 11216.2162162162,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 11486.4864864865,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 11756.7567567568,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 11891.8918918919,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 12027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 12162.1621621622,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 12297.2972972973,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 12837.8378378378,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 15135.1351351351,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 15405.4054054054,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 15675.6756756757,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 15945.9459459459,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 15810.8108108108,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 15540.5405405405,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 15270.2702702703,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 16081.0810810811,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 16216.2162162162,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 16486.4864864865,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 16621.6216216216,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 16351.3513513514,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 17162.1621621622,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 19459.4594594595,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 19729.7297297297,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 20000.0,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 20270.2702702703,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 20135.1351351351,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 19864.8648648649,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 19594.5945945946,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 20540.5405405405,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 20810.8108108108,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 20945.9459459459,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 20675.6756756757,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 21486.4864864865,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 23783.7837837838,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 24054.054054054,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 24324.3243243243,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 24189.1891891892,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 23918.9189189189,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 24459.4594594595,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 24594.5945945946,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 24729.7297297297,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 24864.8648648649,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 25135.1351351351,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 25270.2702702703,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 25000.0,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 25810.8108108108,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 25945.9459459459,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 26351.3513513513,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 26486.4864864865,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 26621.6216216216,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 26756.7567567567,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 26891.8918918919,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 27027.027027027,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 27297.2972972973,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 27500.0,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 27567.5675675676,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 27770.2702702703,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 28108.1081081081,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 28378.3783783784,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 28581.0810810811,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 28648.6486486486,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 28851.3513513513,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 29189.1891891892,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 29459.4594594594,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 29324.3243243243,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 29594.5945945946,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 29729.7297297297,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 29864.8648648649,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 30000.0,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 30000.0,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 30270.2702702703,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 30675.6756756757,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 30810.8108108108,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 30945.9459459459,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 31081.0810810811,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 31216.2162162162,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 31351.3513513513,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 31621.6216216216,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 31824.3243243243,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 31891.8918918919,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 32094.5945945946,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 32432.4324324324,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 32702.7027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 32905.4054054054,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 32972.972972973,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 33175.6756756757,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 33513.5135135135,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 33648.6486486486,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 33783.7837837838,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 33918.9189189189,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 34054.054054054,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 34189.1891891892,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 34324.3243243243,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 34324.3243243243,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 34729.7297297297,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 35000.0,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 35270.2702702703,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 35540.5405405405,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 35810.8108108108,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 36081.0810810811,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 36351.3513513513,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 36621.6216216216,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 36891.8918918919,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 37162.1621621621,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 37432.4324324324,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 37702.7027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 37972.972972973,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 38243.2432432432,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 38513.5135135135,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 38783.7837837838,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 39054.054054054,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 39324.3243243243,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 39594.5945945946,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 39864.8648648648,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 40135.1351351351,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 40405.4054054054,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 40675.6756756757,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 40945.9459459459,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41216.2162162162,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41486.4864864865,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41756.7567567567,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41756.7567567567,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 42027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 41216.2162162162,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 42162.1621621621,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 43378.3783783784,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 43648.6486486486,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 43918.9189189189,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 44189.1891891892,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 44459.4594594594,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 44729.7297297297,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 45000.0,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 45270.2702702702,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 45540.5405405405,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 45810.8108108108,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 46081.0810810811,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 46351.3513513513,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 46621.6216216216,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 46891.8918918919,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 47162.1621621621,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 47432.4324324324,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 47702.7027027027,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 47972.9729729729,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 48243.2432432432,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 48513.5135135135,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 48783.7837837838,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 49054.054054054,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 49324.3243243243,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 49594.5945945946,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 49864.8648648648,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 50135.1351351351,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 50405.4054054054,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 50675.6756756756,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 50405.4054054054,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 49864.8648648648,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 51351.3513513513,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 51891.8918918919,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 52972.9729729729,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 54459.4594594594,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 55540.5405405405,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 56216.2162162162,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 57837.8378378378,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 57972.9729729729,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 58108.1081081081,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 58243.2432432432,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 58445.9459459459,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 58716.2162162162,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 58986.4864864864,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 59189.1891891892,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 60270.2702702702,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 60540.5405405405,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 61621.6216216216,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 63108.1081081081,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 64189.1891891892,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 64864.8648648648,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 66486.4864864865,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 66621.6216216216,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 66756.7567567567,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 66891.8918918918,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 67094.5945945946,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 67364.8648648648,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 67635.1351351351,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 67837.8378378378,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 68918.9189189189,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 69189.1891891891,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 70810.8108108108,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 71081.081081081,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 73243.2432432432,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 72972.9729729729,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 75135.1351351351,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 75270.2702702702,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 75405.4054054054,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 75540.5405405405,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 75743.2432432432,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 76013.5135135135,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 76283.7837837837,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 76486.4864864864,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 77567.5675675675,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 77837.8378378378,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 79459.4594594594,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 79729.7297297297,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 81621.6216216216,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 81891.8918918918,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 83783.7837837837,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 83918.9189189189,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 84054.054054054,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 84189.1891891891,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 84391.8918918918,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 84662.1621621621,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 84932.4324324324,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 85135.1351351351,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 86216.2162162162,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 86486.4864864864,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 86756.7567567567,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 87297.2972972972,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 87297.2972972972,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 87027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 86756.7567567567,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 87837.8378378378,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 87837.8378378378,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 88108.108108108,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 88378.3783783783,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 88378.3783783783,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 87567.5675675675,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 88648.6486486486,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 88918.9189189188,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 88918.9189189188,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 89189.1891891891,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 89459.4594594594,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 89459.4594594594,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 89729.7297297297,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 89999.9999999999,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 89999.9999999999,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 90270.2702702702,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 90540.5405405405,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 90540.5405405405,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 90810.8108108107,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91081.081081081,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91081.081081081,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 91351.3513513513,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91621.6216216216,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91621.6216216216,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 92162.1621621621,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 92432.4324324324,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 92702.7027027026,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 91891.8918918918,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 92972.9729729729,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 93243.2432432432,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 93243.2432432432,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 93513.5135135134,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 93783.7837837837,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 93783.7837837837,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 94054.054054054,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 94324.3243243242,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 94594.5945945945,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 94864.8648648648,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 95405.4054054053,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 95675.6756756756,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 95945.9459459459,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 95135.1351351351,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 96216.2162162161,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 96351.3513513513,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 96486.4864864864,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 96621.6216216215,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 96756.7567567567,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 96891.8918918918,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 97027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 97162.1621621621,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 97837.8378378378,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 97567.5675675675,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 98108.108108108,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 97297.2972972972,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 98378.3783783783,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 98513.5135135134,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 98648.6486486486,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 98783.7837837837,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 98918.9189189188,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 99054.054054054,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 99189.1891891891,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 99324.3243243242,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 99729.7297297296,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 99999.9999999999,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 100270.27027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 99459.4594594594,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 101351.351351351,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 101891.891891892,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 102162.162162162,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 102432.432432432,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 101621.621621622,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 103513.513513513,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 103783.783783784,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 103783.783783784,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 105945.945945946,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 105945.945945946,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 108108.108108108,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 108108.108108108,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 110270.27027027,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 110270.27027027,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 112432.432432432,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 112432.432432432,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 112432.432432432,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 114594.594594594,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 114594.594594594,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 114594.594594594,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 116756.756756757,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 116756.756756757,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 116756.756756757,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 118918.918918919,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 118918.918918919,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 118918.918918919,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 118918.918918919,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 129729.72972973,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 130810.810810811,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 131891.891891892,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 132972.972972973,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 134054.054054054,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 135135.135135135,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 136216.216216216,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 137297.297297297,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 137567.567567568,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 137837.837837838,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 138108.108108108,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 138378.378378378,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 138378.378378378,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 139459.459459459,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 140540.540540541,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 141621.621621622,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 147027.027027027,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 148108.108108108,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 149189.189189189,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 150270.27027027,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 160810.810810811,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 161891.891891892,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 163783.783783784,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 163783.783783784,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 169459.45945946,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 170540.540540541,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 172432.432432433,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 172432.432432433,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 178108.108108109,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 179189.18918919,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 181081.081081082,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 181081.081081082,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 186756.756756757,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 187837.837837838,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 189729.72972973,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 189729.72972973,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 189763.513513514,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 189797.297297298,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 189831.081081082,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 189864.864864865,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 189898.648648649,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 189932.432432433,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 189966.216216217,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 190000.000000001,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 190033.783783784,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 190067.567567568,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 190101.351351352,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 190135.135135136,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 190168.91891892,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 194594.594594595,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 195135.135135136,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 196013.513513514,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 196554.054054055,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 196959.45945946,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 197162.162162163,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 197364.864864866,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 197567.567567568,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 203513.513513514,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 204054.054054055,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 204662.162162163,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 205202.702702703,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 205608.108108109,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 205810.810810812,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 206013.513513514,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 206216.216216217,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 211891.891891893,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 212432.432432433,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 214256.756756758,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 214662.162162163,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 214864.864864866,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 214459.45945946,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 220540.540540542,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 221081.081081082,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 223108.108108109,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 223310.810810812,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 223513.513513515,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 222905.405405406,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 224864.864864866,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 225945.945945947,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 227432.432432434,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 228513.513513515,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 229189.18918919,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 230810.810810812,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 230945.945945947,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 231081.081081082,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 231216.216216217,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 231351.351351352,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 231486.486486488,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 231418.91891892,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 231621.621621623,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 231689.18918919,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 231756.756756758,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 231959.459459461,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 231891.891891893,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 232027.027027028,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 232162.162162163,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 233243.243243244,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 233513.513513515,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 234594.594594596,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 236081.081081082,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 237162.162162163,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 237837.837837839,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 239459.459459461,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 239594.594594596,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 239729.729729731,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 239864.864864866,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 240000.000000001,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 240067.567567569,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 240135.135135136,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 240270.270270271,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 240337.837837839,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 240405.405405407,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 240608.108108109,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 240540.540540542,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 240675.675675677,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 240810.810810812,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 241891.891891893,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 242162.162162163,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 243783.783783785,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 244054.054054055,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 243243.243243245,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 246216.216216217,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 245945.945945947,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 248108.108108109,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 248378.37837838,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 248243.243243245,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 248513.513513515,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 248648.64864865,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 248716.216216218,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 248783.783783785,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 248986.486486488,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 248918.91891892,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 249054.054054055,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 249256.756756758,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 249189.189189191,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 249324.324324326,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 249459.459459461,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 250540.540540542,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 250810.810810812,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 252702.702702704,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 252432.432432434,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 251891.891891893,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 254594.594594596,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 254864.864864866,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 256756.756756758,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 257027.027027028,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 257162.162162164,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 256891.891891893,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 257297.297297299,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 257432.432432434,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 257364.864864866,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 257635.135135137,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 257567.567567569,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 257702.702702704,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 257905.405405407,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 257837.837837839,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 257972.972972974,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 258108.10810811,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 259189.189189191,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 259459.459459461,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 260540.540540542,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 262027.027027029,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 263243.243243245,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 263108.10810811,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 263783.783783785,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 263986.486486488,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 265405.405405407,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 265540.540540542,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 265675.675675677,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 265675.675675677,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 265540.540540542,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 265810.810810812,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 266013.513513515,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 265945.945945947,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266013.513513515,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266081.081081083,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266283.783783785,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 266216.216216218,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 266351.351351353,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 266283.783783785,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 266554.054054055,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266554.054054055,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 266486.486486488,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266621.621621623,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 266756.756756758,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 267567.567567569,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 267837.837837839,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 268108.10810811,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 269189.189189191,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 270675.675675677,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 271891.891891893,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 272297.297297299,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 272432.432432434,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 272635.135135136,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 274054.054054055,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274189.189189191,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274189.189189191,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 274324.324324326,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 274324.324324326,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274459.459459461,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 274932.432432434,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274864.864864866,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 275000.000000001,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 275202.702702704,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 275202.702702704,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 275135.135135136,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 275270.270270272,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 274932.432432434,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 275405.405405407,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 274662.162162163,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 274594.594594596,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 274729.729729731,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 274662.162162163,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 276216.216216217,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 276486.486486488,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 276756.756756758,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 278243.243243244,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 278378.37837838,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 278513.513513515,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 278648.64864865,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 277837.837837839,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 279324.324324326,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 279864.864864866,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 280540.540540542,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 280540.540540542,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 280540.540540542,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 280675.675675677,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 280810.810810812,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 280945.945945947,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 281283.783783785,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 281824.324324326,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 281081.081081082,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 282702.702702704,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 282837.837837839,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 282972.972972974,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 283108.108108109,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 282837.837837839,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 282972.972972974,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 283108.108108109,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 282702.702702704,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 283243.243243244,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 283310.810810812,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 283378.37837838,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 283581.081081082,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 283513.513513515,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 283648.64864865,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 283851.351351353,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 283783.783783785,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 283918.91891892,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 284054.054054055,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 284054.054054055,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 284864.864864866,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 284864.864864866,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 285135.135135136,
+      "lane": 8,
+      "player": false
+    },
+    {
+      "time_ms": 284662.162162163,
+      "lane": 5,
+      "player": false
+    },
+    {
+      "time_ms": 285405.405405407,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 286891.891891893,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 287027.027027028,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 287162.162162163,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 287297.297297298,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 286486.486486488,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289189.18918919,
+      "lane": 7,
+      "player": false
+    },
+    {
+      "time_ms": 289189.18918919,
+      "lane": 6,
+      "player": false
+    },
+    {
+      "time_ms": 289189.18918919,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289324.324324325,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289459.459459461,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289594.594594596,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289729.729729731,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 289932.432432434,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 290472.972972974,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 291486.486486488,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 291621.621621623,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 291621.621621623,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 291756.756756758,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 291351.351351352,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 291351.351351352,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 291486.486486488,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 291756.756756758,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 291959.459459461,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 292027.027027028,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 291891.891891893,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 292567.567567569,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 292500.000000001,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 292432.432432433,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 292702.702702704,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 292229.729729731,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 292162.162162163,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 292297.297297298,
+      "lane": 1,
+      "player": true
+    },
+    {
+      "time_ms": 292702.702702704,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 293783.783783785,
+      "lane": 4,
+      "player": true
+    },
+    {
+      "time_ms": 293851.351351352,
+      "lane": 3,
+      "player": true
+    },
+    {
+      "time_ms": 293918.91891892,
+      "lane": 2,
+      "player": true
+    },
+    {
+      "time_ms": 293310.810810812,
+      "lane": 1,
+      "player": true
+    }
+  ]
+}

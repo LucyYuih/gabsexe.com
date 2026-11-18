@@ -1,0 +1,953 @@
+{
+    "animations": [
+        {
+            "offsets": [
+                0,
+                -3
+            ],
+            "loop": false,
+            "anim": "cheer",
+            "fps": 24,
+            "name": "GF Cheer",
+            "indices": [],
+            "frames": [
+                {
+                    "file": "cheer_0000.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0001.png"
+                },
+                {
+                    "file": "cheer_0002.png",
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0003.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "cheer_0004.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -19
+            ],
+            "loop": false,
+            "anim": "singLEFT",
+            "fps": 24,
+            "name": "GF left note",
+            "indices": [],
+            "frames": [
+                {
+                    "file": "singLEFT_0000.png",
+                    "frameY": -9,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0001.png"
+                },
+                {
+                    "file": "singLEFT_0002.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0003.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0004.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0005.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0005.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0006.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0006.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0006.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0006.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0006.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0006.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                },
+                {
+                    "file": "singLEFT_0006.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 803
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -22
+            ],
+            "loop": false,
+            "anim": "singDOWN",
+            "fps": 24,
+            "name": "GF Down Note",
+            "indices": [],
+            "frames": [
+                {
+                    "file": "singDOWN_0000.png",
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 800
+                },
+                {
+                    "file": "singDOWN_0001.png",
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 800
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -4
+            ],
+            "loop": false,
+            "anim": "singUP",
+            "fps": 24,
+            "name": "GF Up Note",
+            "indices": [],
+            "frames": [
+                {
+                    "file": "singUP_0000.png",
+                    "frameX": -5,
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "singUP_0001.png",
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "singUP_0002.png"
+                },
+                {
+                    "file": "singUP_0003.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "singUP_0004.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "singUP_0004.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                },
+                {
+                    "file": "singUP_0004.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 822
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -20
+            ],
+            "loop": false,
+            "anim": "singRIGHT",
+            "fps": 24,
+            "name": "GF Right Note",
+            "indices": [],
+            "frames": [
+                {
+                    "file": "singRIGHT_0000.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0001.png",
+                    "frameY": -1,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0002.png",
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0003.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0004.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0005.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0005.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0006.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0006.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0006.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0006.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0006.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0006.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                },
+                {
+                    "file": "singRIGHT_0006.png",
+                    "frameX": -5,
+                    "frameY": -3,
+                    "frameWidth": 886,
+                    "frameHeight": 804
+                }
+            ]
+        },
+        {
+            "offsets": [
+                -4,
+                -22
+            ],
+            "loop": false,
+            "anim": "sad",
+            "fps": 24,
+            "name": "gf sad",
+            "indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "frames": [
+                {
+                    "file": "sad_0000.png"
+                },
+                {
+                    "file": "sad_0000.png"
+                },
+                {
+                    "file": "sad_0001.png"
+                },
+                {
+                    "file": "sad_0001.png"
+                },
+                {
+                    "file": "sad_0002.png"
+                },
+                {
+                    "file": "sad_0002.png"
+                },
+                {
+                    "file": "sad_0003.png"
+                },
+                {
+                    "file": "sad_0003.png"
+                },
+                {
+                    "file": "sad_0000.png"
+                },
+                {
+                    "file": "sad_0000.png"
+                },
+                {
+                    "file": "sad_0001.png"
+                },
+                {
+                    "file": "sad_0001.png"
+                },
+                {
+                    "file": "sad_0002.png"
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -9
+            ],
+            "loop": false,
+            "anim": "danceLeft",
+            "fps": 24,
+            "name": "GF Dancing Beat",
+            "indices": [
+                30,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "frames": [
+                {
+                    "file": "danceLeft_0000.png",
+                    "frameY": -19,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0001.png",
+                    "frameY": -20,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0002.png",
+                    "frameX": -5,
+                    "frameY": -15,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0003.png",
+                    "frameX": -5,
+                    "frameY": -15,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0004.png",
+                    "frameX": -5,
+                    "frameY": -13,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0005.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0005.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0005.png",
+                    "frameX": -5,
+                    "frameY": -4,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0006.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0006.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0006.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0007.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0007.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0008.png",
+                    "frameX": -5,
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0009.png",
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -9
+            ],
+            "loop": false,
+            "anim": "danceRight",
+            "fps": 24,
+            "name": "GF Dancing Beat",
+            "indices": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+            ],
+            "frames": [
+                {
+                    "file": "danceRight_0000.png",
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0001.png",
+                    "frameX": -5,
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0002.png",
+                    "frameX": -5,
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0003.png",
+                    "frameX": -5,
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0004.png",
+                    "frameX": -5,
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0005.png",
+                    "frameX": -5,
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0005.png",
+                    "frameX": -5,
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0005.png",
+                    "frameX": -5,
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0006.png",
+                    "frameX": -5,
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0006.png",
+                    "frameX": -5,
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0006.png",
+                    "frameX": -5,
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0007.png",
+                    "frameX": -5,
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0007.png",
+                    "frameX": -5,
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -15
+            ],
+            "loop": true,
+            "anim": "hairBlow",
+            "fps": 24,
+            "name": "GF Dancing Beat Hair blowing",
+            "indices": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "frames": [
+                {
+                    "file": "hairBlow_0000.png",
+                    "frameY": -13,
+                    "frameWidth": 886,
+                    "frameHeight": 809
+                },
+                {
+                    "file": "hairBlow_0001.png",
+                    "frameY": -17,
+                    "frameWidth": 886,
+                    "frameHeight": 809
+                },
+                {
+                    "file": "hairBlow_0002.png",
+                    "frameX": -5,
+                    "frameY": -9,
+                    "frameWidth": 886,
+                    "frameHeight": 809
+                },
+                {
+                    "file": "hairBlow_0003.png",
+                    "frameX": -5,
+                    "frameY": -2,
+                    "frameWidth": 886,
+                    "frameHeight": 809
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -9
+            ],
+            "loop": false,
+            "anim": "hairFall",
+            "fps": 24,
+            "name": "GF Dancing Beat Hair Landing",
+            "indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "frames": [
+                {
+                    "file": "hairFall_0000.png",
+                    "frameX": -5,
+                    "frameY": -9,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "hairFall_0001.png",
+                    "frameX": -5,
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "hairFall_0001.png",
+                    "frameX": -5,
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "hairFall_0002.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0006.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0006.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "hairFall_0003.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0007.png",
+                    "frameX": -5,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "hairFall_0004.png",
+                    "frameX": -5,
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceLeft_0008.png",
+                    "frameX": -5,
+                    "frameY": -7,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "hairFall_0005.png",
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                },
+                {
+                    "file": "danceRight_0000.png",
+                    "frameY": -8,
+                    "frameWidth": 886,
+                    "frameHeight": 816
+                }
+            ]
+        },
+        {
+            "offsets": [
+                -5,
+                -17
+            ],
+            "loop": true,
+            "anim": "scared",
+            "fps": 24,
+            "name": "GF FEAR",
+            "indices": [],
+            "frames": [
+                {
+                    "file": "scared_0000.png"
+                },
+                {
+                    "file": "scared_0001.png"
+                },
+                {
+                    "file": "scared_0002.png",
+                    "frameY": -2,
+                    "frameWidth": 876,
+                    "frameHeight": 807
+                },
+                {
+                    "file": "scared_0003.png"
+                }
+            ]
+        }
+    ],
+    "no_antialiasing": false,
+    "image": "characters/GF_assets",
+    "position": [
+        -90,
+        -140
+    ],
+    "healthicon": "gf",
+    "flip_x": false,
+    "healthbar_colors": [
+        165,
+        0,
+        77
+    ],
+    "camera_position": [
+        -110,
+        -20
+    ],
+    "sing_duration": 4,
+    "scale": 0.9
+}

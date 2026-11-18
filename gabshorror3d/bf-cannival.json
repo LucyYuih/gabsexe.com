@@ -1,0 +1,2770 @@
+{
+  "animations": [
+    {
+      "loop": false,
+      "offsets": [
+        -5,
+        0
+      ],
+      "anim": "idle",
+      "fps": 24,
+      "name": "BF_Peppa0",
+      "indices": [],
+      "frames": [
+        {
+          "file": "idle_0000.png",
+          "frameY": -1,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0001.png",
+          "frameY": -1,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0002.png",
+          "frameX": -17,
+          "frameY": -6,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0003.png",
+          "frameX": -17,
+          "frameY": -6,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0004.png",
+          "frameX": -22,
+          "frameY": -4,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0005.png",
+          "frameX": -22,
+          "frameY": -4,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0006.png",
+          "frameX": -21,
+          "frameY": -2,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0007.png",
+          "frameX": -21,
+          "frameY": -2,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0008.png",
+          "frameX": -21,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0009.png",
+          "frameX": -21,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0008.png",
+          "frameX": -21,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0009.png",
+          "frameX": -21,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0008.png",
+          "frameX": -21,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0009.png",
+          "frameX": -21,
+          "frameWidth": 391,
+          "frameHeight": 387
+        },
+        {
+          "file": "idle_0008.png",
+          "frameX": -21,
+          "frameWidth": 391,
+          "frameHeight": 387
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -24,
+        -16
+      ],
+      "anim": "singDOWN",
+      "fps": 24,
+      "name": "BF_Peppa down",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singDOWN_0000.png",
+          "frameY": -12,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0000.png",
+          "frameY": -12,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -4,
+          "frameWidth": 371,
+          "frameHeight": 366
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        29,
+        1
+      ],
+      "anim": "singLEFT",
+      "fps": 24,
+      "name": "BF_Peppa left",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singLEFT_0000.png",
+          "frameY": -8,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0000.png",
+          "frameY": -8,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -5,
+          "frameWidth": 402,
+          "frameHeight": 377
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -20,
+        6
+      ],
+      "anim": "singRIGHT",
+      "fps": 24,
+      "name": "BF_Peppa right",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singRIGHT_0000.png",
+          "frameY": -11,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0000.png",
+          "frameY": -11,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -2,
+          "frameWidth": 402,
+          "frameHeight": 385
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -17,
+        27
+      ],
+      "anim": "singUP",
+      "fps": 24,
+      "name": "BF_Peppa up",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singUP_0000.png",
+          "frameY": -16,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0000.png",
+          "frameY": -16,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -6,
+          "frameWidth": 373,
+          "frameHeight": 405
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        87,
+        19
+      ],
+      "anim": "deathConfirm",
+      "fps": 24,
+      "name": "Bf death confirm",
+      "indices": [],
+      "frames": [
+        {
+          "file": "deathConfirm_0000.png",
+          "frameY": -89,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0001.png",
+          "frameY": -41,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0002.png"
+        },
+        {
+          "file": "deathConfirm_0003.png",
+          "frameY": -65,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0004.png",
+          "frameY": -67,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0005.png",
+          "frameY": -70,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0006.png",
+          "frameY": -71,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0007.png",
+          "frameY": -73,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0008.png",
+          "frameY": -75,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0009.png",
+          "frameY": -77,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0010.png",
+          "frameY": -78,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0011.png",
+          "frameY": -80,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0012.png",
+          "frameY": -81,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0013.png",
+          "frameY": -82,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0014.png",
+          "frameY": -84,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0015.png",
+          "frameY": -85,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0016.png",
+          "frameY": -86,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0017.png",
+          "frameY": -87,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0018.png",
+          "frameY": -87,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0019.png",
+          "frameY": -88,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0020.png",
+          "frameY": -88,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0021.png",
+          "frameY": -89,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0022.png",
+          "frameY": -89,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0023.png",
+          "frameY": -90,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0023.png",
+          "frameY": -90,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0023.png",
+          "frameY": -90,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0023.png",
+          "frameY": -90,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0023.png",
+          "frameY": -90,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0023.png",
+          "frameY": -90,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0023.png",
+          "frameY": -90,
+          "frameWidth": 528,
+          "frameHeight": 427
+        },
+        {
+          "file": "deathConfirm_0023.png",
+          "frameY": -90,
+          "frameWidth": 528,
+          "frameHeight": 427
+        }
+      ]
+    },
+    {
+      "loop": true,
+      "offsets": [
+        87,
+        -38
+      ],
+      "anim": "deathLoop",
+      "fps": 24,
+      "name": "Bf death loop",
+      "indices": [],
+      "frames": [
+        {
+          "file": "deathLoop_0000.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0001.png"
+        },
+        {
+          "file": "deathLoop_0001.png"
+        },
+        {
+          "file": "deathLoop_0002.png",
+          "frameY": -8,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0002.png",
+          "frameY": -8,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0003.png",
+          "frameY": -19,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0003.png",
+          "frameY": -19,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0000.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0001.png"
+        },
+        {
+          "file": "deathLoop_0001.png"
+        },
+        {
+          "file": "deathLoop_0002.png",
+          "frameY": -8,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0002.png",
+          "frameY": -8,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0003.png",
+          "frameY": -19,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0003.png",
+          "frameY": -19,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        },
+        {
+          "file": "deathLoop_0004.png",
+          "frameY": -23,
+          "frameWidth": 528,
+          "frameHeight": 370
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        27,
+        14
+      ],
+      "anim": "firstDeath",
+      "fps": 24,
+      "name": "death bf",
+      "indices": [],
+      "frames": [
+        {
+          "file": "firstDeath_0000.png",
+          "frameX": -14,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0000.png",
+          "frameX": -14,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0001.png",
+          "frameX": -18,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0001.png",
+          "frameX": -18,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0002.png",
+          "frameX": -16,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0002.png",
+          "frameX": -16,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0003.png",
+          "frameX": -16,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0003.png",
+          "frameX": -16,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0004.png",
+          "frameX": -15,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0005.png",
+          "frameX": -15,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0006.png",
+          "frameX": -4,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0007.png",
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0008.png",
+          "frameX": -1,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0009.png",
+          "frameX": -1,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0010.png",
+          "frameX": -2,
+          "frameY": -13,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0011.png",
+          "frameX": -2,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0011.png",
+          "frameX": -2,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0012.png",
+          "frameX": -2,
+          "frameY": -9,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0012.png",
+          "frameX": -2,
+          "frameY": -9,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0013.png",
+          "frameX": -2,
+          "frameY": -17,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0013.png",
+          "frameX": -2,
+          "frameY": -17,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0013.png",
+          "frameX": -2,
+          "frameY": -17,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0014.png",
+          "frameX": -2,
+          "frameY": -28,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0014.png",
+          "frameX": -2,
+          "frameY": -28,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0015.png",
+          "frameX": -2,
+          "frameY": -44,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0015.png",
+          "frameX": -2,
+          "frameY": -44,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0016.png",
+          "frameX": -2,
+          "frameY": -75,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0017.png",
+          "frameX": -2,
+          "frameY": -102,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0018.png",
+          "frameX": -2,
+          "frameY": -131,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0019.png",
+          "frameX": -2,
+          "frameY": -146,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0020.png",
+          "frameX": -2,
+          "frameY": -239,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        },
+        {
+          "file": "firstDeath_0021.png",
+          "frameX": -2,
+          "frameY": -227,
+          "frameWidth": 543,
+          "frameHeight": 544
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -3,
+        9
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singLEFTmiss",
+      "indices": [],
+      "name": "miis bf 1 ci",
+      "frames": [
+        {
+          "file": "singLEFTmiss_0000.png",
+          "frameX": -19,
+          "frameY": -18,
+          "frameWidth": 425,
+          "frameHeight": 399
+        },
+        {
+          "file": "singLEFTmiss_0000.png",
+          "frameX": -19,
+          "frameY": -18,
+          "frameWidth": 425,
+          "frameHeight": 399
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 425,
+          "frameHeight": 399
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 425,
+          "frameHeight": 399
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        },
+        {
+          "file": "singLEFTmiss_0002.png"
+        }
+      ]
+    },
+    {
+      "offsets": [
+        17,
+        -9
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singDOWNmiss",
+      "indices": [],
+      "name": "bf miss 4 si",
+      "frames": [
+        {
+          "file": "singDOWNmiss_0000.png",
+          "frameX": -31,
+          "frameY": -18,
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0000.png",
+          "frameX": -31,
+          "frameY": -18,
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -7,
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -7,
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameWidth": 402,
+          "frameHeight": 375
+        }
+      ]
+    },
+    {
+      "offsets": [
+        10,
+        37
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singUPmiss",
+      "indices": [],
+      "name": "bf miss 3 si",
+      "frames": [
+        {
+          "file": "singUPmiss_0000.png",
+          "frameX": -32,
+          "frameY": -37,
+          "frameWidth": 415,
+          "frameHeight": 429
+        },
+        {
+          "file": "singUPmiss_0000.png",
+          "frameX": -32,
+          "frameY": -37,
+          "frameWidth": 415,
+          "frameHeight": 429
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameY": -8,
+          "frameWidth": 415,
+          "frameHeight": 429
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameY": -8,
+          "frameWidth": 415,
+          "frameHeight": 429
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        },
+        {
+          "file": "singUPmiss_0002.png"
+        }
+      ]
+    },
+    {
+      "offsets": [
+        16,
+        2
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singRIGHTmiss",
+      "indices": [],
+      "name": "bf miss 2 si",
+      "frames": [
+        {
+          "file": "singRIGHTmiss_0000.png",
+          "frameY": -10,
+          "frameWidth": 389,
+          "frameHeight": 387
+        },
+        {
+          "file": "singRIGHTmiss_0000.png",
+          "frameY": -10,
+          "frameWidth": 389,
+          "frameHeight": 387
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameY": -5,
+          "frameWidth": 389,
+          "frameHeight": 387
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameY": -5,
+          "frameWidth": 389,
+          "frameHeight": 387
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        },
+        {
+          "file": "singRIGHTmiss_0002.png"
+        }
+      ]
+    },
+    {
+      "loop": true,
+      "offsets": [
+        18,
+        15
+      ],
+      "anim": "hey",
+      "fps": 24,
+      "name": "BF_Peppa yeah!",
+      "indices": [],
+      "frames": [
+        {
+          "file": "hey_0000.png",
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0001.png",
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -7,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0003.png",
+          "frameX": -7,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0004.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0004.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0004.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0004.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0004.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0004.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0004.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0004.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0004.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -4,
+          "frameY": -1,
+          "frameWidth": 402,
+          "frameHeight": 399
+        }
+      ]
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/BF_CANIVAL",
+  "position": [
+    200,
+    370
+  ],
+  "healthicon": "bf-cannival",
+  "flip_x": true,
+  "healthbar_colors": [
+    49,
+    176,
+    209
+  ],
+  "camera_position": [
+    270,
+    -90
+  ],
+  "sing_duration": 4,
+  "scale": 1
+}

@@ -1,0 +1,1261 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": false,
+      "anim": "idle",
+      "fps": 24,
+      "name": "Pico Idle Dance",
+      "indices": [],
+      "frames": [
+        {
+          "file": "idle_0000.png",
+          "frameX": -18,
+          "frameY": -13,
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0000.png",
+          "frameX": -18,
+          "frameY": -13,
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0001.png",
+          "frameX": -11,
+          "frameY": -6,
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0001.png",
+          "frameX": -11,
+          "frameY": -6,
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0003.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0004.png",
+          "frameX": -1,
+          "frameY": -1,
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0005.png",
+          "frameX": -1,
+          "frameY": -1,
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0006.png",
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0006.png",
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0006.png",
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0006.png",
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0006.png",
+          "frameWidth": 453,
+          "frameHeight": 475
+        },
+        {
+          "file": "idle_0006.png",
+          "frameWidth": 453,
+          "frameHeight": 475
+        }
+      ]
+    },
+    {
+      "offsets": [
+        25,
+        2
+      ],
+      "loop": false,
+      "anim": "hey",
+      "fps": 24,
+      "name": "Pico HEY",
+      "indices": [],
+      "frames": [
+        {
+          "file": "hey_0000.png",
+          "frameX": -1,
+          "frameY": 0,
+          "frameWidth": 514,
+          "frameHeight": 477
+        },
+        {
+          "file": "hey_0000.png",
+          "frameX": -1,
+          "frameY": 0,
+          "frameWidth": 514,
+          "frameHeight": 477
+        },
+        {
+          "file": "hey_0001.png",
+          "frameX": 0,
+          "frameY": -3,
+          "frameWidth": 514,
+          "frameHeight": 477
+        },
+        {
+          "file": "hey_0001.png",
+          "frameX": 0,
+          "frameY": -3,
+          "frameWidth": 514,
+          "frameHeight": 477
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": 0,
+          "frameY": -2,
+          "frameWidth": 514,
+          "frameHeight": 477
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": 0,
+          "frameY": -2,
+          "frameWidth": 514,
+          "frameHeight": 477
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": 0,
+          "frameY": -2,
+          "frameWidth": 514,
+          "frameHeight": 477
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": 0,
+          "frameY": -2,
+          "frameWidth": 514,
+          "frameHeight": 477
+        }
+      ]
+    },
+    {
+      "offsets": [
+        25,
+        30
+      ],
+      "loop": false,
+      "anim": "hey-alt",
+      "fps": 24,
+      "name": "Pico YEAH cheer",
+      "indices": [],
+      "frames": [
+        {
+          "file": "hey-alt_0000.png",
+          "frameX": -29,
+          "frameWidth": 542,
+          "frameHeight": 515
+        },
+        {
+          "file": "hey-alt_0000.png",
+          "frameX": -29,
+          "frameWidth": 542,
+          "frameHeight": 515
+        },
+        {
+          "file": "hey-alt_0001.png",
+          "frameY": -16,
+          "frameWidth": 542,
+          "frameHeight": 515
+        },
+        {
+          "file": "hey-alt_0001.png",
+          "frameY": -16,
+          "frameWidth": 542,
+          "frameHeight": 515
+        },
+        {
+          "file": "hey-alt_0002.png",
+          "frameX": -5,
+          "frameY": -13,
+          "frameWidth": 542,
+          "frameHeight": 515
+        },
+        {
+          "file": "hey-alt_0002.png",
+          "frameX": -5,
+          "frameY": -13,
+          "frameWidth": 542,
+          "frameHeight": 515
+        },
+        {
+          "file": "hey-alt_0002.png",
+          "frameX": -5,
+          "frameY": -13,
+          "frameWidth": 542,
+          "frameHeight": 515
+        },
+        {
+          "file": "hey-alt_0002.png",
+          "frameX": -5,
+          "frameY": -13,
+          "frameWidth": 542,
+          "frameHeight": 515
+        },
+        {
+          "file": "hey-alt_0002.png",
+          "frameX": -5,
+          "frameY": -13,
+          "frameWidth": 542,
+          "frameHeight": 515
+        }
+      ]
+    },
+    {
+      "offsets": [
+        65,
+        9
+      ],
+      "loop": false,
+      "anim": "singLEFT",
+      "fps": 24,
+      "name": "Pico Note Right0",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singLEFT_0000.png",
+          "frameX": -1,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0000.png",
+          "frameX": -1,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameY": -3,
+          "frameWidth": 459,
+          "frameHeight": 476
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -68,
+        -7
+      ],
+      "loop": false,
+      "anim": "singRIGHT",
+      "fps": 24,
+      "name": "Pico NOTE LEFT0",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singRIGHT_0000.png",
+          "frameX": -6,
+          "frameY": -2,
+          "frameWidth": 455,
+          "frameHeight": 464
+        },
+        {
+          "file": "singRIGHT_0000.png",
+          "frameX": -6,
+          "frameY": -2,
+          "frameWidth": 455,
+          "frameHeight": 464
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        },
+        {
+          "file": "singRIGHT_0001.png"
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -60,
+        41
+      ],
+      "loop": false,
+      "anim": "singRIGHTmiss",
+      "fps": 24,
+      "name": "Pico NOTE LEFT miss",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singRIGHTmiss_0000.png",
+          "frameX": -6,
+          "frameY": -37,
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -2,
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -2,
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0003.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        },
+        {
+          "file": "singRIGHTmiss_0002.png",
+          "frameWidth": 461,
+          "frameHeight": 500
+        }
+      ]
+    },
+    {
+      "offsets": [
+        62,
+        64
+      ],
+      "loop": false,
+      "anim": "singLEFTmiss",
+      "fps": 24,
+      "name": "Pico Note Right Miss",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singLEFTmiss_0000.png",
+          "frameX": -11,
+          "frameY": -46,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0003.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        },
+        {
+          "file": "singLEFTmiss_0002.png",
+          "frameX": -1,
+          "frameWidth": 469,
+          "frameHeight": 522
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -29,
+        27
+      ],
+      "loop": false,
+      "anim": "singUP",
+      "fps": 24,
+      "name": "pico Up note0",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singUP_0000.png",
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0000.png",
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 433,
+          "frameHeight": 495
+        }
+      ]
+    },
+    {
+      "offsets": [
+        200,
+        -70
+      ],
+      "loop": false,
+      "anim": "singDOWN",
+      "fps": 24,
+      "name": "Pico Down Note0",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singDOWN_0000.png",
+          "frameX": -13,
+          "frameY": -9,
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0000.png",
+          "frameX": -13,
+          "frameY": -9,
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 736,
+          "frameHeight": 392
+        }
+      ]
+    },
+    {
+      "offsets": [
+        210,
+        -28
+      ],
+      "loop": false,
+      "anim": "singDOWNmiss",
+      "fps": 24,
+      "name": "Pico Down Note MISS",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singDOWN_0000.png",
+          "frameX": -10,
+          "frameY": -52,
+          "frameWidth": 736,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0000.png",
+          "frameX": -2,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0000.png",
+          "frameX": -2,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0002.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -6,
+          "frameWidth": 733,
+          "frameHeight": 434
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -19,
+        67
+      ],
+      "loop": false,
+      "anim": "singUPmiss",
+      "fps": 24,
+      "name": "pico Up note miss",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singUP_0000.png",
+          "frameX": -8,
+          "frameY": -36,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0000.png",
+          "frameY": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0000.png",
+          "frameY": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0002.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 531
+        }
+      ]
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/Pico_FNF_assetss,characters/Pico_Finger,characters/pico-yeah",
+  "position": [
+    0,
+    300
+  ],
+  "healthicon": "pico",
+  "flip_x": true,
+  "healthbar_colors": [
+    183,
+    216,
+    85
+  ],
+  "camera_position": [
+    0,
+    0
+  ],
+  "sing_duration": 4,
+  "scale": 1
+}

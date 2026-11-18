@@ -1,0 +1,122 @@
+{
+    "stage_name": "street2",
+    "zoom": 0.9,
+    "positions": {
+        "boyfriend": [
+            770,
+            100
+        ],
+        "girlfriend": [
+            400,
+            130
+        ],
+        "opponent": [
+            100,
+            100
+        ]
+    },
+    "playerLayers": {
+        "girlfriend": {
+            "group": "gfGroup",
+            "zOrder": 1,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                400,
+                130
+            ]
+        },
+        "opponent": {
+            "group": "dadGroup",
+            "zOrder": 2,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                100,
+                100
+            ]
+        },
+        "boyfriend": {
+            "group": "boyfriendGroup",
+            "zOrder": 3,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                770,
+                100
+            ]
+        }
+    },
+    "drawOrder": [
+        {
+            "type": "sprite",
+            "id": "street2",
+            "tag": "street2"
+        },
+        {
+            "type": "player",
+            "id": "girlfriend",
+            "player": "girlfriend",
+            "group": "gfGroup",
+            "visible": true
+        },
+        {
+            "type": "player",
+            "id": "opponent",
+            "player": "opponent",
+            "group": "dadGroup",
+            "visible": true
+        },
+        {
+            "type": "player",
+            "id": "boyfriend",
+            "player": "boyfriend",
+            "group": "boyfriendGroup",
+            "visible": true
+        }
+    ],
+    "objectOrder": [],
+    "sprites": [
+        {
+            "tag": "street2",
+            "image": "backgrounds/street2",
+            "x": -600.0,
+            "y": -300.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.9,
+            "scrollY": 0.9,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 0,
+            "zOrder": 0,
+            "orderExpression": null,
+            "frontExpression": "false"
+        }
+    ],
+    "camera": {
+        "boyfriend": [
+            0,
+            0
+        ],
+        "girlfriend": [
+            0,
+            0
+        ],
+        "opponent": [
+            0,
+            0
+        ],
+        "speed": 1
+    },
+    "directory": "weekM",
+    "isPixelStage": false,
+    "hide_girlfriend": false
+}

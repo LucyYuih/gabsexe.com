@@ -1,0 +1,243 @@
+{
+    "stage_name": "highschool",
+    "zoom": 0.6,
+    "positions": {
+        "boyfriend": [
+            1200,
+            1820
+        ],
+        "girlfriend": [
+            680,
+            1830
+        ],
+        "opponent": [
+            295,
+            1905
+        ]
+    },
+    "playerLayers": {
+        "girlfriend": {
+            "group": "gfGroup",
+            "zOrder": 3,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                680,
+                1830
+            ]
+        },
+        "opponent": {
+            "group": "dadGroup",
+            "zOrder": 4,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                295,
+                1905
+            ]
+        },
+        "boyfriend": {
+            "group": "boyfriendGroup",
+            "zOrder": 5,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                1200,
+                1820
+            ]
+        }
+    },
+    "drawOrder": [
+        {
+            "type": "sprite",
+            "id": "highSchool",
+            "tag": "highSchool"
+        },
+        {
+            "type": "sprite",
+            "id": "gang",
+            "tag": "gang"
+        },
+        {
+            "type": "sprite",
+            "id": "ground",
+            "tag": "ground"
+        },
+        {
+            "type": "player",
+            "id": "girlfriend",
+            "player": "girlfriend",
+            "group": "gfGroup",
+            "visible": true
+        },
+        {
+            "type": "player",
+            "id": "opponent",
+            "player": "opponent",
+            "group": "dadGroup",
+            "visible": true
+        },
+        {
+            "type": "player",
+            "id": "boyfriend",
+            "player": "boyfriend",
+            "group": "boyfriendGroup",
+            "visible": true
+        }
+    ],
+    "objectOrder": [],
+    "sprites": [
+        {
+            "tag": "highSchool",
+            "image": "jenny/HighSchool",
+            "x": -600.0,
+            "y": 650.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 1.0,
+            "scrollY": 1.0,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 0,
+            "zOrder": 0,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "gang",
+            "image": "jenny/gangbop",
+            "x": -400.0,
+            "y": 1500.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 1.0,
+            "scrollY": 1.0,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": true,
+            "front": false,
+            "layer": "background",
+            "addIndex": 1,
+            "zOrder": 1,
+            "orderExpression": null,
+            "animations": [
+                {
+                    "name": "bounce",
+                    "prefix": "Gang Bottom Boppers",
+                    "fps": 24.0,
+                    "loop": true
+                }
+            ],
+            "frames": [
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0000_0000.png",
+                    "tX": 0,
+                    "tY": -21
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0001_0001.png",
+                    "tX": 0,
+                    "tY": -21
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0002_0002.png",
+                    "tX": -6,
+                    "tY": -7
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0003_0003.png",
+                    "tX": -6,
+                    "tY": -7
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0004_0004.png",
+                    "tX": -7,
+                    "tY": -3
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0005_0005.png",
+                    "tX": -7,
+                    "tY": -3
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0006_0006.png",
+                    "tX": -7,
+                    "tY": -1
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0007_0007.png",
+                    "tX": -7,
+                    "tY": -1
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0008_0008.png",
+                    "tX": -7,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0009_0009.png",
+                    "tX": -7,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/jenny/gangbop/Gang Bottom Boppers0010_0010.png",
+                    "tX": -7,
+                    "tY": 0
+                }
+            ],
+            "frontExpression": "false"
+        },
+        {
+            "tag": "ground",
+            "image": "jenny/barrera",
+            "x": -600.0,
+            "y": 750.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 1.0,
+            "scrollY": 1.0,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 2,
+            "zOrder": 2,
+            "orderExpression": null,
+            "frontExpression": "false"
+        }
+    ],
+    "camera": {
+        "boyfriend": [
+            0,
+            0
+        ],
+        "girlfriend": [
+            0,
+            0
+        ],
+        "opponent": [
+            0,
+            0
+        ],
+        "speed": 1
+    },
+    "directory": "",
+    "isPixelStage": false,
+    "hide_girlfriend": false
+}

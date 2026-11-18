@@ -1,0 +1,880 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "idle-loop",
+      "indices": [],
+      "name": "Sadmouse Idle",
+      "frames": [
+        {
+          "file": "idle-loop_0000.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 5,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0001.png",
+          "_fnf_trim": {
+            "left": 103,
+            "top": 5,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0002.png",
+          "_fnf_trim": {
+            "left": 103,
+            "top": 11,
+            "right": 144,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0003.png",
+          "_fnf_trim": {
+            "left": 89,
+            "top": 46,
+            "right": 129,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0004.png",
+          "_fnf_trim": {
+            "left": 74,
+            "top": 84,
+            "right": 114,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0005.png",
+          "_fnf_trim": {
+            "left": 72,
+            "top": 90,
+            "right": 113,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0006.png",
+          "_fnf_trim": {
+            "left": 72,
+            "top": 90,
+            "right": 106,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0005.png",
+          "_fnf_trim": {
+            "left": 72,
+            "top": 90,
+            "right": 113,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0007.png",
+          "_fnf_trim": {
+            "left": 73,
+            "top": 87,
+            "right": 105,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0008.png",
+          "_fnf_trim": {
+            "left": 80,
+            "top": 69,
+            "right": 120,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0009.png",
+          "_fnf_trim": {
+            "left": 97,
+            "top": 24,
+            "right": 139,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0010.png",
+          "_fnf_trim": {
+            "left": 99,
+            "top": 8,
+            "right": 146,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0011.png",
+          "_fnf_trim": {
+            "left": 106,
+            "top": 5,
+            "right": 145,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0012.png",
+          "_fnf_trim": {
+            "left": 101,
+            "top": 5,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        }
+      ]
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singLEFT",
+      "indices": [],
+      "name": "Sadmouse Left",
+      "frames": [
+        {
+          "file": "singLEFT_0000.png",
+          "_fnf_trim": {
+            "left": 51,
+            "top": 11,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "_fnf_trim": {
+            "left": 85,
+            "top": 19,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singLEFT_0002.png",
+          "_fnf_trim": {
+            "left": 88,
+            "top": 23,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singLEFT_0003.png",
+          "_fnf_trim": {
+            "left": 98,
+            "top": 23,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "_fnf_trim": {
+            "left": 90,
+            "top": 23,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singLEFT_0005.png",
+          "_fnf_trim": {
+            "left": 99,
+            "top": 23,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        }
+      ]
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singDOWN",
+      "indices": [],
+      "name": "Sadmouse Down",
+      "frames": [
+        {
+          "file": "singDOWN_0000.png",
+          "_fnf_trim": {
+            "left": 67,
+            "top": 90,
+            "right": 102,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "_fnf_trim": {
+            "left": 93,
+            "top": 42,
+            "right": 132,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN_0002.png",
+          "_fnf_trim": {
+            "left": 102,
+            "top": 24,
+            "right": 144,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN_0003.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 19,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN_0004.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 18,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN_0005.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 20,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        }
+      ]
+    },
+    {
+      "offsets": [
+        0,
+        40
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singUP",
+      "indices": [],
+      "name": "Sadmouse Up",
+      "frames": [
+        {
+          "file": "singUP_0000.png",
+          "_fnf_trim": {
+            "left": 48,
+            "top": 0,
+            "right": 177,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 761
+          },
+          "frameWidth": 669,
+          "frameHeight": 761
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": 0,
+          "frameY": -15,
+          "frameWidth": 669,
+          "frameHeight": 761,
+          "_fnf_trim": {
+            "left": 91,
+            "top": 0,
+            "right": 157,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 746
+          }
+        },
+        {
+          "file": "singUP_0002.png",
+          "frameX": 0,
+          "frameY": -14,
+          "frameWidth": 669,
+          "frameHeight": 761,
+          "_fnf_trim": {
+            "left": 83,
+            "top": 0,
+            "right": 150,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 747
+          }
+        },
+        {
+          "file": "singUP_0003.png",
+          "frameX": 0,
+          "frameY": -13,
+          "frameWidth": 669,
+          "frameHeight": 761,
+          "_fnf_trim": {
+            "left": 100,
+            "top": 0,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 748
+          }
+        },
+        {
+          "file": "singUP_0004.png",
+          "frameX": 0,
+          "frameY": -13,
+          "frameWidth": 669,
+          "frameHeight": 761,
+          "_fnf_trim": {
+            "left": 84,
+            "top": 0,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 748
+          }
+        },
+        {
+          "file": "singUP_0005.png",
+          "frameX": 0,
+          "frameY": -13,
+          "frameWidth": 669,
+          "frameHeight": 761,
+          "_fnf_trim": {
+            "left": 99,
+            "top": 0,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 748
+          }
+        }
+      ]
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singRIGHT",
+      "indices": [],
+      "name": "Sadmouse Right",
+      "frames": [
+        {
+          "file": "singRIGHT_0000.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 11,
+            "right": 66,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 8,
+            "right": 146,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singRIGHT_0002.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 2,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singRIGHT_0003.png",
+          "_fnf_trim": {
+            "left": 90,
+            "top": 2,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singRIGHT_0004.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 2,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singRIGHT_0005.png",
+          "_fnf_trim": {
+            "left": 92,
+            "top": 2,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        0,
+        0
+      ],
+      "anim": "singDOWN-alt",
+      "fps": 24,
+      "name": "Sadmouse Laugh",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singDOWN-alt_0000.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 7,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN-alt_0001.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 20,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN-alt_0002.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 25,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN-alt_0003.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 27,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN-alt_0004.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 27,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "singDOWN-alt_0004.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 27,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        }
+      ]
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "loop": true,
+      "fps": 24,
+      "anim": "idle",
+      "indices": [],
+      "name": "Sadmouse Idle",
+      "frames": [
+        {
+          "file": "idle-loop_0000.png",
+          "_fnf_trim": {
+            "left": 105,
+            "top": 5,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0001.png",
+          "_fnf_trim": {
+            "left": 103,
+            "top": 5,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0002.png",
+          "_fnf_trim": {
+            "left": 103,
+            "top": 11,
+            "right": 144,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0003.png",
+          "_fnf_trim": {
+            "left": 89,
+            "top": 46,
+            "right": 129,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0004.png",
+          "_fnf_trim": {
+            "left": 74,
+            "top": 84,
+            "right": 114,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0005.png",
+          "_fnf_trim": {
+            "left": 72,
+            "top": 90,
+            "right": 113,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0006.png",
+          "_fnf_trim": {
+            "left": 72,
+            "top": 90,
+            "right": 106,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0005.png",
+          "_fnf_trim": {
+            "left": 72,
+            "top": 90,
+            "right": 113,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0007.png",
+          "_fnf_trim": {
+            "left": 73,
+            "top": 87,
+            "right": 105,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0008.png",
+          "_fnf_trim": {
+            "left": 80,
+            "top": 69,
+            "right": 120,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0009.png",
+          "_fnf_trim": {
+            "left": 97,
+            "top": 24,
+            "right": 139,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0010.png",
+          "_fnf_trim": {
+            "left": 99,
+            "top": 8,
+            "right": 146,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0011.png",
+          "_fnf_trim": {
+            "left": 106,
+            "top": 5,
+            "right": 145,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        },
+        {
+          "file": "idle-loop_0012.png",
+          "_fnf_trim": {
+            "left": 101,
+            "top": 5,
+            "right": 147,
+            "bottom": 0,
+            "originalWidth": 669,
+            "originalHeight": 721
+          },
+          "frameWidth": 669,
+          "frameHeight": 721
+        }
+      ]
+    }
+  ],
+  "vocals_file": "",
+  "no_antialiasing": false,
+  "image": "characters/happymouse2_assets",
+  "position": [
+    -70,
+    20
+  ],
+  "healthicon": "happymouse2",
+  "flip_x": false,
+  "healthbar_colors": [
+    51,
+    51,
+    51
+  ],
+  "camera_position": [
+    -160,
+    0
+  ],
+  "sing_duration": 6.1,
+  "scale": 1,
+  "_editor_isPlayer": false
+}

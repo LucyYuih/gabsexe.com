@@ -1,0 +1,7 @@
+function onCreate()
+	-- background shit
+	makeLuaSprite('street2', 'backgrounds/street2', -600, -300);
+	setScrollFactor('street2', 0.9, 0.9);
+	
+	addLuaSprite('street2', false);
+end

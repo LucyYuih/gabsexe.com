@@ -1,0 +1,758 @@
+{
+    "stage_name": "churchStormy",
+    "zoom": 0.7,
+    "positions": {
+        "boyfriend": [
+            300,
+            100
+        ],
+        "girlfriend": [
+            -75,
+            0
+        ],
+        "opponent": [
+            -500,
+            100
+        ]
+    },
+    "playerLayers": {
+        "girlfriend": {
+            "group": "gfGroup",
+            "zOrder": 13,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                -75,
+                0
+            ]
+        },
+        "opponent": {
+            "group": "dadGroup",
+            "zOrder": 14,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                -500,
+                100
+            ]
+        },
+        "boyfriend": {
+            "group": "boyfriendGroup",
+            "zOrder": 15,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                300,
+                100
+            ]
+        }
+    },
+    "drawOrder": [
+        {
+            "type": "sprite",
+            "id": "sky",
+            "tag": "sky"
+        },
+        {
+            "type": "sprite",
+            "id": "moon",
+            "tag": "moon"
+        },
+        {
+            "type": "sprite",
+            "id": "moonglow",
+            "tag": "moonglow"
+        },
+        {
+            "type": "sprite",
+            "id": "clouds1",
+            "tag": "clouds1"
+        },
+        {
+            "type": "sprite",
+            "id": "clouds2",
+            "tag": "clouds2"
+        },
+        {
+            "type": "sprite",
+            "id": "backgroundFoliage",
+            "tag": "backgroundFoliage"
+        },
+        {
+            "type": "sprite",
+            "id": "backgroundFoliage2",
+            "tag": "backgroundFoliage2"
+        },
+        {
+            "type": "sprite",
+            "id": "cathedralInterior",
+            "tag": "cathedralInterior"
+        },
+        {
+            "type": "sprite",
+            "id": "churchCathedral",
+            "tag": "churchCathedral"
+        },
+        {
+            "type": "sprite",
+            "id": "foliageLeft",
+            "tag": "foliageLeft"
+        },
+        {
+            "type": "sprite",
+            "id": "foliageLeftALT",
+            "tag": "foliageLeftALT"
+        },
+        {
+            "type": "sprite",
+            "id": "pathofPearl",
+            "tag": "pathofPearl"
+        },
+        {
+            "type": "sprite",
+            "id": "rightFoliage",
+            "tag": "rightFoliage"
+        },
+        {
+            "type": "player",
+            "id": "girlfriend",
+            "player": "girlfriend",
+            "group": "gfGroup",
+            "visible": true
+        },
+        {
+            "type": "player",
+            "id": "opponent",
+            "player": "opponent",
+            "group": "dadGroup",
+            "visible": true
+        },
+        {
+            "type": "player",
+            "id": "boyfriend",
+            "player": "boyfriend",
+            "group": "boyfriendGroup",
+            "visible": true
+        },
+        {
+            "type": "sprite",
+            "id": "stormyGradient",
+            "tag": "stormyGradient"
+        },
+        {
+            "type": "sprite",
+            "id": "sakuraTree",
+            "tag": "sakuraTree"
+        },
+        {
+            "type": "sprite",
+            "id": "holyCross1",
+            "tag": "holyCross1"
+        },
+        {
+            "type": "sprite",
+            "id": "holyCross2",
+            "tag": "holyCross2"
+        },
+        {
+            "type": "sprite",
+            "id": "zavodillaGradient",
+            "tag": "zavodillaGradient"
+        }
+    ],
+    "objectOrder": [],
+    "sprites": [
+        {
+            "tag": "sky",
+            "image": "church/stormy/stormySky",
+            "x": -2700.0,
+            "y": -1800.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.4,
+            "scrollY": 0.4,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 0,
+            "zOrder": 0,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "moon",
+            "image": "church/stormy/zavodillaMoon",
+            "x": -105.0,
+            "y": -1800.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.5,
+            "scrollY": 0.5,
+            "alpha": 0.5,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 1,
+            "zOrder": 1,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "moonglow",
+            "image": "church/stormy/zavodillaMoonGlow",
+            "x": -105.0,
+            "y": -1800.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.5,
+            "scrollY": 0.5,
+            "alpha": 0.5,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 2,
+            "zOrder": 2,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "clouds1",
+            "image": "church/rainy/clouds1",
+            "x": -2700.0,
+            "y": -1800.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.4,
+            "scrollY": 0.4,
+            "alpha": 0.5,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 3,
+            "zOrder": 3,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "clouds2",
+            "image": "church/rainy/clouds2",
+            "x": -2700.0,
+            "y": -1800.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.4,
+            "scrollY": 0.4,
+            "alpha": 0.5,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 4,
+            "zOrder": 4,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "backgroundFoliage",
+            "image": "church/stormy/backgroundFoliage",
+            "x": -1450.0,
+            "y": -300.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.82,
+            "scrollY": 0.82,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 5,
+            "zOrder": 5,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "backgroundFoliage2",
+            "image": "church/stormy/backgroundFoliage",
+            "x": 500.0,
+            "y": -300.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.82,
+            "scrollY": 0.82,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 6,
+            "zOrder": 6,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "cathedralInterior",
+            "image": "church/stormy/cathedralInterior",
+            "x": -510.0,
+            "y": -340.0,
+            "scaleX": 0.9,
+            "scaleY": 0.9,
+            "scrollX": 0.84,
+            "scrollY": 0.84,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 7,
+            "zOrder": 7,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "churchCathedral",
+            "image": "church/stormy/churchCathedral",
+            "x": -600.0,
+            "y": -1825.0,
+            "scaleX": 0.9,
+            "scaleY": 0.9,
+            "scrollX": 0.9,
+            "scrollY": 0.9,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 8,
+            "zOrder": 8,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "foliageLeft",
+            "image": "church/stormy/foliageLeft",
+            "x": -1700.0,
+            "y": -380.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.94,
+            "scrollY": 0.94,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": true,
+            "front": false,
+            "layer": "background",
+            "addIndex": 9,
+            "zOrder": 9,
+            "orderExpression": null,
+            "animations": [
+                {
+                    "name": "vibe_mami",
+                    "prefix": "mini bush stormy instance 1",
+                    "fps": 24.0,
+                    "loop": true
+                }
+            ],
+            "frames": [
+                {
+                    "image": "stages/church/stormy/foliageLeft/mini bush stormy instance 10000_0000.png",
+                    "tX": -2,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/church/stormy/foliageLeft/mini bush stormy instance 10001_0001.png",
+                    "tX": -2,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/church/stormy/foliageLeft/mini bush stormy instance 10002_0002.png",
+                    "tX": 0,
+                    "tY": -1
+                },
+                {
+                    "image": "stages/church/stormy/foliageLeft/mini bush stormy instance 10003_0003.png",
+                    "tX": 0,
+                    "tY": -1
+                }
+            ],
+            "frontExpression": "false"
+        },
+        {
+            "tag": "foliageLeftALT",
+            "image": "church/stormy/foliageLeft",
+            "x": 250.0,
+            "y": -380.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.94,
+            "scrollY": 0.94,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": true,
+            "front": false,
+            "layer": "background",
+            "addIndex": 10,
+            "zOrder": 10,
+            "orderExpression": null,
+            "animations": [
+                {
+                    "name": "vibe_mami",
+                    "prefix": "mini bush stormy instance 1",
+                    "fps": 24.0,
+                    "loop": true
+                }
+            ],
+            "frames": [
+                {
+                    "image": "stages/church/stormy/foliageLeft/mini bush stormy instance 10000_0000.png",
+                    "tX": -2,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/church/stormy/foliageLeft/mini bush stormy instance 10001_0001.png",
+                    "tX": -2,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/church/stormy/foliageLeft/mini bush stormy instance 10002_0002.png",
+                    "tX": 0,
+                    "tY": -1
+                },
+                {
+                    "image": "stages/church/stormy/foliageLeft/mini bush stormy instance 10003_0003.png",
+                    "tX": 0,
+                    "tY": -1
+                }
+            ],
+            "frontExpression": "false"
+        },
+        {
+            "tag": "pathofPearl",
+            "image": "church/stormy/pathofPearl",
+            "x": -2740.0,
+            "y": -180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 1.0,
+            "scrollY": 1.0,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 12,
+            "zOrder": 11,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "rightFoliage",
+            "image": "church/stormy/rightFoliage",
+            "x": 510.0,
+            "y": -553.0,
+            "scaleX": 0.88,
+            "scaleY": 0.88,
+            "scrollX": 1.02,
+            "scrollY": 1.02,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": true,
+            "front": false,
+            "layer": "background",
+            "addIndex": 13,
+            "zOrder": 12,
+            "orderExpression": null,
+            "animations": [
+                {
+                    "name": "vibe_mami",
+                    "prefix": "large foliage stormy instance 1",
+                    "fps": 24.0,
+                    "loop": true
+                }
+            ],
+            "frames": [
+                {
+                    "image": "stages/church/stormy/rightFoliage/large foliage stormy instance 10000_0000.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/church/stormy/rightFoliage/large foliage stormy instance 10001_0001.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/church/stormy/rightFoliage/large foliage stormy instance 10002_0002.png",
+                    "tX": -4,
+                    "tY": -7
+                },
+                {
+                    "image": "stages/church/stormy/rightFoliage/large foliage stormy instance 10003_0003.png",
+                    "tX": -4,
+                    "tY": -7
+                }
+            ],
+            "frontExpression": "false"
+        },
+        {
+            "tag": "stormyGradient",
+            "image": "church/stormy/stormyGradient",
+            "x": -2800.0,
+            "y": -1700.0,
+            "scaleX": 2.2,
+            "scaleY": 2.2,
+            "scrollX": 1.0,
+            "scrollY": 1.0,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": true,
+            "flipY": false,
+            "animated": false,
+            "front": true,
+            "layer": "foreground",
+            "addIndex": 11,
+            "zOrder": 16,
+            "orderExpression": null,
+            "frontExpression": "true"
+        },
+        {
+            "tag": "sakuraTree",
+            "image": "church/stormy/sakuraTree",
+            "x": -2000.0,
+            "y": -1550.0,
+            "scaleX": 0.88,
+            "scaleY": 0.88,
+            "scrollX": 1.1,
+            "scrollY": 1.1,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": true,
+            "front": true,
+            "layer": "foreground",
+            "addIndex": 14,
+            "zOrder": 17,
+            "orderExpression": null,
+            "animations": [
+                {
+                    "name": "vibe_mami",
+                    "prefix": "sakuraTree stormty instance 1",
+                    "fps": 24.0,
+                    "loop": true
+                }
+            ],
+            "frames": [
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10000_0000.png",
+                    "tX": -56,
+                    "tY": -63
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10001_0001.png",
+                    "tX": -56,
+                    "tY": -63
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10002_0002.png",
+                    "tX": -56,
+                    "tY": -63
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10003_0003.png",
+                    "tX": -32,
+                    "tY": -33
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10004_0004.png",
+                    "tX": -32,
+                    "tY": -33
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10005_0005.png",
+                    "tX": -32,
+                    "tY": -33
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10006_0006.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10007_0007.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10008_0008.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10009_0009.png",
+                    "tX": -22,
+                    "tY": -17
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10010_0010.png",
+                    "tX": -22,
+                    "tY": -17
+                },
+                {
+                    "image": "stages/church/stormy/sakuraTree/sakuraTree stormty instance 10011_0011.png",
+                    "tX": -22,
+                    "tY": -17
+                }
+            ],
+            "frontExpression": "true"
+        },
+        {
+            "tag": "holyCross1",
+            "image": "church/stormy/holyCross",
+            "x": 700.0,
+            "y": -650.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 1.0,
+            "scrollY": 1.0,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": true,
+            "layer": "foreground",
+            "addIndex": 15,
+            "zOrder": 18,
+            "orderExpression": null,
+            "frontExpression": "true"
+        },
+        {
+            "tag": "holyCross2",
+            "image": "church/stormy/holyCross",
+            "x": -1200.0,
+            "y": -650.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 1.0,
+            "scrollY": 1.0,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": true,
+            "flipY": false,
+            "animated": false,
+            "front": true,
+            "layer": "foreground",
+            "addIndex": 16,
+            "zOrder": 19,
+            "orderExpression": null,
+            "frontExpression": "true"
+        },
+        {
+            "tag": "zavodillaGradient",
+            "image": "church/stormy/zavodillaGradient",
+            "x": -2800.0,
+            "y": -1700.0,
+            "scaleX": 1.2,
+            "scaleY": 2.2,
+            "scrollX": 1.0,
+            "scrollY": 1.0,
+            "alpha": 0.4,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": true,
+            "flipY": false,
+            "animated": false,
+            "front": true,
+            "layer": "foreground",
+            "addIndex": 17,
+            "zOrder": 20,
+            "orderExpression": null,
+            "frontExpression": "true"
+        }
+    ],
+    "camera": {
+        "boyfriend": [
+            -100,
+            -100
+        ],
+        "girlfriend": [
+            0,
+            0
+        ],
+        "opponent": [
+            150,
+            -100
+        ],
+        "speed": 0.9
+    },
+    "directory": "",
+    "isPixelStage": false,
+    "hide_girlfriend": false
+}

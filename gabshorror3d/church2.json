@@ -1,0 +1,213 @@
+{
+  "stage_name": "church2",
+  "zoom": 0.7,
+  "positions": {
+    "boyfriend": [
+      750,
+      -100
+    ],
+    "girlfriend": [
+      130,
+      -240
+    ],
+    "opponent": [
+      24,
+      615
+    ]
+  },
+  "playerLayers": {
+    "girlfriend": {
+      "group": "gfGroup",
+      "zOrder": 3,
+      "visible": true,
+      "orderExpression": null,
+      "position": [
+        130,
+        -240
+      ]
+    },
+    "opponent": {
+      "group": "dadGroup",
+      "zOrder": 5,
+      "visible": true,
+      "orderExpression": null,
+      "position": [
+        24,
+        615
+      ]
+    },
+    "boyfriend": {
+      "group": "boyfriendGroup",
+      "zOrder": 6,
+      "visible": true,
+      "orderExpression": null,
+      "position": [
+        750,
+        -100
+      ]
+    }
+  },
+  "drawOrder": [
+    {
+      "type": "sprite",
+      "id": "bg",
+      "tag": "bg"
+    },
+    {
+      "type": "sprite",
+      "id": "floor",
+      "tag": "floor"
+    },
+    {
+      "type": "sprite",
+      "id": "pillars",
+      "tag": "pillars"
+    },
+    {
+      "type": "player",
+      "id": "girlfriend",
+      "player": "girlfriend",
+      "group": "gfGroup",
+      "visible": true
+    },
+    {
+      "type": "sprite",
+      "id": "pillarbroke",
+      "tag": "pillarbroke"
+    },
+    {
+      "type": "player",
+      "id": "opponent",
+      "player": "opponent",
+      "group": "dadGroup",
+      "visible": true
+    },
+    {
+      "type": "player",
+      "id": "boyfriend",
+      "player": "boyfriend",
+      "group": "boyfriendGroup",
+      "visible": true
+    }
+  ],
+  "objectOrder": [
+    {
+      "target": "pillarbroke",
+      "expression": "getObjectOrder('dadGroup') - 1",
+      "call": "setObjectOrder('pillarbroke',getObjectOrder('dadGroup') - 1)",
+      "value": 4
+    }
+  ],
+  "sprites": [
+    {
+      "tag": "bg",
+      "image": "church2/bg",
+      "x": -754.8,
+      "y": -1240.0,
+      "scaleX": 1.3,
+      "scaleY": 1.3,
+      "scrollX": 0.85,
+      "scrollY": 1.0,
+      "alpha": 1.0,
+      "visible": true,
+      "camera": "game",
+      "blendMode": "normal",
+      "flipX": false,
+      "flipY": false,
+      "animated": false,
+      "front": false,
+      "layer": "background",
+      "addIndex": 0,
+      "zOrder": 0,
+      "orderExpression": null,
+      "frontExpression": "false"
+    },
+    {
+      "tag": "floor",
+      "image": "church2/floor",
+      "x": -764.8,
+      "y": -1240.0,
+      "scaleX": 1.3,
+      "scaleY": 1.3,
+      "scrollX": 1.0,
+      "scrollY": 1.0,
+      "alpha": 1.0,
+      "visible": true,
+      "camera": "game",
+      "blendMode": "normal",
+      "flipX": false,
+      "flipY": false,
+      "animated": false,
+      "front": false,
+      "layer": "background",
+      "addIndex": 1,
+      "zOrder": 1,
+      "orderExpression": null,
+      "frontExpression": "false"
+    },
+    {
+      "tag": "pillars",
+      "image": "church2/pillars",
+      "x": -806.4,
+      "y": -1420.0,
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "scrollX": 1.0,
+      "scrollY": 1.0,
+      "alpha": 1.0,
+      "visible": true,
+      "camera": "game",
+      "blendMode": "normal",
+      "flipX": false,
+      "flipY": false,
+      "animated": false,
+      "front": false,
+      "layer": "background",
+      "addIndex": 2,
+      "zOrder": 2,
+      "orderExpression": null,
+      "frontExpression": "false"
+    },
+    {
+      "tag": "pillarbroke",
+      "image": "church2/pillarbroke",
+      "x": -806.4,
+      "y": -1420.0,
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "scrollX": 1.0,
+      "scrollY": 1.0,
+      "alpha": 1.0,
+      "visible": true,
+      "camera": "game",
+      "blendMode": "normal",
+      "flipX": false,
+      "flipY": false,
+      "animated": false,
+      "front": false,
+      "layer": "background",
+      "addIndex": 3,
+      "zOrder": 4,
+      "orderExpression": "getObjectOrder('dadGroup') - 1",
+      "frontExpression": "false"
+    }
+  ],
+  "camera": {
+    "boyfriend": [
+      0,
+      -50
+    ],
+    "girlfriend": [
+      0,
+      0
+    ],
+    "opponent": [
+      50,
+      0
+    ],
+    "speed": 1
+  },
+  "directory": "",
+  "isPixelStage": false,
+  "hide_girlfriend": false
+}

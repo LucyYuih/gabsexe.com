@@ -1,0 +1,2434 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        -5,
+        0
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "idle",
+      "indices": [],
+      "name": "BF idle dance",
+      "frames": [
+        {
+          "file": "idle_0000.png",
+          "frameX": -1,
+          "frameY": -20,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0000.png",
+          "frameX": -1,
+          "frameY": -20,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0001.png",
+          "frameY": -19,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0001.png",
+          "frameY": -19,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0002.png",
+          "frameX": -3,
+          "frameY": -14,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0002.png",
+          "frameX": -3,
+          "frameY": -14,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0003.png",
+          "frameX": -1,
+          "frameY": -1,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0003.png",
+          "frameX": -1,
+          "frameY": -1,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0004.png",
+          "frameX": -2,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0004.png",
+          "frameX": -2,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0004.png",
+          "frameX": -2,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0004.png",
+          "frameX": -2,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0004.png",
+          "frameX": -2,
+          "frameWidth": 411,
+          "frameHeight": 412
+        },
+        {
+          "file": "idle_0004.png",
+          "frameX": -2,
+          "frameWidth": 411,
+          "frameHeight": 412
+        }
+      ]
+    },
+    {
+      "offsets": [
+        5,
+        -6
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singLEFT",
+      "indices": [],
+      "name": "BF NOTE LEFT0",
+      "frames": [
+        {
+          "file": "singLEFT_0000.png",
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0000.png",
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -11,
+          "frameY": -2,
+          "frameWidth": 385,
+          "frameHeight": 406
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -20,
+        -51
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singDOWN",
+      "indices": [],
+      "name": "BF NOTE DOWN0",
+      "frames": [
+        {
+          "file": "singDOWN_0000.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0000.png",
+          "frameX": -1,
+          "frameY": -5,
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameWidth": 375,
+          "frameHeight": 362
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -46,
+        27
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singUP",
+      "indices": [],
+      "name": "BF NOTE UP0",
+      "frames": [
+        {
+          "file": "singUP_0000.png",
+          "frameX": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0000.png",
+          "frameX": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameY": -5,
+          "frameWidth": 376,
+          "frameHeight": 446
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -48,
+        -7
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singRIGHT",
+      "indices": [],
+      "name": "BF NOTE RIGHT0",
+      "frames": [
+        {
+          "file": "singRIGHT_0000.png",
+          "frameX": -1,
+          "frameY": -2,
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0000.png",
+          "frameX": -1,
+          "frameY": -2,
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameWidth": 409,
+          "frameHeight": 407
+        }
+      ]
+    },
+    {
+      "offsets": [
+        7,
+        19
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singLEFTmiss",
+      "indices": [],
+      "name": "BF NOTE LEFT MISS",
+      "frames": [
+        {
+          "file": "singLEFT_0000.png",
+          "frameY": -26,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0000.png",
+          "frameX": -15,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0000.png",
+          "frameX": -15,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        },
+        {
+          "file": "singLEFTmiss_0001.png",
+          "frameX": -13,
+          "frameWidth": 384,
+          "frameHeight": 432
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -15,
+        -19
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singDOWNmiss",
+      "indices": [],
+      "name": "BF NOTE DOWN MISS",
+      "frames": [
+        {
+          "file": "singDOWN_0000.png",
+          "frameX": -1,
+          "frameY": -35,
+          "frameWidth": 375,
+          "frameHeight": 362
+        },
+        {
+          "file": "singDOWNmiss_0000.png",
+          "frameX": -1,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0000.png",
+          "frameX": -1,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        },
+        {
+          "file": "singDOWNmiss_0001.png",
+          "frameY": -4,
+          "frameWidth": 378,
+          "frameHeight": 392
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -46,
+        27
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singUPmiss",
+      "indices": [],
+      "name": "BF NOTE UP MISS",
+      "frames": [
+        {
+          "file": "singUP_0000.png",
+          "frameX": -9,
+          "frameWidth": 376,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0000.png",
+          "frameY": -13,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0000.png",
+          "frameY": -13,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        },
+        {
+          "file": "singUPmiss_0001.png",
+          "frameX": -1,
+          "frameY": -10,
+          "frameWidth": 378,
+          "frameHeight": 446
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -44,
+        22
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singRIGHTmiss",
+      "indices": [],
+      "name": "BF NOTE RIGHT MISS",
+      "frames": [
+        {
+          "file": "singRIGHT_0000.png",
+          "frameX": -7,
+          "frameY": -30,
+          "frameWidth": 409,
+          "frameHeight": 407
+        },
+        {
+          "file": "singRIGHTmiss_0000.png",
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0000.png",
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        },
+        {
+          "file": "singRIGHTmiss_0001.png",
+          "frameX": -1,
+          "frameWidth": 415,
+          "frameHeight": 435
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -3,
+        5
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "hey",
+      "indices": [],
+      "name": "BF HEY",
+      "frames": [
+        {
+          "file": "hey_0000.png",
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0000.png",
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0001.png",
+          "frameX": -1,
+          "frameY": -8,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0001.png",
+          "frameX": -1,
+          "frameY": -8,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        },
+        {
+          "file": "hey_0002.png",
+          "frameX": -1,
+          "frameY": -6,
+          "frameWidth": 415,
+          "frameHeight": 418
+        }
+      ]
+    },
+    {
+      "offsets": [
+        14,
+        18
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "hurt",
+      "indices": [],
+      "name": "BF hit",
+      "frames": [
+        {
+          "file": "hurt_0000.png",
+          "frameY": -16,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0001.png",
+          "frameX": -4,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0002.png",
+          "frameX": -59,
+          "frameY": -38,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0003.png",
+          "frameX": -59,
+          "frameY": -38,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0004.png",
+          "frameX": -58,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0005.png",
+          "frameX": -58,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0006.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0007.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0006.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0007.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0006.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0007.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0006.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0007.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0006.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0007.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0006.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0007.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        },
+        {
+          "file": "hurt_0006.png",
+          "frameX": -47,
+          "frameY": -39,
+          "frameWidth": 451,
+          "frameHeight": 441
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -4,
+        0
+      ],
+      "loop": true,
+      "fps": 24,
+      "anim": "scared",
+      "indices": [],
+      "name": "BF idle shaking",
+      "frames": [
+        {
+          "file": "scared_0000.png",
+          "frameX": -1,
+          "frameY": -1,
+          "frameWidth": 410,
+          "frameHeight": 413
+        },
+        {
+          "file": "scared_0001.png",
+          "frameX": -2,
+          "frameY": -1,
+          "frameWidth": 410,
+          "frameHeight": 413
+        },
+        {
+          "file": "scared_0002.png",
+          "frameX": -1,
+          "frameWidth": 410,
+          "frameHeight": 413
+        },
+        {
+          "file": "scared_0003.png"
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -10,
+        -16
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "dodge",
+      "indices": [],
+      "name": "boyfriend dodge",
+      "frames": [
+        {
+          "file": "dodge_0000.png",
+          "frameX": -3,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0001.png",
+          "frameX": -3,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0002.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0003.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0004.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0002.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0003.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0004.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0002.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0003.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0004.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0002.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0003.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0004.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        },
+        {
+          "file": "dodge_0002.png",
+          "frameY": -1,
+          "frameWidth": 380,
+          "frameHeight": 404
+        }
+      ]
+    },
+    {
+      "offsets": [
+        294,
+        267
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "attack",
+      "indices": [],
+      "name": "boyfriend attack",
+      "frames": [
+        {
+          "file": "attack_0000.png",
+          "frameY": -87,
+          "frameWidth": 708,
+          "frameHeight": 685
+        },
+        {
+          "file": "attack_0000.png",
+          "frameY": -87,
+          "frameWidth": 708,
+          "frameHeight": 685
+        },
+        {
+          "file": "attack_0001.png",
+          "frameX": -102,
+          "frameY": -24,
+          "frameWidth": 708,
+          "frameHeight": 685
+        },
+        {
+          "file": "attack_0001.png",
+          "frameX": -102,
+          "frameY": -24,
+          "frameWidth": 708,
+          "frameHeight": 685
+        },
+        {
+          "file": "attack_0002.png",
+          "frameX": -263,
+          "frameWidth": 708,
+          "frameHeight": 685
+        },
+        {
+          "file": "attack_0002.png",
+          "frameX": -263,
+          "frameWidth": 708,
+          "frameHeight": 685
+        },
+        {
+          "file": "attack_0003.png",
+          "frameX": -207,
+          "frameY": -55,
+          "frameWidth": 708,
+          "frameHeight": 685
+        }
+      ]
+    },
+    {
+      "offsets": [
+        -40,
+        -40
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "pre-attack",
+      "indices": [],
+      "name": "bf pre attack",
+      "frames": [
+        {
+          "file": "pre-attack_0000.png",
+          "frameY": -1,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0000.png",
+          "frameY": -1,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0001.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0001.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        },
+        {
+          "file": "pre-attack_0002.png",
+          "frameX": -2,
+          "frameWidth": 386,
+          "frameHeight": 374
+        }
+      ]
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/BOYFRIEND",
+  "position": [
+    0,
+    350
+  ],
+  "healthicon": "bf",
+  "flip_x": true,
+  "healthbar_colors": [
+    49,
+    176,
+    209
+  ],
+  "camera_position": [
+    0,
+    0
+  ],
+  "sing_duration": 4,
+  "scale": 1,
+  "speaker": "gf"
+}

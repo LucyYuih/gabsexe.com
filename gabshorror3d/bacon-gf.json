@@ -1,0 +1,436 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "idle",
+      "loop": true,
+      "name": "GF Idle",
+      "frames": [
+        {
+          "file": "idle_0000.png",
+          "frameY": -12,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0001.png",
+          "frameY": -12,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0002.png",
+          "frameY": -14,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0003.png",
+          "frameY": -14,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0004.png",
+          "frameY": -11,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0005.png",
+          "frameY": -11,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0006.png",
+          "frameY": -11,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0007.png"
+        },
+        {
+          "file": "idle_0007.png"
+        },
+        {
+          "file": "idle_0008.png"
+        },
+        {
+          "file": "idle_0009.png"
+        },
+        {
+          "file": "idle_0010.png"
+        },
+        {
+          "file": "idle_0010.png"
+        },
+        {
+          "file": "idle_0011.png"
+        },
+        {
+          "file": "idle_0011.png"
+        },
+        {
+          "file": "idle_0012.png",
+          "frameY": -11,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0013.png",
+          "frameY": -11,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0014.png",
+          "frameY": -11,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0015.png",
+          "frameY": -11,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0016.png",
+          "frameY": -11,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0017.png",
+          "frameY": -11,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0018.png",
+          "frameY": -9,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0019.png",
+          "frameY": -5,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0019.png",
+          "frameY": -5,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0020.png",
+          "frameY": -5,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0021.png",
+          "frameY": -5,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0022.png",
+          "frameY": -5,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0022.png",
+          "frameY": -5,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0023.png",
+          "frameY": -6,
+          "frameWidth": 586,
+          "frameHeight": 681
+        },
+        {
+          "file": "idle_0023.png",
+          "frameY": -6,
+          "frameWidth": 586,
+          "frameHeight": 681
+        }
+      ]
+    },
+    {
+      "offsets": [
+        0,
+        -12
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "sad",
+      "loop": true,
+      "name": "Gf Peppa Crying copia",
+      "frames": [
+        {
+          "file": "sad_0000.png",
+          "frameY": -4,
+          "frameWidth": 586,
+          "frameHeight": 670
+        },
+        {
+          "file": "sad_0001.png",
+          "frameY": -4,
+          "frameWidth": 586,
+          "frameHeight": 670
+        },
+        {
+          "file": "sad_0002.png"
+        },
+        {
+          "file": "sad_0003.png"
+        },
+        {
+          "file": "sad_0004.png"
+        },
+        {
+          "file": "sad_0005.png"
+        },
+        {
+          "file": "sad_0006.png"
+        },
+        {
+          "file": "sad_0007.png"
+        },
+        {
+          "file": "sad_0008.png"
+        },
+        {
+          "file": "sad_0009.png"
+        },
+        {
+          "file": "sad_0010.png"
+        },
+        {
+          "file": "sad_0011.png"
+        },
+        {
+          "file": "sad_0012.png"
+        },
+        {
+          "file": "sad_0013.png"
+        },
+        {
+          "file": "sad_0014.png"
+        },
+        {
+          "file": "sad_0015.png"
+        },
+        {
+          "file": "sad_0016.png"
+        },
+        {
+          "file": "sad_0016.png"
+        },
+        {
+          "file": "sad_0011.png"
+        },
+        {
+          "file": "sad_0011.png"
+        },
+        {
+          "file": "sad_0017.png"
+        },
+        {
+          "file": "sad_0017.png"
+        },
+        {
+          "file": "sad_0007.png"
+        },
+        {
+          "file": "sad_0007.png"
+        },
+        {
+          "file": "sad_0018.png"
+        },
+        {
+          "file": "sad_0018.png"
+        },
+        {
+          "file": "sad_0003.png"
+        },
+        {
+          "file": "sad_0003.png"
+        },
+        {
+          "file": "sad_0019.png"
+        },
+        {
+          "file": "sad_0019.png"
+        },
+        {
+          "file": "sad_0020.png"
+        },
+        {
+          "file": "sad_0021.png"
+        },
+        {
+          "file": "sad_0022.png"
+        },
+        {
+          "file": "sad_0023.png"
+        },
+        {
+          "file": "sad_0003.png"
+        },
+        {
+          "file": "sad_0024.png"
+        },
+        {
+          "file": "sad_0005.png"
+        },
+        {
+          "file": "sad_0025.png"
+        },
+        {
+          "file": "sad_0007.png"
+        },
+        {
+          "file": "sad_0026.png"
+        },
+        {
+          "file": "sad_0009.png"
+        },
+        {
+          "file": "sad_0027.png"
+        },
+        {
+          "file": "sad_0011.png"
+        },
+        {
+          "file": "sad_0028.png"
+        },
+        {
+          "file": "sad_0013.png"
+        },
+        {
+          "file": "sad_0012.png"
+        },
+        {
+          "file": "sad_0029.png"
+        },
+        {
+          "file": "sad_0029.png"
+        },
+        {
+          "file": "sad_0027.png"
+        },
+        {
+          "file": "sad_0027.png"
+        },
+        {
+          "file": "sad_0030.png"
+        },
+        {
+          "file": "sad_0030.png"
+        },
+        {
+          "file": "sad_0025.png"
+        },
+        {
+          "file": "sad_0025.png"
+        },
+        {
+          "file": "sad_0006.png"
+        },
+        {
+          "file": "sad_0006.png"
+        },
+        {
+          "file": "sad_0023.png"
+        },
+        {
+          "file": "sad_0023.png"
+        },
+        {
+          "file": "sad_0002.png"
+        },
+        {
+          "file": "sad_0002.png"
+        },
+        {
+          "file": "sad_0031.png"
+        },
+        {
+          "file": "sad_0019.png"
+        },
+        {
+          "file": "sad_0021.png"
+        },
+        {
+          "file": "sad_0032.png"
+        },
+        {
+          "file": "sad_0023.png"
+        },
+        {
+          "file": "sad_0018.png"
+        },
+        {
+          "file": "sad_0024.png"
+        },
+        {
+          "file": "sad_0033.png"
+        },
+        {
+          "file": "sad_0025.png"
+        },
+        {
+          "file": "sad_0034.png"
+        },
+        {
+          "file": "sad_0026.png"
+        },
+        {
+          "file": "sad_0015.png"
+        },
+        {
+          "file": "sad_0027.png"
+        },
+        {
+          "file": "sad_0035.png"
+        },
+        {
+          "file": "sad_0028.png"
+        }
+      ]
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/Peppa_GF",
+  "position": [
+    90,
+    110
+  ],
+  "healthicon": "gf",
+  "flip_x": false,
+  "healthbar_colors": [
+    165,
+    0,
+    77
+  ],
+  "camera_position": [
+    0,
+    0
+  ],
+  "sing_duration": 4,
+  "scale": 1
+}

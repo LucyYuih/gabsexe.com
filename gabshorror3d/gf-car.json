@@ -1,0 +1,505 @@
+{
+    "animations": [
+        {
+            "offsets": [
+                0,
+                -10
+            ],
+            "loop": false,
+            "fps": 24,
+            "anim": "singUP",
+            "indices": [],
+            "name": "GF Dancing Beat Hair blowing CAR",
+            "frames": [
+                {
+                    "file": "singUP_0000.png",
+                    "frameX": -2,
+                    "frameY": -15,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0001.png",
+                    "frameY": -15,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0002.png",
+                    "frameY": -23,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0003.png",
+                    "frameX": -2,
+                    "frameY": -24,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0004.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0005.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0006.png",
+                    "frameX": -2,
+                    "frameY": -13,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0007.png",
+                    "frameX": -2,
+                    "frameY": -2,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0008.png",
+                    "frameX": -2,
+                    "frameY": -10,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0009.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0010.png",
+                    "frameX": -2,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0010.png",
+                    "frameX": -2,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0011.png",
+                    "frameX": -2,
+                    "frameY": -8,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0012.png",
+                    "frameX": -2,
+                    "frameY": -1,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0013.png",
+                    "frameX": -2,
+                    "frameY": -9,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0014.png",
+                    "frameX": -2,
+                    "frameY": -24,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0015.png",
+                    "frameY": -15,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0016.png",
+                    "frameY": -18,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0017.png",
+                    "frameX": -2,
+                    "frameY": -26,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0018.png",
+                    "frameX": -2,
+                    "frameY": -15,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0019.png",
+                    "frameX": -2,
+                    "frameY": -23,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0020.png",
+                    "frameX": -2,
+                    "frameY": -19,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0021.png",
+                    "frameX": -2,
+                    "frameY": -3,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0021.png",
+                    "frameX": -2,
+                    "frameY": -3,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0022.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0023.png",
+                    "frameX": -2,
+                    "frameY": -2,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0024.png",
+                    "frameX": -2,
+                    "frameY": -10,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0025.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0026.png",
+                    "frameX": -2,
+                    "frameY": -3,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0026.png",
+                    "frameX": -2,
+                    "frameY": -3,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -10
+            ],
+            "loop": false,
+            "anim": "danceRight",
+            "fps": 24,
+            "name": "GF Dancing Beat Hair blowing CAR",
+            "indices": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+            ],
+            "frames": [
+                {
+                    "file": "singUP_0014.png",
+                    "frameX": -2,
+                    "frameY": -24,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0015.png",
+                    "frameY": -15,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0016.png",
+                    "frameY": -18,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0017.png",
+                    "frameX": -2,
+                    "frameY": -26,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0018.png",
+                    "frameX": -2,
+                    "frameY": -15,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0019.png",
+                    "frameX": -2,
+                    "frameY": -23,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0020.png",
+                    "frameX": -2,
+                    "frameY": -19,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0021.png",
+                    "frameX": -2,
+                    "frameY": -3,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0021.png",
+                    "frameX": -2,
+                    "frameY": -3,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0022.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0023.png",
+                    "frameX": -2,
+                    "frameY": -2,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0024.png",
+                    "frameX": -2,
+                    "frameY": -10,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0025.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0026.png",
+                    "frameX": -2,
+                    "frameY": -3,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0026.png",
+                    "frameX": -2,
+                    "frameY": -3,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                }
+            ]
+        },
+        {
+            "offsets": [
+                0,
+                -10
+            ],
+            "loop": false,
+            "anim": "danceLeft",
+            "fps": 24,
+            "name": "GF Dancing Beat Hair blowing CAR",
+            "indices": [
+                30,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "frames": [
+                {
+                    "file": "singUP_0000.png",
+                    "frameX": -2,
+                    "frameY": -15,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0001.png",
+                    "frameY": -15,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0002.png",
+                    "frameY": -23,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0003.png",
+                    "frameX": -2,
+                    "frameY": -24,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0004.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0005.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0006.png",
+                    "frameX": -2,
+                    "frameY": -13,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0007.png",
+                    "frameX": -2,
+                    "frameY": -2,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0008.png",
+                    "frameX": -2,
+                    "frameY": -10,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0009.png",
+                    "frameX": -2,
+                    "frameY": -11,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0010.png",
+                    "frameX": -2,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0010.png",
+                    "frameX": -2,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0011.png",
+                    "frameX": -2,
+                    "frameY": -8,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0012.png",
+                    "frameX": -2,
+                    "frameY": -1,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                },
+                {
+                    "file": "singUP_0013.png",
+                    "frameX": -2,
+                    "frameY": -9,
+                    "frameWidth": 774,
+                    "frameHeight": 649
+                }
+            ]
+        }
+    ],
+    "vocals_file": "",
+    "no_antialiasing": false,
+    "image": "characters/gfCar",
+    "position": [
+        -200,
+        -650
+    ],
+    "healthicon": "gf",
+    "flip_x": false,
+    "healthbar_colors": [
+        165,
+        0,
+        77
+    ],
+    "camera_position": [
+        0,
+        -100
+    ],
+    "sing_duration": 4,
+    "scale": 1,
+    "_editor_isPlayer": false
+}

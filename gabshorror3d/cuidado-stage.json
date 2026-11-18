@@ -1,0 +1,133 @@
+{
+  "directory": "week1",
+  "defaultZoom": 0.9,
+  "stageUI": "",
+  "boyfriend": [
+    770,
+    100
+  ],
+  "girlfriend": [
+    400,
+    130
+  ],
+  "opponent": [
+    100,
+    100
+  ],
+  "hide_girlfriend": false,
+  "camera_boyfriend": [
+    0,
+    0
+  ],
+  "camera_opponent": [
+    0,
+    0
+  ],
+  "camera_girlfriend": [
+    0,
+    0
+  ],
+  "camera_speed": 1,
+  "stage_name": "cuidado-stage",
+  "sprites": [
+    {
+      "tag": "wall",
+      "image": "stages/cuidado/stageback",
+      "x": -600,
+      "y": -200,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scrollX": 0.9,
+      "scrollY": 0.9,
+      "flipX": false,
+      "zOrder": 0,
+      "camera": "game"
+    },
+    {
+      "tag": "floor",
+      "image": "stages/cuidado/stagefront",
+      "x": -650,
+      "y": 600,
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "scrollX": 0.9,
+      "scrollY": 0.9,
+      "flipX": false,
+      "zOrder": 1,
+      "camera": "game"
+    },
+    {
+      "tag": "light-left",
+      "image": "stages/cuidado/stage_light",
+      "x": -125,
+      "y": -100,
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "scrollX": 0.9,
+      "scrollY": 0.9,
+      "flipX": false,
+      "zOrder": 2,
+      "camera": "game"
+    },
+    {
+      "tag": "light-right",
+      "image": "stages/cuidado/stage_light",
+      "x": 1225,
+      "y": -100,
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "scrollX": 0.9,
+      "scrollY": 0.9,
+      "flipX": true,
+      "zOrder": 3,
+      "camera": "game"
+    },
+    {
+      "tag": "curtains",
+      "image": "stages/cuidado/stagecurtains",
+      "x": -500,
+      "y": -300,
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "scrollX": 1.3,
+      "scrollY": 1.3,
+      "flipX": false,
+      "zOrder": 4,
+      "camera": "game"
+    }
+  ],
+  "drawOrder": [
+    {
+      "type": "sprite",
+      "tag": "wall"
+    },
+    {
+      "type": "sprite",
+      "tag": "floor"
+    },
+    {
+      "type": "sprite",
+      "tag": "light-left"
+    },
+    {
+      "type": "sprite",
+      "tag": "light-right"
+    },
+    {
+      "type": "sprite",
+      "tag": "curtains"
+    },
+    {
+      "type": "player",
+      "player": "girlfriend"
+    },
+    {
+      "type": "player",
+      "player": "opponent"
+    },
+    {
+      "type": "player",
+      "player": "boyfriend"
+    }
+  ]
+}

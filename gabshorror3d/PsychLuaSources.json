@@ -1,0 +1,55 @@
+{
+  "Version": 3,
+  "Format": "PsychLuaSourceIndex",
+  "ScriptCount": 2,
+  "LoadOrder": [
+    "global",
+    "stage",
+    "girlfriend_character",
+    "opponent_character",
+    "boyfriend_character",
+    "note_type",
+    "custom_event",
+    "song"
+  ],
+  "Index": {
+    "Global": [],
+    "Stages": {
+      "street2": [
+        "stages/street2"
+      ]
+    },
+    "Characters": {},
+    "CustomNoteTypes": {},
+    "CustomEvents": {},
+    "Songs": {
+      "xj": [
+        "data/xj/script"
+      ]
+    },
+    "Other": {}
+  },
+  "Scripts": [
+    {
+      "Id": "stages/street2",
+      "Path": "stages/street2.lua",
+      "Category": "stage",
+      "Key": "street2",
+      "Order": 54,
+      "ResourceName": "SNSPPLua/stages/street2",
+      "ResourcePath": "mods/VsGabs/Lua/stages/street2.json"
+    },
+    {
+      "Id": "data/xj/script",
+      "Path": "data/xj/script.lua",
+      "Category": "song",
+      "Key": "xj",
+      "Order": 56,
+      "ResourceName": "SNSPPLua/data/xj/script",
+      "ResourcePath": "mods/VsGabs/Lua/data/xj/script.json"
+    }
+  ],
+  "RuntimeVersion": "1.9.2+",
+  "ManifestResourceName": "FORPsychLuaSources",
+  "Description": "Small valid JSON index. Every Lua script is raw text in its own .json resource."
+}

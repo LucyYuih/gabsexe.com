@@ -1,0 +1,730 @@
+{
+  "animations": [
+    {
+      "loop": false,
+      "offsets": [
+        0,
+        0
+      ],
+      "anim": "idle",
+      "fps": 24,
+      "name": "Cannival0",
+      "indices": [],
+      "frames": [
+        {
+          "file": "idle_0000.png",
+          "frameY": -16,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0001.png",
+          "frameX": -9,
+          "frameY": -18,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0002.png",
+          "frameX": -17,
+          "frameY": -18,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0003.png",
+          "frameX": -17,
+          "frameY": -14,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0004.png",
+          "frameX": -17,
+          "frameY": -10,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0005.png",
+          "frameX": -17,
+          "frameY": -11,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0006.png",
+          "frameX": -17,
+          "frameY": -9,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0007.png",
+          "frameX": -17,
+          "frameY": -7,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0008.png",
+          "frameX": -17,
+          "frameY": -1,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0009.png",
+          "frameX": -19,
+          "frameY": -1,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0010.png",
+          "frameX": -22,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0011.png",
+          "frameX": -23,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0011.png",
+          "frameX": -23,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0011.png",
+          "frameX": -23,
+          "frameWidth": 468,
+          "frameHeight": 570
+        },
+        {
+          "file": "idle_0011.png",
+          "frameX": -23,
+          "frameWidth": 468,
+          "frameHeight": 570
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -61,
+        -57
+      ],
+      "anim": "singDOWN",
+      "fps": 24,
+      "name": "Cannival down",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singDOWN_0000.png",
+          "frameX": -2,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0001.png",
+          "frameX": -3,
+          "frameY": -7,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0002.png",
+          "frameY": -15,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0003.png",
+          "frameX": -2,
+          "frameY": -26,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0004.png",
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0005.png",
+          "frameX": -2,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0006.png",
+          "frameX": -4,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0007.png",
+          "frameX": -5,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0007.png",
+          "frameX": -5,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0007.png",
+          "frameX": -5,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0007.png",
+          "frameX": -5,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0007.png",
+          "frameX": -5,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0007.png",
+          "frameX": -5,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0007.png",
+          "frameX": -5,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0004.png",
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0005.png",
+          "frameX": -2,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        },
+        {
+          "file": "singDOWN_0006.png",
+          "frameX": -4,
+          "frameY": -36,
+          "frameWidth": 493,
+          "frameHeight": 516
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -48,
+        24
+      ],
+      "anim": "singRIGHT",
+      "fps": 24,
+      "name": "Cannival left",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singRIGHT_0000.png",
+          "frameX": -13,
+          "frameY": -12,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0001.png",
+          "frameX": -13,
+          "frameY": -9,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0002.png",
+          "frameX": -10,
+          "frameY": -6,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0003.png",
+          "frameX": -14,
+          "frameY": -3,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0004.png"
+        },
+        {
+          "file": "singRIGHT_0005.png",
+          "frameX": -4,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0006.png",
+          "frameX": -6,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0007.png",
+          "frameX": -9,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0007.png",
+          "frameX": -9,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0007.png",
+          "frameX": -9,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0007.png",
+          "frameX": -9,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0007.png",
+          "frameX": -9,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0007.png",
+          "frameX": -9,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0007.png",
+          "frameX": -9,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0004.png"
+        },
+        {
+          "file": "singRIGHT_0005.png",
+          "frameX": -4,
+          "frameWidth": 405,
+          "frameHeight": 594
+        },
+        {
+          "file": "singRIGHT_0006.png",
+          "frameX": -6,
+          "frameWidth": 405,
+          "frameHeight": 594
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -80,
+        -3
+      ],
+      "anim": "hey",
+      "fps": 24,
+      "name": "Cannival oink",
+      "indices": [],
+      "frames": [
+        {
+          "file": "hey_0000.png"
+        },
+        {
+          "file": "hey_0001.png",
+          "frameX": -2,
+          "frameY": -3,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0002.png",
+          "frameY": -7,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0003.png",
+          "frameX": -2,
+          "frameY": -11,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0004.png",
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -2,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0006.png",
+          "frameX": -4,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0007.png",
+          "frameX": -6,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0007.png",
+          "frameX": -6,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0007.png",
+          "frameX": -6,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0007.png",
+          "frameX": -6,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0007.png",
+          "frameX": -6,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0007.png",
+          "frameX": -6,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0007.png",
+          "frameX": -6,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0004.png",
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0005.png",
+          "frameX": -2,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        },
+        {
+          "file": "hey_0006.png",
+          "frameX": -4,
+          "frameY": -16,
+          "frameWidth": 435,
+          "frameHeight": 568
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        86,
+        -9
+      ],
+      "anim": "singLEFT",
+      "fps": 24,
+      "name": "Cannival right",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singLEFT_0000.png",
+          "frameX": -55,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0001.png",
+          "frameX": -38,
+          "frameY": -4,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0002.png",
+          "frameX": -17,
+          "frameY": -10,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0003.png",
+          "frameX": -8,
+          "frameY": -19,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        },
+        {
+          "file": "singLEFT_0004.png",
+          "frameY": -29,
+          "frameWidth": 498,
+          "frameHeight": 565
+        }
+      ]
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -46,
+        31
+      ],
+      "anim": "singUP",
+      "fps": 24,
+      "name": "Cannival up",
+      "indices": [],
+      "frames": [
+        {
+          "file": "singUP_0000.png",
+          "frameY": -39,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0001.png",
+          "frameX": -3,
+          "frameY": -28,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0002.png",
+          "frameY": -18,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0003.png",
+          "frameX": -3,
+          "frameY": -9,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0004.png"
+        },
+        {
+          "file": "singUP_0005.png",
+          "frameX": -3,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0006.png",
+          "frameX": -5,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0007.png",
+          "frameX": -5,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0007.png",
+          "frameX": -5,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0007.png",
+          "frameX": -5,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0007.png",
+          "frameX": -5,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0007.png",
+          "frameX": -5,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0007.png",
+          "frameX": -5,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0007.png",
+          "frameX": -5,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0004.png"
+        },
+        {
+          "file": "singUP_0005.png",
+          "frameX": -3,
+          "frameWidth": 340,
+          "frameHeight": 601
+        },
+        {
+          "file": "singUP_0006.png",
+          "frameX": -5,
+          "frameWidth": 340,
+          "frameHeight": 601
+        }
+      ]
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/cannival",
+  "position": [
+    200,
+    220
+  ],
+  "healthicon": "cannival",
+  "flip_x": false,
+  "healthbar_colors": [
+    255,
+    85,
+    155
+  ],
+  "camera_position": [
+    190,
+    -10
+  ],
+  "sing_duration": 4,
+  "scale": 1
+}

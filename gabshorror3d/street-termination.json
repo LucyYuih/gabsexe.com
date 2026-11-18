@@ -1,0 +1,554 @@
+{
+    "stage_name": "street-termination",
+    "zoom": 0.8125,
+    "positions": {
+        "boyfriend": [
+            835,
+            203
+        ],
+        "girlfriend": [
+            420,
+            155
+        ],
+        "opponent": [
+            140,
+            200
+        ]
+    },
+    "playerLayers": {
+        "girlfriend": {
+            "group": "gfGroup",
+            "zOrder": 6,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                420,
+                155
+            ]
+        },
+        "opponent": {
+            "group": "dadGroup",
+            "zOrder": 7,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                140,
+                200
+            ]
+        },
+        "boyfriend": {
+            "group": "boyfriendGroup",
+            "zOrder": 8,
+            "visible": true,
+            "orderExpression": null,
+            "position": [
+                835,
+                203
+            ]
+        }
+    },
+    "drawOrder": [
+        {
+            "type": "sprite",
+            "id": "streetError",
+            "tag": "streetError"
+        },
+        {
+            "type": "sprite",
+            "id": "streetBackError",
+            "tag": "streetBackError"
+        },
+        {
+            "type": "sprite",
+            "id": "streetBack",
+            "tag": "streetBack"
+        },
+        {
+            "type": "sprite",
+            "id": "streetFront",
+            "tag": "streetFront"
+        },
+        {
+            "type": "sprite",
+            "id": "streetFrontError",
+            "tag": "streetFrontError"
+        },
+        {
+            "type": "sprite",
+            "id": "qtTV",
+            "tag": "qtTV"
+        },
+        {
+            "type": "player",
+            "id": "girlfriend",
+            "player": "girlfriend",
+            "group": "gfGroup",
+            "visible": true
+        },
+        {
+            "type": "player",
+            "id": "opponent",
+            "player": "opponent",
+            "group": "dadGroup",
+            "visible": true
+        },
+        {
+            "type": "player",
+            "id": "boyfriend",
+            "player": "boyfriend",
+            "group": "boyfriendGroup",
+            "visible": true
+        }
+    ],
+    "objectOrder": [],
+    "sprites": [
+        {
+            "tag": "streetError",
+            "image": "streetError",
+            "x": -600.0,
+            "y": -150.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.95,
+            "scrollY": 0.95,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 0,
+            "zOrder": 0,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "streetBackError",
+            "image": "streetBackError",
+            "x": -750.0,
+            "y": -145.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.95,
+            "scrollY": 0.95,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 1,
+            "zOrder": 1,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "streetBack",
+            "image": "streetBack",
+            "x": -750.0,
+            "y": -145.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scrollX": 0.95,
+            "scrollY": 0.95,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 2,
+            "zOrder": 2,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "streetFront",
+            "image": "streetFront",
+            "x": -820.0,
+            "y": 710.0,
+            "scaleX": 1.15,
+            "scaleY": 1.15,
+            "scrollX": 0.95,
+            "scrollY": 0.95,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 3,
+            "zOrder": 3,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "streetFrontError",
+            "image": "streetFrontError",
+            "x": -820.0,
+            "y": 710.0,
+            "scaleX": 1.15,
+            "scaleY": 1.15,
+            "scrollX": 0.95,
+            "scrollY": 0.95,
+            "alpha": 1.0,
+            "visible": false,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": false,
+            "front": false,
+            "layer": "background",
+            "addIndex": 4,
+            "zOrder": 4,
+            "orderExpression": null,
+            "frontExpression": "false"
+        },
+        {
+            "tag": "qtTV",
+            "image": "TV_V5",
+            "x": -62.0,
+            "y": 540.0,
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "scrollX": 0.9,
+            "scrollY": 0.9,
+            "alpha": 1.0,
+            "visible": true,
+            "camera": "game",
+            "blendMode": "normal",
+            "flipX": false,
+            "flipY": false,
+            "animated": true,
+            "front": false,
+            "layer": "background",
+            "addIndex": 5,
+            "zOrder": 5,
+            "orderExpression": null,
+            "animations": [
+                {
+                    "name": "idle",
+                    "prefix": "TV_Idle",
+                    "fps": 24.0,
+                    "loop": true
+                },
+                {
+                    "name": "eye",
+                    "prefix": "TV_brutality",
+                    "fps": 24.0,
+                    "loop": true
+                },
+                {
+                    "name": "error",
+                    "prefix": "TV_Error",
+                    "fps": 24.0,
+                    "loop": true
+                },
+                {
+                    "name": "404",
+                    "prefix": "TV_Bluescreen",
+                    "fps": 24.0,
+                    "loop": true
+                },
+                {
+                    "name": "alert",
+                    "prefix": "TV_Attention",
+                    "fps": 36.0,
+                    "loop": false
+                },
+                {
+                    "name": "drop",
+                    "prefix": "TV_Drop",
+                    "fps": 24.0,
+                    "loop": true
+                },
+                {
+                    "name": "sus",
+                    "prefix": "TV_sus",
+                    "fps": 24.0,
+                    "loop": true
+                },
+                {
+                    "name": "instructions",
+                    "prefix": "TV_Instructions-Normal",
+                    "fps": 24.0,
+                    "loop": true
+                },
+                {
+                    "name": "gl",
+                    "prefix": "TV_GoodLuck",
+                    "fps": 24.0,
+                    "loop": true
+                },
+                {
+                    "name": "heart",
+                    "prefix": "TV_End",
+                    "fps": 24.0,
+                    "loop": false
+                },
+                {
+                    "name": "watch",
+                    "prefix": "TV_Watchout",
+                    "fps": 24.0,
+                    "loop": true
+                },
+                {
+                    "name": "eyeRight",
+                    "prefix": "TV_eyeRight",
+                    "fps": 24.0,
+                    "loop": false
+                },
+                {
+                    "name": "eyeLeft",
+                    "prefix": "TV_eyeLeft",
+                    "fps": 24.0,
+                    "loop": false
+                }
+            ],
+            "frames": [
+                {
+                    "image": "stages/TV_V5/TV_Attention0000_0000.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Attention0001_0001.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Attention0002_0002.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Attention0003_0003.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Attention0004_0004.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Attention0005_0005.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Attention0006_0006.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Attention0007_0007.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Attention0008_0008.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Bluescreen0000_0009.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Drop0000_0010.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Drop0001_0011.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Drop0002_0012.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_End0000_0013.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_End0001_0014.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_End0002_0015.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_End0003_0016.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_End0004_0017.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_End0005_0018.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Error0000_0019.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_GoodLuck0000_0020.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_GoodLuck0001_0021.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_GoodLuck0002_0022.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Idle0000_0023.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Idle0001_0024.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Idle0002_0025.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Instructions-Normal0000_0026.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Instructions-Normal0001_0027.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Instructions-Normal0002_0028.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Watchout0000_0029.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Watchout0001_0030.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_Watchout0002_0031.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_brutality0000_0032.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_brutality0001_0033.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_brutality0002_0034.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_eyeLeft0000_0035.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_eyeLeft0001_0036.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_eyeLeft0002_0037.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_eyeRight0000_0038.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_eyeRight0001_0039.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_eyeRight0002_0040.png",
+                    "tX": 0,
+                    "tY": 0
+                },
+                {
+                    "image": "stages/TV_V5/TV_sus0000_0044.png",
+                    "tX": 0,
+                    "tY": 0
+                }
+            ],
+            "frontExpression": "false"
+        }
+    ],
+    "camera": {
+        "boyfriend": [
+            0,
+            0
+        ],
+        "girlfriend": [
+            0,
+            0
+        ],
+        "opponent": [
+            0,
+            0
+        ],
+        "speed": 1
+    },
+    "directory": "",
+    "isPixelStage": false,
+    "hide_girlfriend": false
+}
