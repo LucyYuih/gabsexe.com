@@ -480,6 +480,8 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtsExt__MousePointerLock__ExitPointerLock.func(runtimeScene, null);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Sonic.EXE");
+}
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
 }
@@ -1230,7 +1232,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141550964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19472932);
 }
 }
 }
@@ -1501,7 +1503,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(94459124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(143445028);
 }
 }
 }
@@ -1542,7 +1544,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13415964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(153846364);
 }
 }
 }
@@ -1741,7 +1743,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(101299244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41582852);
 }
 }
 }
@@ -1762,7 +1764,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22342172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41583172);
 }
 }
 if (isConditionTrue_0) {
@@ -2169,7 +2171,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(106619188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(171064428);
 }
 }
 }

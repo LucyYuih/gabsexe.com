@@ -113,6 +113,14 @@ gdjs.exeKnuxSecretCode.GDAbrirPausaObjects1= [];
 gdjs.exeKnuxSecretCode.GDAbrirPausaObjects2= [];
 gdjs.exeKnuxSecretCode.GDAbrirPausaObjects3= [];
 gdjs.exeKnuxSecretCode.GDAbrirPausaObjects4= [];
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects1= [];
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2= [];
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects3= [];
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects4= [];
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects1= [];
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects2= [];
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects3= [];
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects4= [];
 gdjs.exeKnuxSecretCode.GDStatisticsObjects1= [];
 gdjs.exeKnuxSecretCode.GDStatisticsObjects2= [];
 gdjs.exeKnuxSecretCode.GDStatisticsObjects3= [];
@@ -503,6 +511,8 @@ if (isConditionTrue_0) {
 {gdjs.evtsExt__GabsPause__SuspenderMidia.func(runtimeScene, null);
 }
 {gdjs.evtsExt__MousePointerLock__ExitPointerLock.func(runtimeScene, null);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Sonic.EXE");
 }
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
@@ -1254,7 +1264,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(170317788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(90276428);
 }
 }
 }
@@ -1525,7 +1535,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23014572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(112722516);
 }
 }
 }
@@ -1566,7 +1576,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(36964828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(140954692);
 }
 }
 }
@@ -1765,7 +1775,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21947308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(113729572);
 }
 }
 }
@@ -1786,7 +1796,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(59248940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10228668);
 }
 }
 if (isConditionTrue_0) {
@@ -1989,6 +1999,8 @@ gdjs.copyArray(runtimeScene.getObjects("FFFFFFMessage3"), gdjs.exeKnuxSecretCode
 gdjs.copyArray(runtimeScene.getObjects("FFFFFFMessage4"), gdjs.exeKnuxSecretCode.GDFFFFFFMessage4Objects2);
 gdjs.copyArray(runtimeScene.getObjects("FFFFFFMessage5"), gdjs.exeKnuxSecretCode.GDFFFFFFMessage5Objects2);
 gdjs.copyArray(runtimeScene.getObjects("FFFFFFWarning3D"), gdjs.exeKnuxSecretCode.GDFFFFFFWarning3DObjects2);
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroEsfera"), gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroMargem"), gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects2);
 gdjs.copyArray(runtimeScene.getObjects("KnuxTitle"), gdjs.exeKnuxSecretCode.GDKnuxTitleObjects2);
 gdjs.copyArray(runtimeScene.getObjects("NextWarning"), gdjs.exeKnuxSecretCode.GDNextWarningObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.exeKnuxSecretCode.GDPlayerObjects2);
@@ -2056,6 +2068,37 @@ gdjs.copyArray(runtimeScene.getObjects("RouteNoise"), gdjs.exeKnuxSecretCode.GDR
     gdjs.exeKnuxSecretCode.GDFFFFFFWarning3DObjects2[i].hide();
 }
 }
+{for(var i = 0, len = gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2[i].hide(false);
+}
+}
+{for(var i = 0, len = gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects2[i].hide(false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(28).getAsNumber() == -1);
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroEsfera"), gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("KnuxTitle"), gdjs.exeKnuxSecretCode.GDKnuxTitleObjects2);
+{for(var i = 0, len = gdjs.exeKnuxSecretCode.GDKnuxTitleObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxSecretCode.GDKnuxTitleObjects2[i].setX(-69.5 + 13.5 * Math.min(190 * Math.max(0, runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(29).getAsNumber()) / (3.17), 50));
+}
+}
+{for(var i = 0, len = gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2[i].setX(1108.0 - 13.5 * Math.min(190 * Math.max(0, runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(29).getAsNumber()) / (3.17), 30));
+}
+}
 }
 
 }
@@ -2074,6 +2117,8 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroEsfera"), gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroMargem"), gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects2);
 gdjs.copyArray(runtimeScene.getObjects("KnuxTitle"), gdjs.exeKnuxSecretCode.GDKnuxTitleObjects2);
 gdjs.copyArray(runtimeScene.getObjects("RouteBlack"), gdjs.exeKnuxSecretCode.GDRouteBlackObjects2);
 gdjs.copyArray(runtimeScene.getObjects("RouteNoise"), gdjs.exeKnuxSecretCode.GDRouteNoiseObjects2);
@@ -2104,6 +2149,14 @@ gdjs.copyArray(runtimeScene.getObjects("RouteNoise"), gdjs.exeKnuxSecretCode.GDR
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "FFFFFFTheme.ogg", 90, true, 72, 1);
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "FFFFFFVoice.ogg", 91, true, 43, 1);
+}
+{for(var i = 0, len = gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects2[i].hide();
+}
 }
 }
 
@@ -2772,6 +2825,14 @@ gdjs.exeKnuxSecretCode.GDAbrirPausaObjects1.length = 0;
 gdjs.exeKnuxSecretCode.GDAbrirPausaObjects2.length = 0;
 gdjs.exeKnuxSecretCode.GDAbrirPausaObjects3.length = 0;
 gdjs.exeKnuxSecretCode.GDAbrirPausaObjects4.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects1.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects3.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects4.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects1.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects2.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects3.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects4.length = 0;
 gdjs.exeKnuxSecretCode.GDStatisticsObjects1.length = 0;
 gdjs.exeKnuxSecretCode.GDStatisticsObjects2.length = 0;
 gdjs.exeKnuxSecretCode.GDStatisticsObjects3.length = 0;
@@ -3038,6 +3099,14 @@ gdjs.exeKnuxSecretCode.GDAbrirPausaObjects1.length = 0;
 gdjs.exeKnuxSecretCode.GDAbrirPausaObjects2.length = 0;
 gdjs.exeKnuxSecretCode.GDAbrirPausaObjects3.length = 0;
 gdjs.exeKnuxSecretCode.GDAbrirPausaObjects4.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects1.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects2.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects3.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroEsferaObjects4.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects1.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects2.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects3.length = 0;
+gdjs.exeKnuxSecretCode.GDKnuxIntroMargemObjects4.length = 0;
 gdjs.exeKnuxSecretCode.GDStatisticsObjects1.length = 0;
 gdjs.exeKnuxSecretCode.GDStatisticsObjects2.length = 0;
 gdjs.exeKnuxSecretCode.GDStatisticsObjects3.length = 0;

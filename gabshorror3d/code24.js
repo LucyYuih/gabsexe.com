@@ -368,6 +368,8 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtsExt__GabsPause__SuspenderMidia.func(runtimeScene, null);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Only Up Gabs64");
+}
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
 }
@@ -376,7 +378,7 @@ if (isConditionTrue_0) {
 
 
 };gdjs.LauncherCode.mapOfGDgdjs_9546LauncherCode_9546GDBotaoSelecionarObjects1Objects = Hashtable.newFrom({"BotaoSelecionar": gdjs.LauncherCode.GDBotaoSelecionarObjects1});
-gdjs.LauncherCode.userFunc0x50da1b0 = function GDJSInlineCode(runtimeScene) {
+gdjs.LauncherCode.userFunc0x257bc20 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function importRom(scene) {
     "use strict";
@@ -1234,7 +1236,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.LauncherCode.userFunc0x50da1b0(runtimeScene);
+gdjs.LauncherCode.userFunc0x257bc20(runtimeScene);
 
 }
 

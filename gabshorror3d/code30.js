@@ -436,6 +436,8 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtsExt__GabsPause__SuspenderMidia.func(runtimeScene, null);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Only Up Gabs64");
+}
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
 }

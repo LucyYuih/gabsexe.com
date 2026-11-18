@@ -9,7 +9,7 @@ gdjs.evtsExt__PsychLuaRuntime___SyncRuntimeState = {};
 gdjs.evtsExt__PsychLuaRuntime___SyncRuntimeState.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__PsychLuaRuntime___SyncRuntimeState.userFunc0x87db688 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PsychLuaRuntime___SyncRuntimeState.userFunc0x8894740 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 var host = globalThis.__psychLuaRuntimeHost;
 var extensionState = runtimeScene.getVariablesForExtension("PsychLuaRuntime").get("Runtime");
@@ -70,7 +70,7 @@ gdjs.evtsExt__PsychLuaRuntime___SyncRuntimeState.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__PsychLuaRuntime___SyncRuntimeState.userFunc0x87db688(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PsychLuaRuntime___SyncRuntimeState.userFunc0x8894740(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -328,6 +328,8 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtsExt__GabsPause__SuspenderMidia.func(runtimeScene, null);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Gabs Horror 3D");
+}
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
 }

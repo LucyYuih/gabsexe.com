@@ -9,7 +9,7 @@ gdjs.evtsExt__GabsPause__NumeroFPS = {};
 gdjs.evtsExt__GabsPause__NumeroFPS.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__GabsPause__NumeroFPS.userFunc0x87db688 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GabsPause__NumeroFPS.userFunc0x3a4c948 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const text = eventsFunctionContext.getArgument("Valor").trim();
 const value = Number(text);
@@ -20,7 +20,7 @@ gdjs.evtsExt__GabsPause__NumeroFPS.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__GabsPause__NumeroFPS.userFunc0x87db688(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__GabsPause__NumeroFPS.userFunc0x3a4c948(runtimeScene, eventsFunctionContext);
 
 }
 

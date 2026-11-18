@@ -73,7 +73,7 @@ gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.Loa
 gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.LoadStageContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.LoadStageContext.userFunc0x75ecdf8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.LoadStageContext.userFunc0x4baa048 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const objList = eventsFunctionContext.getObjects("Object");
 if (objList.length === 0) return;
@@ -544,7 +544,7 @@ gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.Loa
 {
 
 
-gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.LoadStageContext.userFunc0x75ecdf8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.LoadStageContext.userFunc0x4baa048(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -632,7 +632,7 @@ gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.doS
 gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.doStepPreEventsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.doStepPreEventsContext.userFunc0x507e9c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.doStepPreEventsContext.userFunc0x7c1f2a8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const obj = eventsFunctionContext.getObjects("Object")[0];
 if (!obj || obj._stageBaseX === undefined) return;
@@ -757,7 +757,7 @@ gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.doS
 {
 
 
-gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.doStepPreEventsContext.userFunc0x507e9c0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__FNF_Background_Animator.FNF_Background_Animator.prototype.doStepPreEventsContext.userFunc0x7c1f2a8(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -691,6 +691,8 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("CampoFPS"), gdjs.PausaCode.GDCampoFPSObjects1);
 gdjs.copyArray(runtimeScene.getObjects("VoltarLauncher"), gdjs.PausaCode.GDVoltarLauncherObjects1);
 gdjs.copyArray(runtimeScene.getObjects("VoltarLauncherTexto"), gdjs.PausaCode.GDVoltarLauncherTextoObjects1);
+{gdjs.evtTools.window.setWindowTitle(runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(172).getAsString());
+}
 {gdjs.evtTools.input.showCursor(runtimeScene);
 }
 {for(var i = 0, len = gdjs.PausaCode.GDCampoFPSObjects1.length ;i < len;++i) {

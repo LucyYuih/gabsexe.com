@@ -9,7 +9,7 @@ gdjs.evtsExt__ArrayTools__GlobalMean = {};
 gdjs.evtsExt__ArrayTools__GlobalMean.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ArrayTools__GlobalMean.userFunc0x3b72c78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__GlobalMean.userFunc0xaf48a70 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.Variable[]} */
 const internalArray = eventsFunctionContext.getArgument("Array").getAllChildrenArray();
@@ -25,7 +25,7 @@ gdjs.evtsExt__ArrayTools__GlobalMean.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__ArrayTools__GlobalMean.userFunc0x3b72c78(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ArrayTools__GlobalMean.userFunc0xaf48a70(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__GabsPause__ExibirQuadroPausado = {};
 gdjs.evtsExt__GabsPause__ExibirQuadroPausado.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__GabsPause__ExibirQuadroPausado.userFunc0x87db688 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GabsPause__ExibirQuadroPausado.userFunc0x59bd638 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 const layer = runtimeScene.getLayer("QuadroPausado");
@@ -32,7 +32,7 @@ gdjs.evtsExt__GabsPause__ExibirQuadroPausado.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__GabsPause__ExibirQuadroPausado.userFunc0x87db688(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__GabsPause__ExibirQuadroPausado.userFunc0x59bd638(runtimeScene, eventsFunctionContext);
 
 }
 

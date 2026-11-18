@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__AllTouchesReleased = {};
 gdjs.evtsExt__FNF__AllTouchesReleased.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__AllTouchesReleased.userFunc0x12ccd08 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__AllTouchesReleased.userFunc0x4cb4d80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const input = runtimeScene.getGame().getInputManager();
 eventsFunctionContext.returnValue = !input.getAllTouchIdentifiers().some(id => !input.hasTouchEnded(id));
@@ -19,7 +19,7 @@ gdjs.evtsExt__FNF__AllTouchesReleased.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__FNF__AllTouchesReleased.userFunc0x12ccd08(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__AllTouchesReleased.userFunc0x4cb4d80(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -129,6 +129,14 @@ gdjs.exeKnuxCode.GDAbrirPausaObjects1= [];
 gdjs.exeKnuxCode.GDAbrirPausaObjects2= [];
 gdjs.exeKnuxCode.GDAbrirPausaObjects3= [];
 gdjs.exeKnuxCode.GDAbrirPausaObjects4= [];
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects1= [];
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2= [];
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects3= [];
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects4= [];
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects1= [];
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects2= [];
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects3= [];
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects4= [];
 gdjs.exeKnuxCode.GDStatisticsObjects1= [];
 gdjs.exeKnuxCode.GDStatisticsObjects2= [];
 gdjs.exeKnuxCode.GDStatisticsObjects3= [];
@@ -519,6 +527,8 @@ if (isConditionTrue_0) {
 {gdjs.evtsExt__GabsPause__SuspenderMidia.func(runtimeScene, null);
 }
 {gdjs.evtsExt__MousePointerLock__ExitPointerLock.func(runtimeScene, null);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Sonic.EXE");
 }
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
@@ -1270,7 +1280,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(100675428);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(49672060);
 }
 }
 }
@@ -1541,7 +1551,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25439308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(105514572);
 }
 }
 }
@@ -1582,7 +1592,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(150798316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(72354212);
 }
 }
 }
@@ -1781,7 +1791,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(42791044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(62940196);
 }
 }
 }
@@ -1802,7 +1812,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21321852);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(129969180);
 }
 }
 if (isConditionTrue_0) {
@@ -2120,6 +2130,8 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("KnuxBloodImpact"), gdjs.exeKnuxCode.GDKnuxBloodImpactObjects2);
 gdjs.copyArray(runtimeScene.getObjects("KnuxFound"), gdjs.exeKnuxCode.GDKnuxFoundObjects2);
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroEsfera"), gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroMargem"), gdjs.exeKnuxCode.GDKnuxIntroMargemObjects2);
 gdjs.copyArray(runtimeScene.getObjects("KnuxNegaRing"), gdjs.exeKnuxCode.GDKnuxNegaRingObjects2);
 gdjs.copyArray(runtimeScene.getObjects("KnuxRules"), gdjs.exeKnuxCode.GDKnuxRulesObjects2);
 gdjs.copyArray(runtimeScene.getObjects("KnuxSmirk"), gdjs.exeKnuxCode.GDKnuxSmirkObjects2);
@@ -2219,6 +2231,37 @@ gdjs.copyArray(runtimeScene.getObjects("SmokeFront"), gdjs.exeKnuxCode.GDSmokeFr
 }
 {runtimeScene.getGame().getVariables().getFromIndex(154).setNumber(0);
 }
+{for(var i = 0, len = gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2[i].hide(false);
+}
+}
+{for(var i = 0, len = gdjs.exeKnuxCode.GDKnuxIntroMargemObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxCode.GDKnuxIntroMargemObjects2[i].hide(false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(28).getAsNumber() == -1);
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroEsfera"), gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("KnuxTitle"), gdjs.exeKnuxCode.GDKnuxTitleObjects2);
+{for(var i = 0, len = gdjs.exeKnuxCode.GDKnuxTitleObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxCode.GDKnuxTitleObjects2[i].setX(-374.0 + 13.5 * Math.min(190 * Math.max(0, runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(29).getAsNumber()) / (3.16), 50));
+}
+}
+{for(var i = 0, len = gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2[i].setX(1108.0 - 13.5 * Math.min(190 * Math.max(0, runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(29).getAsNumber()) / (3.16), 30));
+}
+}
 }
 
 }
@@ -2237,6 +2280,8 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroEsfera"), gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("KnuxIntroMargem"), gdjs.exeKnuxCode.GDKnuxIntroMargemObjects2);
 gdjs.copyArray(runtimeScene.getObjects("KnuxTitle"), gdjs.exeKnuxCode.GDKnuxTitleObjects2);
 gdjs.copyArray(runtimeScene.getObjects("RouteBlack"), gdjs.exeKnuxCode.GDRouteBlackObjects2);
 gdjs.copyArray(runtimeScene.getObjects("RouteNoise"), gdjs.exeKnuxCode.GDRouteNoiseObjects2);
@@ -2265,6 +2310,14 @@ gdjs.copyArray(runtimeScene.getObjects("RouteNoise"), gdjs.exeKnuxCode.GDRouteNo
 }
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "KnuxTheme.ogg", 90, true, 77, 1);
+}
+{for(var i = 0, len = gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.exeKnuxCode.GDKnuxIntroMargemObjects2.length ;i < len;++i) {
+    gdjs.exeKnuxCode.GDKnuxIntroMargemObjects2[i].hide();
+}
 }
 }
 
@@ -2634,7 +2687,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(177311644);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(170643924);
 }
 }
 }
@@ -2784,7 +2837,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(89719172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(49502188);
 }
 }
 }
@@ -3259,7 +3312,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(73140164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(177036172);
 }
 }
 }
@@ -3604,6 +3657,14 @@ gdjs.exeKnuxCode.GDAbrirPausaObjects1.length = 0;
 gdjs.exeKnuxCode.GDAbrirPausaObjects2.length = 0;
 gdjs.exeKnuxCode.GDAbrirPausaObjects3.length = 0;
 gdjs.exeKnuxCode.GDAbrirPausaObjects4.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects1.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects3.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects4.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects1.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects2.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects3.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects4.length = 0;
 gdjs.exeKnuxCode.GDStatisticsObjects1.length = 0;
 gdjs.exeKnuxCode.GDStatisticsObjects2.length = 0;
 gdjs.exeKnuxCode.GDStatisticsObjects3.length = 0;
@@ -3886,6 +3947,14 @@ gdjs.exeKnuxCode.GDAbrirPausaObjects1.length = 0;
 gdjs.exeKnuxCode.GDAbrirPausaObjects2.length = 0;
 gdjs.exeKnuxCode.GDAbrirPausaObjects3.length = 0;
 gdjs.exeKnuxCode.GDAbrirPausaObjects4.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects1.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects2.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects3.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroEsferaObjects4.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects1.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects2.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects3.length = 0;
+gdjs.exeKnuxCode.GDKnuxIntroMargemObjects4.length = 0;
 gdjs.exeKnuxCode.GDStatisticsObjects1.length = 0;
 gdjs.exeKnuxCode.GDStatisticsObjects2.length = 0;
 gdjs.exeKnuxCode.GDStatisticsObjects3.length = 0;

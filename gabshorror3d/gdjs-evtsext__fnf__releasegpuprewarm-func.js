@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__ReleaseGPUPrewarm = {};
 gdjs.evtsExt__FNF__ReleaseGPUPrewarm.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__ReleaseGPUPrewarm.userFunc0x12ccd08 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__ReleaseGPUPrewarm.userFunc0x4cb4d80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 const saved = game._fnfCompletedGPUPrewarm;
@@ -26,7 +26,7 @@ gdjs.evtsExt__FNF__ReleaseGPUPrewarm.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__FNF__ReleaseGPUPrewarm.userFunc0x12ccd08(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__ReleaseGPUPrewarm.userFunc0x4cb4d80(runtimeScene, eventsFunctionContext);
 
 }
 

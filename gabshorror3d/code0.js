@@ -332,6 +332,8 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtsExt__GabsPause__SuspenderMidia.func(runtimeScene, null);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Gabs Horror 3D");
+}
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
 }
@@ -339,7 +341,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.TransparenciaCode.asyncCallback18160676 = function (runtimeScene, asyncObjectsList) {
+};gdjs.TransparenciaCode.asyncCallback49967300 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.TransparenciaCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("OK"), gdjs.TransparenciaCode.GDOKObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Transparencia"), gdjs.TransparenciaCode.GDTransparenciaObjects2);
@@ -353,7 +355,7 @@ gdjs.copyArray(runtimeScene.getObjects("Transparencia"), gdjs.TransparenciaCode.
 }
 gdjs.TransparenciaCode.localVariables.length = 0;
 }
-gdjs.TransparenciaCode.idToCallbackMap.set(18160676, gdjs.TransparenciaCode.asyncCallback18160676);
+gdjs.TransparenciaCode.idToCallbackMap.set(49967300, gdjs.TransparenciaCode.asyncCallback49967300);
 gdjs.TransparenciaCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -363,7 +365,7 @@ gdjs.TransparenciaCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.TransparenciaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.TransparenciaCode.asyncCallback18160676(runtimeScene, asyncObjectsList)), 18160676, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.TransparenciaCode.asyncCallback49967300(runtimeScene, asyncObjectsList)), 49967300, asyncObjectsList);
 }
 }
 

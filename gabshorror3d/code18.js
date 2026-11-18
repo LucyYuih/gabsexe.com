@@ -13,6 +13,16 @@ gdjs.exeEggmanCode.GDMobileLightObjects1_1final = [];
 
 gdjs.exeEggmanCode.GDMobileSprintObjects1_1final = [];
 
+gdjs.exeEggmanCode.forEachCount0_2 = 0;
+
+gdjs.exeEggmanCode.forEachCount1_2 = 0;
+
+gdjs.exeEggmanCode.forEachIndex2 = 0;
+
+gdjs.exeEggmanCode.forEachObjects2 = [];
+
+gdjs.exeEggmanCode.forEachTotalCount2 = 0;
+
 gdjs.exeEggmanCode.GDPlayerObjects1= [];
 gdjs.exeEggmanCode.GDPlayerObjects2= [];
 gdjs.exeEggmanCode.GDPlayerObjects3= [];
@@ -133,6 +143,14 @@ gdjs.exeEggmanCode.GDAbrirPausaObjects1= [];
 gdjs.exeEggmanCode.GDAbrirPausaObjects2= [];
 gdjs.exeEggmanCode.GDAbrirPausaObjects3= [];
 gdjs.exeEggmanCode.GDAbrirPausaObjects4= [];
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects1= [];
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects2= [];
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3= [];
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects4= [];
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects1= [];
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects2= [];
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3= [];
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects4= [];
 gdjs.exeEggmanCode.GDStatisticsObjects1= [];
 gdjs.exeEggmanCode.GDStatisticsObjects2= [];
 gdjs.exeEggmanCode.GDStatisticsObjects3= [];
@@ -523,6 +541,8 @@ if (isConditionTrue_0) {
 {gdjs.evtsExt__GabsPause__SuspenderMidia.func(runtimeScene, null);
 }
 {gdjs.evtsExt__MousePointerLock__ExitPointerLock.func(runtimeScene, null);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Sonic.EXE");
 }
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
@@ -1274,7 +1294,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(117365460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(63549900);
 }
 }
 }
@@ -1545,7 +1565,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15560476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(176654244);
 }
 }
 }
@@ -1586,7 +1606,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(173522060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(150732916);
 }
 }
 }
@@ -1785,7 +1805,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(172501564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(84736524);
 }
 }
 }
@@ -1806,7 +1826,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(172502428);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(72941764);
 }
 }
 if (isConditionTrue_0) {
@@ -2840,7 +2860,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(143106292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(169381572);
 }
 }
 }
@@ -2935,6 +2955,117 @@ gdjs.copyArray(runtimeScene.getObjects("EggFade"), gdjs.exeEggmanCode.GDEggFadeO
 
 
 };gdjs.exeEggmanCode.eventsList20 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects2, gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3);
+
+gdjs.copyArray(gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects2, gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3);
+
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.exeEggmanCode.GDPlayerObjects3);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs((( gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3.length === 0 ) ? (( gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3.length === 0 ) ? 0 :gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3[0].getX()) :gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3[0].getX()) - (( gdjs.exeEggmanCode.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.exeEggmanCode.GDPlayerObjects3[0].getCenterXInScene())) <= 2900);
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3 */
+/* Reuse gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3 */
+{for(var i = 0, len = gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3.length ;i < len;++i) {
+    gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3[i].hide(false);
+}
+for(var i = 0, len = gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3.length ;i < len;++i) {
+    gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3[i].hide(false);
+}
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects2, gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3);
+
+gdjs.copyArray(gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects2, gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3);
+
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.exeEggmanCode.GDPlayerObjects3);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs((( gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3.length === 0 ) ? (( gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3.length === 0 ) ? 0 :gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3[0].getX()) :gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3[0].getX()) - (( gdjs.exeEggmanCode.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.exeEggmanCode.GDPlayerObjects3[0].getCenterXInScene())) > 2900);
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3 */
+/* Reuse gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3 */
+{for(var i = 0, len = gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3.length ;i < len;++i) {
+    gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3[i].hide();
+}
+for(var i = 0, len = gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3.length ;i < len;++i) {
+    gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3[i].hide();
+}
+}
+}
+
+}
+
+
+};gdjs.exeEggmanCode.eventsList21 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.exeEggmanCode.GDPlayerObjects2);
+{gdjs.evtTools.camera.setLayerEffectDoubleParameter(runtimeScene, "", "Eggman / AmbientLight", "intensity", 0.09 - 0.03 * gdjs.evtTools.common.clamp(((( gdjs.exeEggmanCode.GDPlayerObjects2.length === 0 ) ? 0 :gdjs.exeEggmanCode.GDPlayerObjects2[0].getCenterXInScene()) - 32900) / 7600, 0, 1));
+}
+{gdjs.evtTools.camera.setLayerEffectDoubleParameter(runtimeScene, "", "Eggman / HemisphereLight", "intensity", 0.34 - 0.17 * gdjs.evtTools.common.clamp(((( gdjs.exeEggmanCode.GDPlayerObjects2.length === 0 ) ? 0 :gdjs.exeEggmanCode.GDPlayerObjects2[0].getCenterXInScene()) - 32900) / 7600, 0, 1));
+}
+{gdjs.evtTools.camera.setLayerEffectDoubleParameter(runtimeScene, "", "Eggman / DirectionalLight", "intensity", 0.34 - 0.24 * gdjs.evtTools.common.clamp(((( gdjs.exeEggmanCode.GDPlayerObjects2.length === 0 ) ? 0 :gdjs.exeEggmanCode.GDPlayerObjects2[0].getCenterXInScene()) - 32900) / 7600, 0, 1));
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("EggLuzTochaAzul"), gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects1);
+gdjs.copyArray(runtimeScene.getObjects("EggLuzTochaVermelha"), gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects1);
+
+gdjs.exeEggmanCode.forEachTotalCount2 = 0;
+gdjs.exeEggmanCode.forEachObjects2.length = 0;
+gdjs.exeEggmanCode.forEachCount0_2 = gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects1.length;
+gdjs.exeEggmanCode.forEachTotalCount2 += gdjs.exeEggmanCode.forEachCount0_2;
+gdjs.exeEggmanCode.forEachObjects2.push.apply(gdjs.exeEggmanCode.forEachObjects2,gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects1);
+gdjs.exeEggmanCode.forEachCount1_2 = gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects1.length;
+gdjs.exeEggmanCode.forEachTotalCount2 += gdjs.exeEggmanCode.forEachCount1_2;
+gdjs.exeEggmanCode.forEachObjects2.push.apply(gdjs.exeEggmanCode.forEachObjects2,gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects1);
+for (gdjs.exeEggmanCode.forEachIndex2 = 0;gdjs.exeEggmanCode.forEachIndex2 < gdjs.exeEggmanCode.forEachTotalCount2;++gdjs.exeEggmanCode.forEachIndex2) {
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects2.length = 0;
+
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects2.length = 0;
+
+
+if (gdjs.exeEggmanCode.forEachIndex2 < gdjs.exeEggmanCode.forEachCount0_2) {
+    gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects2.push(gdjs.exeEggmanCode.forEachObjects2[gdjs.exeEggmanCode.forEachIndex2]);
+}
+else if (gdjs.exeEggmanCode.forEachIndex2 < gdjs.exeEggmanCode.forEachCount0_2+gdjs.exeEggmanCode.forEachCount1_2) {
+    gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects2.push(gdjs.exeEggmanCode.forEachObjects2[gdjs.exeEggmanCode.forEachIndex2]);
+}
+let isConditionTrue_0 = false;
+if (true) {
+
+{ //Subevents: 
+gdjs.exeEggmanCode.eventsList20(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};gdjs.exeEggmanCode.eventsList22 = function(runtimeScene) {
 
 {
 
@@ -3053,6 +3184,13 @@ gdjs.exeEggmanCode.eventsList15(runtimeScene);
 
 
 gdjs.exeEggmanCode.eventsList19(runtimeScene);
+}
+
+
+{
+
+
+gdjs.exeEggmanCode.eventsList21(runtimeScene);
 }
 
 
@@ -3181,6 +3319,14 @@ gdjs.exeEggmanCode.GDAbrirPausaObjects1.length = 0;
 gdjs.exeEggmanCode.GDAbrirPausaObjects2.length = 0;
 gdjs.exeEggmanCode.GDAbrirPausaObjects3.length = 0;
 gdjs.exeEggmanCode.GDAbrirPausaObjects4.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects1.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects2.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects4.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects1.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects2.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects4.length = 0;
 gdjs.exeEggmanCode.GDStatisticsObjects1.length = 0;
 gdjs.exeEggmanCode.GDStatisticsObjects2.length = 0;
 gdjs.exeEggmanCode.GDStatisticsObjects3.length = 0;
@@ -3346,7 +3492,7 @@ gdjs.exeEggmanCode.GDVsGabsVolumeLabelObjects2.length = 0;
 gdjs.exeEggmanCode.GDVsGabsVolumeLabelObjects3.length = 0;
 gdjs.exeEggmanCode.GDVsGabsVolumeLabelObjects4.length = 0;
 
-gdjs.exeEggmanCode.eventsList20(runtimeScene);
+gdjs.exeEggmanCode.eventsList22(runtimeScene);
 gdjs.exeEggmanCode.GDPlayerObjects1.length = 0;
 gdjs.exeEggmanCode.GDPlayerObjects2.length = 0;
 gdjs.exeEggmanCode.GDPlayerObjects3.length = 0;
@@ -3467,6 +3613,14 @@ gdjs.exeEggmanCode.GDAbrirPausaObjects1.length = 0;
 gdjs.exeEggmanCode.GDAbrirPausaObjects2.length = 0;
 gdjs.exeEggmanCode.GDAbrirPausaObjects3.length = 0;
 gdjs.exeEggmanCode.GDAbrirPausaObjects4.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects1.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects2.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects3.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaVermelhaObjects4.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects1.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects2.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects3.length = 0;
+gdjs.exeEggmanCode.GDEggLuzTochaAzulObjects4.length = 0;
 gdjs.exeEggmanCode.GDStatisticsObjects1.length = 0;
 gdjs.exeEggmanCode.GDStatisticsObjects2.length = 0;
 gdjs.exeEggmanCode.GDStatisticsObjects3.length = 0;

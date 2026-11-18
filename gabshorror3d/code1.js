@@ -496,6 +496,8 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtsExt__MousePointerLock__ExitPointerLock.func(runtimeScene, null);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Gabs Horror 3D");
+}
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
 }
@@ -1610,7 +1612,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(74110236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(129464068);
 }
 }
 }
@@ -1635,7 +1637,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(65082668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(107182268);
 }
 }
 }
@@ -1716,7 +1718,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(84315668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(83905148);
 }
 }
 if (isConditionTrue_0) {
@@ -2494,7 +2496,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(66522372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(68276492);
 }
 }
 if (isConditionTrue_0) {
@@ -2625,7 +2627,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(172987452);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(48041292);
 }
 }
 }
@@ -2649,7 +2651,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19509380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(66435524);
 }
 }
 if (isConditionTrue_0) {
@@ -2745,7 +2747,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28704508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(139679660);
 }
 }
 if (isConditionTrue_0) {
@@ -2768,7 +2770,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(59534924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31603948);
 }
 }
 if (isConditionTrue_0) {
@@ -2790,7 +2792,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(59536228);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(143163404);
 }
 }
 if (isConditionTrue_0) {
@@ -2813,7 +2815,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(61450876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(115330492);
 }
 }
 if (isConditionTrue_0) {
@@ -2838,7 +2840,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18893892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(159468700);
 }
 }
 if (isConditionTrue_0) {
@@ -2931,7 +2933,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(142437396);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37836908);
 }
 }
 if (isConditionTrue_0) {

@@ -769,7 +769,7 @@ gdjs.Only_32UpCode.GDVsGabsVolumeLabelObjects9= [];
 gdjs.Only_32UpCode.GDVsGabsVolumeLabelObjects10= [];
 
 
-gdjs.Only_32UpCode.userFunc0x517dcf8 = function GDJSInlineCode(runtimeScene) {
+gdjs.Only_32UpCode.userFunc0x2560818 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Shorten the boom in front of solid geometry. Return to its requested length smoothly.
 if (!runtimeScene.__sm64Camera) {
@@ -1092,6 +1092,8 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtsExt__GabsPause__SuspenderMidia.func(runtimeScene, null);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(172).setString("Only Up Gabs64");
+}
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Pausa");
 }
 }
@@ -1099,7 +1101,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x8ef19d8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x7c8f910 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function castleScene(scene, engine, Three) {
     'use strict';
@@ -6677,7 +6679,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x676f960 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x246d288 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.toggleMusic();
 };
@@ -6686,7 +6688,7 @@ gdjs.Only_32UpCode.eventsList24 = function(runtimeScene) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x676f960(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x246d288(runtimeScene);
 
 }
 
@@ -22079,7 +22081,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x2052ba8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x227b240 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.poundLift?.();
 };
@@ -22088,7 +22090,7 @@ gdjs.Only_32UpCode.eventsList110 = function(runtimeScene) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x2052ba8(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x227b240(runtimeScene);
 
 }
 
@@ -22522,7 +22524,7 @@ gdjs.Only_32UpCode.eventsList111(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Only_32UpCode.userFunc0xa0d3350 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x7eb3ce0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (runtimeScene.__onlyUpCastle) runtimeScene.__onlyUpCastle.resolve();
 };
@@ -22889,7 +22891,7 @@ gdjs.Only_32UpCode.eventsList116(runtimeScene);} //End of subevents
 {
 
 
-gdjs.Only_32UpCode.userFunc0xa0d3350(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x7eb3ce0(runtimeScene);
 
 }
 
@@ -23036,7 +23038,7 @@ gdjs.Only_32UpCode.eventsList118(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x8ee6af8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x34e4618 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.afterStep();
 };
@@ -23172,7 +23174,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x91e5198 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x2b15ca0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (runtimeScene.__onlyUpCastle) runtimeScene.__onlyUpCastle.attack();
 };
@@ -23198,7 +23200,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x91e5198(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x2b15ca0(runtimeScene);
 
 }
 
@@ -29905,7 +29907,7 @@ gdjs.Only_32UpCode.eventsList119(runtimeScene);} //Subevents end.
 {
 
 
-gdjs.Only_32UpCode.userFunc0x8ee6af8(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x34e4618(runtimeScene);
 
 }
 
@@ -32539,7 +32541,7 @@ gdjs.Only_32UpCode.eventsList190(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x898e5e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x1deeee8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const scene = runtimeScene;
 const camera = scene.__sm64Camera;
@@ -33332,7 +33334,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Only_32UpCode.userFunc0x898e5e0(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x1deeee8(runtimeScene);
 
 }
 
@@ -33415,7 +33417,7 @@ gdjs.copyArray(runtimeScene.getObjects("Leitura"), gdjs.Only_32UpCode.GDLeituraO
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x193a950 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x646db78 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.updateVoice();
 };
@@ -33452,7 +33454,7 @@ gdjs.Only_32UpCode.eventsList193(runtimeScene);
 {
 
 
-gdjs.Only_32UpCode.userFunc0x193a950(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x646db78(runtimeScene);
 
 }
 
@@ -33487,7 +33489,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x517dcf8(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x2560818(runtimeScene);
 
 }
 
@@ -33502,7 +33504,7 @@ gdjs.Only_32UpCode.eventsList1(runtimeScene);
 {
 
 
-gdjs.Only_32UpCode.userFunc0x8ef19d8(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x7c8f910(runtimeScene);
 
 }
 

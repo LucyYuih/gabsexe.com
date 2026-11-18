@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__GPUPrewarmTick = {};
 gdjs.evtsExt__FNF__GPUPrewarmTick.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__GPUPrewarmTick.userFunc0x12ccd08 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__GPUPrewarmTick.userFunc0x4cb4d80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 try {
 /* Sunday GDevelop / Real Sprite GPU prewarm v6.0 song-scoped / occluded
@@ -757,7 +757,7 @@ gdjs.evtsExt__FNF__GPUPrewarmTick.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__FNF__GPUPrewarmTick.userFunc0x12ccd08(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__GPUPrewarmTick.userFunc0x4cb4d80(runtimeScene, eventsFunctionContext);
 
 }
 

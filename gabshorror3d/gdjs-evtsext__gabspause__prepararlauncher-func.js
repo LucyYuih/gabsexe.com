@@ -9,7 +9,7 @@ gdjs.evtsExt__GabsPause__PrepararLauncher = {};
 gdjs.evtsExt__GabsPause__PrepararLauncher.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__GabsPause__PrepararLauncher.userFunc0x87db688 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GabsPause__PrepararLauncher.userFunc0x8a283e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 const backdrop = runtimeScene.__gabsPauseBackdrop;
@@ -28,7 +28,7 @@ gdjs.evtsExt__GabsPause__PrepararLauncher.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__GabsPause__PrepararLauncher.userFunc0x87db688(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__GabsPause__PrepararLauncher.userFunc0x8a283e8(runtimeScene, eventsFunctionContext);
 
 }
 

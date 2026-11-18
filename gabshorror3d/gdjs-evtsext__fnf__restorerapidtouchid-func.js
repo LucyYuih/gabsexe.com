@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__RestoreRapidTouchId = {};
 gdjs.evtsExt__FNF__RestoreRapidTouchId.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__RestoreRapidTouchId.userFunc0x12ccd08 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__RestoreRapidTouchId.userFunc0x4cb4d80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Restore rapid repeated raw touch identifiers before the next rendered frame.
 // Event-driven only; no per-frame loops. All lane picking and note judgement remain native.
@@ -68,7 +68,7 @@ gdjs.evtsExt__FNF__RestoreRapidTouchId.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__FNF__RestoreRapidTouchId.userFunc0x12ccd08(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__RestoreRapidTouchId.userFunc0x4cb4d80(runtimeScene, eventsFunctionContext);
 
 }
 
