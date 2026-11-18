@@ -9,7 +9,7 @@ gdjs.evtsExt__GabsPause__RetomarTrilha = {};
 gdjs.evtsExt__GabsPause__RetomarTrilha.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__GabsPause__RetomarTrilha.userFunc0x7d0dc50 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GabsPause__RetomarTrilha.userFunc0x4e9b2e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.setPause(false);
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__GabsPause__RetomarTrilha.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__GabsPause__RetomarTrilha.userFunc0x7d0dc50(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__GabsPause__RetomarTrilha.userFunc0x4e9b2e8(runtimeScene, eventsFunctionContext);
 
 }
 

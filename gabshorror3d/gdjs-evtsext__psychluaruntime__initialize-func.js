@@ -9,7 +9,7 @@ gdjs.evtsExt__PsychLuaRuntime__Initialize = {};
 gdjs.evtsExt__PsychLuaRuntime__Initialize.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__PsychLuaRuntime__Initialize.userFunc0x10e8858 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PsychLuaRuntime__Initialize.userFunc0x2199608 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 var extensionState = runtimeScene.getVariablesForExtension("PsychLuaRuntime");
 var psychState = runtimeScene.getGame().getVariables().get("PsychLuaRuntime");
@@ -5494,7 +5494,7 @@ gdjs.evtsExt__PsychLuaRuntime__Initialize.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__PsychLuaRuntime__Initialize.userFunc0x10e8858(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PsychLuaRuntime__Initialize.userFunc0x2199608(runtimeScene, eventsFunctionContext);
 
 }
 

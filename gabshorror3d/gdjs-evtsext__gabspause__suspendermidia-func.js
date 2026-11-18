@@ -9,7 +9,7 @@ gdjs.evtsExt__GabsPause__SuspenderMidia = {};
 gdjs.evtsExt__GabsPause__SuspenderMidia.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__GabsPause__SuspenderMidia.userFunc0x6935538 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GabsPause__SuspenderMidia.userFunc0x1088490 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 const canvas = runtimeScene.getGame().getRenderer().getCanvas();
@@ -44,7 +44,7 @@ gdjs.evtsExt__GabsPause__SuspenderMidia.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__GabsPause__SuspenderMidia.userFunc0x6935538(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__GabsPause__SuspenderMidia.userFunc0x1088490(runtimeScene, eventsFunctionContext);
 
 }
 

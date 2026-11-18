@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__ResetLoadingState = {};
 gdjs.evtsExt__FNF__ResetLoadingState.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__ResetLoadingState.userFunc0x4cb4d80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__ResetLoadingState.userFunc0x8c1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Stop any previous visual GPU prewarm and restore Pixi's texture GC budget.
 if (runtimeScene._fnfGPUPrewarmSession) {
@@ -57,7 +57,7 @@ gdjs.evtsExt__FNF__ResetLoadingState.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__FNF__ResetLoadingState.userFunc0x4cb4d80(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__ResetLoadingState.userFunc0x8c1888(runtimeScene, eventsFunctionContext);
 
 }
 

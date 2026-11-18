@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__CharactersWereLoaded = {};
 gdjs.evtsExt__FNF__CharactersWereLoaded.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__CharactersWereLoaded.userFunc0x4cb4d80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__CharactersWereLoaded.userFunc0x8c1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const root = runtimeScene.getGame().getVariables().get("FNF_Loading");
 eventsFunctionContext.returnValue = root.getChild("Characters").getChild("Loaded").getAsBoolean();
@@ -19,7 +19,7 @@ gdjs.evtsExt__FNF__CharactersWereLoaded.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__FNF__CharactersWereLoaded.userFunc0x4cb4d80(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__CharactersWereLoaded.userFunc0x8c1888(runtimeScene, eventsFunctionContext);
 
 }
 

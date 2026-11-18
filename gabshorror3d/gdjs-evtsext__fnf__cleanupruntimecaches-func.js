@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__CleanupRuntimeCaches = {};
 gdjs.evtsExt__FNF__CleanupRuntimeCaches.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__CleanupRuntimeCaches.userFunc0x4cb4d80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__CleanupRuntimeCaches.userFunc0x8c1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 runtimeScene.getGame()._fnfCompletedGPUPrewarm = null;
 // Stop any previous visual GPU prewarm and restore Pixi's texture GC budget.
@@ -92,7 +92,7 @@ gdjs.evtsExt__FNF__CleanupRuntimeCaches.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__FNF__CleanupRuntimeCaches.userFunc0x4cb4d80(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__CleanupRuntimeCaches.userFunc0x8c1888(runtimeScene, eventsFunctionContext);
 
 }
 

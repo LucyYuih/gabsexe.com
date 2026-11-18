@@ -9,7 +9,7 @@ gdjs.evtsExt__VsGabsGamepads__A_Vibrate_controller = {};
 gdjs.evtsExt__VsGabsGamepads__A_Vibrate_controller.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__VsGabsGamepads__A_Vibrate_controller.userFunc0x4df3ec8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VsGabsGamepads__A_Vibrate_controller.userFunc0x647bc48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {Gamepad[]} */
 //Vibration work only on game in browser.
@@ -43,7 +43,7 @@ gdjs.evtsExt__VsGabsGamepads__A_Vibrate_controller.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__VsGabsGamepads__A_Vibrate_controller.userFunc0x4df3ec8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__VsGabsGamepads__A_Vibrate_controller.userFunc0x647bc48(runtimeScene, eventsFunctionContext);
 
 }
 

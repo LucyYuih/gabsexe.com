@@ -10,7 +10,7 @@ gdjs.evtsExt__ArrayTools__ObjectSort.idToCallbackMap = new Map();
 gdjs.evtsExt__ArrayTools__ObjectSort.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__ArrayTools__ObjectSort.userFunc0xa48dfd8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__ObjectSort.userFunc0x1d28a78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.Variable} */
 const array = eventsFunctionContext.getArgument("Array");
@@ -31,7 +31,7 @@ gdjs.evtsExt__ArrayTools__ObjectSort.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__ArrayTools__ObjectSort.userFunc0xa48dfd8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ArrayTools__ObjectSort.userFunc0x1d28a78(runtimeScene, eventsFunctionContext);
 
 }
 

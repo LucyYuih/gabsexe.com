@@ -9,7 +9,7 @@ gdjs.evtsExt__Light3D__SetLightCountMax = {};
 gdjs.evtsExt__Light3D__SetLightCountMax.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Light3D__SetLightCountMax.userFunc0x4cb4d80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Light3D__SetLightCountMax.userFunc0x8c1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const value = eventsFunctionContext.getArgument("Value");
 
@@ -32,7 +32,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__Light3D__SetLightCountMax.userFunc0x4cb4d80(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Light3D__SetLightCountMax.userFunc0x8c1888(runtimeScene, eventsFunctionContext);
 
 }
 

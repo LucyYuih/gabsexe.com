@@ -1232,7 +1232,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19472932);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(169277108);
 }
 }
 }
@@ -1503,7 +1503,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(143445028);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19967580);
 }
 }
 }
@@ -1544,7 +1544,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(153846364);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96219372);
 }
 }
 }
@@ -1743,7 +1743,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41582852);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(120721420);
 }
 }
 }
@@ -1764,7 +1764,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41583172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56061212);
 }
 }
 if (isConditionTrue_0) {
@@ -2171,7 +2171,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(171064428);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(123355820);
 }
 }
 }

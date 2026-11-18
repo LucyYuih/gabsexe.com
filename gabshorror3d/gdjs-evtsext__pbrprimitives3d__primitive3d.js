@@ -462,7 +462,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ShapeContext.id
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ShapeContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ShapeContext.userFunc0x260fdc0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ShapeContext.userFunc0x7edb000 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getShape() : "";
 };
@@ -473,7 +473,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ShapeContext.ev
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ShapeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ShapeContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ShapeContext.userFunc0x260fdc0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ShapeContext.userFunc0x7edb000(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -557,7 +557,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onCreatedContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onCreatedContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onCreatedContext.userFunc0x260fdc0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onCreatedContext.userFunc0x23d4328 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 // PBR Primitives 3D. MIT. Runs inside extension lifecycle functions only.
 if (!gdjs.__pbrPrimitives3D) {
@@ -763,7 +763,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onCreatedContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onCreatedContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onCreatedContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onCreatedContext.userFunc0x260fdc0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onCreatedContext.userFunc0x23d4328(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -848,7 +848,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onHotReloadingC
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onHotReloadingContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onHotReloadingContext.userFunc0x5aae278 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onHotReloadingContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 // PBR Primitives 3D. MIT. Runs inside extension lifecycle functions only.
 if (!gdjs.__pbrPrimitives3D) {
@@ -1054,7 +1054,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onHotReloadingC
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onHotReloadingContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onHotReloadingContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onHotReloadingContext.userFunc0x5aae278(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onHotReloadingContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1138,7 +1138,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onDestroyContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onDestroyContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onDestroyContext.userFunc0x6b87158 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onDestroyContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (gdjs.__pbrPrimitives3D) for (const o of objects) gdjs.__pbrPrimitives3D.destroy(o);
 };
@@ -1149,7 +1149,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onDestroyContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onDestroyContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onDestroyContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onDestroyContext.userFunc0x6b87158(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.onDestroyContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1233,7 +1233,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ApplyProperties
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ApplyPropertiesContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ApplyPropertiesContext.userFunc0x260fdc0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ApplyPropertiesContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) gdjs.__pbrPrimitives3D.apply(o);
 };
@@ -1244,7 +1244,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ApplyProperties
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ApplyPropertiesContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ApplyPropertiesContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ApplyPropertiesContext.userFunc0x260fdc0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ApplyPropertiesContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1328,7 +1328,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetShapeContext
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetShapeContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetShapeContext.userFunc0x9dde410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetShapeContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getShape() === v) continue; o._setShape(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -1339,7 +1339,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetShapeContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetShapeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetShapeContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetShapeContext.userFunc0x9dde410(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetShapeContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1424,7 +1424,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SegmentsContext
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SegmentsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SegmentsContext.userFunc0x260fdc0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SegmentsContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getSegments() : 0;
 };
@@ -1435,7 +1435,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SegmentsContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SegmentsContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SegmentsContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SegmentsContext.userFunc0x260fdc0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SegmentsContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1519,7 +1519,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSegmentsCont
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSegmentsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSegmentsContext.userFunc0x9dde410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSegmentsContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getSegments() === v) continue; o._setSegments(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -1530,7 +1530,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSegmentsCont
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSegmentsContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSegmentsContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSegmentsContext.userFunc0x9dde410(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSegmentsContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1615,7 +1615,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.HeightSegmentsC
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.HeightSegmentsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.HeightSegmentsContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.HeightSegmentsContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getHeightSegments() : 0;
 };
@@ -1626,7 +1626,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.HeightSegmentsC
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.HeightSegmentsContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.HeightSegmentsContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.HeightSegmentsContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.HeightSegmentsContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1710,7 +1710,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetHeightSegmen
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetHeightSegmentsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetHeightSegmentsContext.userFunc0x911f838 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetHeightSegmentsContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getHeightSegments() === v) continue; o._setHeightSegments(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -1721,7 +1721,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetHeightSegmen
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetHeightSegmentsContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetHeightSegmentsContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetHeightSegmentsContext.userFunc0x911f838(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetHeightSegmentsContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1806,7 +1806,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TorusTubeContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TorusTubeContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TorusTubeContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TorusTubeContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getTorusTube() : 0;
 };
@@ -1817,7 +1817,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TorusTubeContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TorusTubeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TorusTubeContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TorusTubeContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TorusTubeContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1901,7 +1901,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTorusTubeCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTorusTubeContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTorusTubeContext.userFunc0x911f838 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTorusTubeContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getTorusTube() === v) continue; o._setTorusTube(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -1912,7 +1912,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTorusTubeCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTorusTubeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTorusTubeContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTorusTubeContext.userFunc0x911f838(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTorusTubeContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1997,7 +1997,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MaterialContext
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MaterialContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MaterialContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MaterialContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getMaterial() : "";
 };
@@ -2008,7 +2008,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MaterialContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MaterialContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MaterialContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MaterialContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MaterialContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2092,7 +2092,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMaterialCont
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMaterialContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMaterialContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMaterialContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getMaterial() === v) continue; o._setMaterial(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -2103,7 +2103,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMaterialCont
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMaterialContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMaterialContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMaterialContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMaterialContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2188,7 +2188,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ColorContext.id
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ColorContext.userFunc0x5aae278 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ColorContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getColor() : "";
 };
@@ -2199,7 +2199,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ColorContext.ev
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ColorContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ColorContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ColorContext.userFunc0x5aae278(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ColorContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2283,7 +2283,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetColorContext
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetColorContext.userFunc0x911f838 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetColorContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getColor() === v) continue; o._setColor(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -2294,7 +2294,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetColorContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetColorContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetColorContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetColorContext.userFunc0x911f838(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetColorContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2379,7 +2379,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessContext.userFunc0x90e5388 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getMetalness() : 0;
 };
@@ -2390,7 +2390,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessContext.userFunc0x90e5388(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2474,7 +2474,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessContext.userFunc0x5aae278 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getMetalness() === v) continue; o._setMetalness(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -2485,7 +2485,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessContext.userFunc0x5aae278(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2570,7 +2570,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessContext.userFunc0x6b87158 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getRoughness() : 0;
 };
@@ -2581,7 +2581,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessContext.userFunc0x6b87158(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2665,7 +2665,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessContext.userFunc0x18e5578 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getRoughness() === v) continue; o._setRoughness(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -2676,7 +2676,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessContext.userFunc0x18e5578(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2761,7 +2761,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EnvironmentInte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EnvironmentIntensityContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EnvironmentIntensityContext.userFunc0x6b87158 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EnvironmentIntensityContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getEnvironmentIntensity() : 0;
 };
@@ -2772,7 +2772,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EnvironmentInte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EnvironmentIntensityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EnvironmentIntensityContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EnvironmentIntensityContext.userFunc0x6b87158(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EnvironmentIntensityContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2856,7 +2856,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEnvironmentI
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEnvironmentIntensityContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEnvironmentIntensityContext.userFunc0x6b87158 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEnvironmentIntensityContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getEnvironmentIntensity() === v) continue; o._setEnvironmentIntensity(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -2867,7 +2867,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEnvironmentI
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEnvironmentIntensityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEnvironmentIntensityContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEnvironmentIntensityContext.userFunc0x6b87158(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEnvironmentIntensityContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2952,7 +2952,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BaseColorMapCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BaseColorMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BaseColorMapContext.userFunc0x1c71458 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BaseColorMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getBaseColorMap() : "";
 };
@@ -2963,7 +2963,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BaseColorMapCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BaseColorMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BaseColorMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BaseColorMapContext.userFunc0x1c71458(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BaseColorMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3047,7 +3047,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBaseColorMap
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBaseColorMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBaseColorMapContext.userFunc0x6b87158 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBaseColorMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getBaseColorMap() === v) continue; o._setBaseColorMap(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -3058,7 +3058,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBaseColorMap
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBaseColorMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBaseColorMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBaseColorMapContext.userFunc0x6b87158(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBaseColorMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3143,7 +3143,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalMapContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalMapContext.userFunc0x1c71458 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getNormalMap() : "";
 };
@@ -3154,7 +3154,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalMapContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalMapContext.userFunc0x1c71458(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3238,7 +3238,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalMapCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalMapContext.userFunc0x6b87158 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalMapContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getNormalMap() === v) continue; o._setNormalMap(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -3249,7 +3249,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalMapCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalMapContext.userFunc0x6b87158(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalMapContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3334,7 +3334,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ORMMapContext.i
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ORMMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ORMMapContext.userFunc0x7f65810 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ORMMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getORMMap() : "";
 };
@@ -3345,7 +3345,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ORMMapContext.e
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ORMMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ORMMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ORMMapContext.userFunc0x7f65810(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ORMMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3429,7 +3429,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetORMMapContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetORMMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetORMMapContext.userFunc0x5aae278 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetORMMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getORMMap() === v) continue; o._setORMMap(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -3440,7 +3440,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetORMMapContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetORMMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetORMMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetORMMapContext.userFunc0x5aae278(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetORMMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3525,7 +3525,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessMapCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessMapContext.userFunc0x9dde410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessMapContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getRoughnessMap() : "";
 };
@@ -3536,7 +3536,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessMapCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessMapContext.userFunc0x9dde410(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RoughnessMapContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3620,7 +3620,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessMap
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessMapContext.userFunc0x7f65810 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getRoughnessMap() === v) continue; o._setRoughnessMap(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -3631,7 +3631,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessMap
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessMapContext.userFunc0x7f65810(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRoughnessMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3716,7 +3716,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessMapCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessMapContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getMetalnessMap() : "";
 };
@@ -3727,7 +3727,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessMapCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessMapContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.MetalnessMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3811,7 +3811,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessMap
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessMapContext.userFunc0x7f65810 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getMetalnessMap() === v) continue; o._setMetalnessMap(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -3822,7 +3822,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessMap
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessMapContext.userFunc0x7f65810(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetMetalnessMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3907,7 +3907,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOMapContext.id
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOMapContext.userFunc0x43a0460 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getAOMap() : "";
 };
@@ -3918,7 +3918,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOMapContext.ev
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOMapContext.userFunc0x43a0460(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4002,7 +4002,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOMapContext
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOMapContext.userFunc0x5aae278 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getAOMap() === v) continue; o._setAOMap(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -4013,7 +4013,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOMapContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOMapContext.userFunc0x5aae278(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4098,7 +4098,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveMapCont
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveMapContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveMapContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getEmissiveMap() : "";
 };
@@ -4109,7 +4109,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveMapCont
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveMapContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveMapContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4193,7 +4193,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveMapC
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveMapContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getEmissiveMap() === v) continue; o._setEmissiveMap(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -4204,7 +4204,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveMapC
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveMapContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4289,7 +4289,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaMapContext
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaMapContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getAlphaMap() : "";
 };
@@ -4300,7 +4300,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaMapContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaMapContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4384,7 +4384,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaMapCont
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaMapContext.userFunc0x5aae278 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaMapContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getAlphaMap() === v) continue; o._setAlphaMap(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -4395,7 +4395,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaMapCont
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaMapContext.userFunc0x5aae278(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaMapContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4480,7 +4480,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementMap
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementMapContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getDisplacementMap() : "";
 };
@@ -4491,7 +4491,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementMap
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementMapContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4575,7 +4575,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacement
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementMapContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementMapContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementMapContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getDisplacementMap() === v) continue; o._setDisplacementMap(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -4586,7 +4586,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacement
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementMapContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementMapContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementMapContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementMapContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4671,7 +4671,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalStrengthC
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalStrengthContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalStrengthContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalStrengthContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getNormalStrength() : 0;
 };
@@ -4682,7 +4682,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalStrengthC
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalStrengthContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalStrengthContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalStrengthContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.NormalStrengthContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4766,7 +4766,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalStreng
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalStrengthContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalStrengthContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalStrengthContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getNormalStrength() === v) continue; o._setNormalStrength(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -4777,7 +4777,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalStreng
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalStrengthContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalStrengthContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalStrengthContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetNormalStrengthContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4862,7 +4862,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlipNormalYCont
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlipNormalYContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlipNormalYContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlipNormalYContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getFlipNormalY() : 0;
 };
@@ -4873,7 +4873,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlipNormalYCont
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlipNormalYContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlipNormalYContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlipNormalYContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlipNormalYContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4957,7 +4957,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlipNormalYC
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlipNormalYContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlipNormalYContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlipNormalYContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getFlipNormalY() === v) continue; o._setFlipNormalY(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -4968,7 +4968,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlipNormalYC
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlipNormalYContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlipNormalYContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlipNormalYContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlipNormalYContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5053,7 +5053,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOIntensityCont
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOIntensityContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOIntensityContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOIntensityContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getAOIntensity() : 0;
 };
@@ -5064,7 +5064,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOIntensityCont
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOIntensityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOIntensityContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOIntensityContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AOIntensityContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5148,7 +5148,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOIntensityC
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOIntensityContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOIntensityContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOIntensityContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getAOIntensity() === v) continue; o._setAOIntensity(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -5159,7 +5159,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOIntensityC
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOIntensityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOIntensityContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOIntensityContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAOIntensityContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5244,7 +5244,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveColorCo
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveColorContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveColorContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getEmissiveColor() : "";
 };
@@ -5255,7 +5255,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveColorCo
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveColorContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveColorContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveColorContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveColorContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5339,7 +5339,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveColo
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveColorContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveColorContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getEmissiveColor() === v) continue; o._setEmissiveColor(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -5350,7 +5350,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveColo
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveColorContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveColorContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveColorContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveColorContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5435,7 +5435,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveIntensi
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveIntensityContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveIntensityContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveIntensityContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getEmissiveIntensity() : 0;
 };
@@ -5446,7 +5446,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveIntensi
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveIntensityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveIntensityContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveIntensityContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.EmissiveIntensityContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5530,7 +5530,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveInte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveIntensityContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveIntensityContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveIntensityContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getEmissiveIntensity() === v) continue; o._setEmissiveIntensity(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -5541,7 +5541,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveInte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveIntensityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveIntensityContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveIntensityContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetEmissiveIntensityContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5626,7 +5626,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatUContext.
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatUContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatUContext.userFunc0x911f838 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatUContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getRepeatU() : 0;
 };
@@ -5637,7 +5637,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatUContext.
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatUContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatUContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatUContext.userFunc0x911f838(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatUContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5721,7 +5721,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatUConte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatUContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatUContext.userFunc0x5aae278 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatUContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getRepeatU() === v) continue; o._setRepeatU(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -5732,7 +5732,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatUConte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatUContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatUContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatUContext.userFunc0x5aae278(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatUContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5817,7 +5817,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatVContext.
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatVContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatVContext.userFunc0x90e5388 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatVContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getRepeatV() : 0;
 };
@@ -5828,7 +5828,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatVContext.
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatVContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatVContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatVContext.userFunc0x90e5388(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.RepeatVContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5912,7 +5912,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatVConte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatVContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatVContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatVContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getRepeatV() === v) continue; o._setRepeatV(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -5923,7 +5923,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatVConte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatVContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatVContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatVContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetRepeatVContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6008,7 +6008,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetUContext.
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetUContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetUContext.userFunc0x6b87158 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetUContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getOffsetU() : 0;
 };
@@ -6019,7 +6019,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetUContext.
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetUContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetUContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetUContext.userFunc0x6b87158(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetUContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6103,7 +6103,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetUConte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetUContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetUContext.userFunc0x5aae278 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetUContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getOffsetU() === v) continue; o._setOffsetU(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -6114,7 +6114,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetUConte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetUContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetUContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetUContext.userFunc0x5aae278(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetUContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6199,7 +6199,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetVContext.
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetVContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetVContext.userFunc0x9dde410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetVContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getOffsetV() : 0;
 };
@@ -6210,7 +6210,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetVContext.
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetVContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetVContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetVContext.userFunc0x9dde410(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OffsetVContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6294,7 +6294,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetVConte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetVContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetVContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetVContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getOffsetV() === v) continue; o._setOffsetV(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -6305,7 +6305,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetVConte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetVContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetVContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetVContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOffsetVContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6390,7 +6390,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.UVRotationConte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.UVRotationContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.UVRotationContext.userFunc0x9dde410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.UVRotationContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getUVRotation() : 0;
 };
@@ -6401,7 +6401,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.UVRotationConte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.UVRotationContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.UVRotationContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.UVRotationContext.userFunc0x9dde410(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.UVRotationContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6485,7 +6485,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetUVRotationCo
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetUVRotationContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetUVRotationContext.userFunc0x9dde410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetUVRotationContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getUVRotation() === v) continue; o._setUVRotation(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -6496,7 +6496,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetUVRotationCo
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetUVRotationContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetUVRotationContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetUVRotationContext.userFunc0x9dde410(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetUVRotationContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6581,7 +6581,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AnisotropyConte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AnisotropyContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AnisotropyContext.userFunc0x9dde410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AnisotropyContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getAnisotropy() : 0;
 };
@@ -6592,7 +6592,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AnisotropyConte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AnisotropyContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AnisotropyContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AnisotropyContext.userFunc0x9dde410(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AnisotropyContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6676,7 +6676,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAnisotropyCo
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAnisotropyContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAnisotropyContext.userFunc0x9dde410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAnisotropyContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getAnisotropy() === v) continue; o._setAnisotropy(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -6687,7 +6687,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAnisotropyCo
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAnisotropyContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAnisotropyContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAnisotropyContext.userFunc0x9dde410(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAnisotropyContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6772,7 +6772,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BlendContext.id
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BlendContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BlendContext.userFunc0x43a0460 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BlendContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getBlend() : "";
 };
@@ -6783,7 +6783,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BlendContext.ev
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BlendContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BlendContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BlendContext.userFunc0x43a0460(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.BlendContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6867,7 +6867,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBlendContext
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBlendContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBlendContext.userFunc0x5aae278 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBlendContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getBlend() === v) continue; o._setBlend(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -6878,7 +6878,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBlendContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBlendContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBlendContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBlendContext.userFunc0x5aae278(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetBlendContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6963,7 +6963,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OpacityContext.
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OpacityContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OpacityContext.userFunc0x43a0460 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OpacityContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getOpacity() : 0;
 };
@@ -6974,7 +6974,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OpacityContext.
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OpacityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OpacityContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OpacityContext.userFunc0x43a0460(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.OpacityContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7058,7 +7058,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOpacityConte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOpacityContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOpacityContext.userFunc0x43a0460 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOpacityContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getOpacity() === v) continue; o._setOpacity(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -7069,7 +7069,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOpacityConte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOpacityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOpacityContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOpacityContext.userFunc0x43a0460(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetOpacityContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7154,7 +7154,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaTestContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaTestContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaTestContext.userFunc0x911f838 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaTestContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getAlphaTest() : 0;
 };
@@ -7165,7 +7165,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaTestContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaTestContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaTestContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaTestContext.userFunc0x911f838(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.AlphaTestContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7249,7 +7249,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaTestCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaTestContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaTestContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaTestContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getAlphaTest() === v) continue; o._setAlphaTest(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -7260,7 +7260,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaTestCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaTestContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaTestContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaTestContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetAlphaTestContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7345,7 +7345,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SideContext.idT
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SideContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SideContext.userFunc0x90e5388 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SideContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getSide() : "";
 };
@@ -7356,7 +7356,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SideContext.eve
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SideContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SideContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SideContext.userFunc0x90e5388(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SideContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7440,7 +7440,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSideContext.
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSideContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSideContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSideContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getSide() === v) continue; o._setSide(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -7451,7 +7451,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSideContext.
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSideContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSideContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSideContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetSideContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7536,7 +7536,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.CastShadowConte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.CastShadowContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.CastShadowContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.CastShadowContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getCastShadow() : 0;
 };
@@ -7547,7 +7547,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.CastShadowConte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.CastShadowContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.CastShadowContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.CastShadowContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.CastShadowContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7631,7 +7631,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetCastShadowCo
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetCastShadowContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetCastShadowContext.userFunc0x44c9b70 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetCastShadowContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getCastShadow() === v) continue; o._setCastShadow(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -7642,7 +7642,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetCastShadowCo
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetCastShadowContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetCastShadowContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetCastShadowContext.userFunc0x44c9b70(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetCastShadowContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7727,7 +7727,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ReceiveShadowCo
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ReceiveShadowContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ReceiveShadowContext.userFunc0x44c9b70 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ReceiveShadowContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getReceiveShadow() : 0;
 };
@@ -7738,7 +7738,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ReceiveShadowCo
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ReceiveShadowContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ReceiveShadowContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ReceiveShadowContext.userFunc0x44c9b70(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ReceiveShadowContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7822,7 +7822,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetReceiveShado
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetReceiveShadowContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetReceiveShadowContext.userFunc0xa37ac0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetReceiveShadowContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getReceiveShadow() === v) continue; o._setReceiveShadow(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -7833,7 +7833,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetReceiveShado
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetReceiveShadowContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetReceiveShadowContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetReceiveShadowContext.userFunc0xa37ac0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetReceiveShadowContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7918,7 +7918,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlatShadingCont
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlatShadingContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlatShadingContext.userFunc0x44c9b70 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlatShadingContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getFlatShading() : 0;
 };
@@ -7929,7 +7929,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlatShadingCont
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlatShadingContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlatShadingContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlatShadingContext.userFunc0x44c9b70(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.FlatShadingContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8013,7 +8013,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlatShadingC
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlatShadingContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlatShadingContext.userFunc0x44c9b70 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlatShadingContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getFlatShading() === v) continue; o._setFlatShading(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -8024,7 +8024,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlatShadingC
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlatShadingContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlatShadingContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlatShadingContext.userFunc0x44c9b70(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetFlatShadingContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8109,7 +8109,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.WireframeContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.WireframeContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.WireframeContext.userFunc0x44c9b70 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.WireframeContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getWireframe() : 0;
 };
@@ -8120,7 +8120,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.WireframeContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.WireframeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.WireframeContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.WireframeContext.userFunc0x44c9b70(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.WireframeContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8204,7 +8204,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetWireframeCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetWireframeContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetWireframeContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetWireframeContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getWireframe() === v) continue; o._setWireframe(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -8215,7 +8215,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetWireframeCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetWireframeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetWireframeContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetWireframeContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetWireframeContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8300,7 +8300,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DepthWriteConte
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DepthWriteContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DepthWriteContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DepthWriteContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getDepthWrite() : 0;
 };
@@ -8311,7 +8311,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DepthWriteConte
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DepthWriteContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DepthWriteContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DepthWriteContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DepthWriteContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8395,7 +8395,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDepthWriteCo
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDepthWriteContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDepthWriteContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDepthWriteContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getDepthWrite() === v) continue; o._setDepthWrite(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -8406,7 +8406,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDepthWriteCo
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDepthWriteContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDepthWriteContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDepthWriteContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDepthWriteContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8491,7 +8491,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getClearcoat() : 0;
 };
@@ -8502,7 +8502,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8586,7 +8586,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatContext.userFunc0x1b45070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getClearcoat() === v) continue; o._setClearcoat(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -8597,7 +8597,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatContext.userFunc0x1b45070(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8682,7 +8682,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatRoughn
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatRoughnessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatRoughnessContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatRoughnessContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getClearcoatRoughness() : 0;
 };
@@ -8693,7 +8693,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatRoughn
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatRoughnessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatRoughnessContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatRoughnessContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ClearcoatRoughnessContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8777,7 +8777,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatRou
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatRoughnessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatRoughnessContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatRoughnessContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getClearcoatRoughness() === v) continue; o._setClearcoatRoughness(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -8788,7 +8788,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatRou
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatRoughnessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatRoughnessContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatRoughnessContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetClearcoatRoughnessContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8873,7 +8873,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TransmissionCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TransmissionContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TransmissionContext.userFunc0x1c71458 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TransmissionContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getTransmission() : 0;
 };
@@ -8884,7 +8884,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TransmissionCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TransmissionContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TransmissionContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TransmissionContext.userFunc0x1c71458(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.TransmissionContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8968,7 +8968,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTransmission
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTransmissionContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTransmissionContext.userFunc0x84ce7f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTransmissionContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getTransmission() === v) continue; o._setTransmission(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -8979,7 +8979,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTransmission
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTransmissionContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTransmissionContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTransmissionContext.userFunc0x84ce7f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetTransmissionContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -9064,7 +9064,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.IORContext.idTo
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.IORContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.IORContext.userFunc0x260fdc0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.IORContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getIOR() : 0;
 };
@@ -9075,7 +9075,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.IORContext.even
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.IORContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.IORContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.IORContext.userFunc0x260fdc0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.IORContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -9159,7 +9159,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetIORContext.i
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetIORContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetIORContext.userFunc0x44c9b70 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetIORContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getIOR() === v) continue; o._setIOR(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -9170,7 +9170,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetIORContext.e
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetIORContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetIORContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetIORContext.userFunc0x44c9b70(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetIORContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -9255,7 +9255,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ThicknessContex
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ThicknessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ThicknessContext.userFunc0x44c9b70 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ThicknessContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getThickness() : 0;
 };
@@ -9266,7 +9266,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ThicknessContex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ThicknessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ThicknessContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ThicknessContext.userFunc0x44c9b70(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.ThicknessContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -9350,7 +9350,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetThicknessCon
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetThicknessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetThicknessContext.userFunc0x260fdc0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetThicknessContext.userFunc0x2cca7e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getThickness() === v) continue; o._setThickness(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -9361,7 +9361,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetThicknessCon
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetThicknessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetThicknessContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetThicknessContext.userFunc0x260fdc0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetThicknessContext.userFunc0x2cca7e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -9446,7 +9446,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementSca
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementScaleContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementScaleContext.userFunc0x7f65810 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementScaleContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getDisplacementScale() : 0;
 };
@@ -9457,7 +9457,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementSca
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementScaleContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementScaleContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementScaleContext.userFunc0x7f65810(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementScaleContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -9541,7 +9541,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacement
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementScaleContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementScaleContext.userFunc0x7f65810 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementScaleContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getDisplacementScale() === v) continue; o._setDisplacementScale(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -9552,7 +9552,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacement
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementScaleContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementScaleContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementScaleContext.userFunc0x7f65810(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementScaleContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -9637,7 +9637,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementBia
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementBiasContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementBiasContext.userFunc0x7f65810 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementBiasContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = objects.length ? objects[0]._getDisplacementBias() : 0;
 };
@@ -9648,7 +9648,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementBia
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementBiasContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementBiasContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementBiasContext.userFunc0x7f65810(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.DisplacementBiasContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -9732,7 +9732,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacement
 gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementBiasContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementBiasContext.userFunc0x7f65810 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementBiasContext.userFunc0xa53e350 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 for (const o of objects) { const v = eventsFunctionContext.getArgument("Value"); if (o._getDisplacementBias() === v) continue; o._setDisplacementBias(v); gdjs.__pbrPrimitives3D.apply(o); }
 };
@@ -9743,7 +9743,7 @@ gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacement
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementBiasContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementBiasContext.GDObjectObjects1;
-gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementBiasContext.userFunc0x7f65810(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__PBRPrimitives3D__Primitive3D.Primitive3D.prototype.SetDisplacementBiasContext.userFunc0xa53e350(runtimeScene, objects, eventsFunctionContext);
 
 }
 

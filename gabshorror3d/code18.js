@@ -1294,7 +1294,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(63549900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(107586524);
 }
 }
 }
@@ -1565,7 +1565,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(176654244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(120502620);
 }
 }
 }
@@ -1606,7 +1606,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(150732916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43097756);
 }
 }
 }
@@ -1805,7 +1805,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(84736524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(128852068);
 }
 }
 }
@@ -1826,7 +1826,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(72941764);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(86701460);
 }
 }
 if (isConditionTrue_0) {
@@ -2860,7 +2860,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(169381572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141581028);
 }
 }
 }

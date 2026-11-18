@@ -9,7 +9,7 @@ gdjs.evtsExt__PsychLuaRuntime___Destroy = {};
 gdjs.evtsExt__PsychLuaRuntime___Destroy.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__PsychLuaRuntime___Destroy.userFunc0x963ad10 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PsychLuaRuntime___Destroy.userFunc0x9484950 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 globalThis.__psychLuaRuntimeHost.destroy(runtimeScene, eventsFunctionContext.getArgument("ScriptId"));
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__PsychLuaRuntime___Destroy.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__PsychLuaRuntime___Destroy.userFunc0x963ad10(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PsychLuaRuntime___Destroy.userFunc0x9484950(runtimeScene, eventsFunctionContext);
 
 }
 

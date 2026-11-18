@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__ZavodilaCrossfadeTick = {};
 gdjs.evtsExt__FNF__ZavodilaCrossfadeTick.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__ZavodilaCrossfadeTick.userFunc0x4cb4d80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__ZavodilaCrossfadeTick.userFunc0x8c1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const vars = runtimeScene.getVariables();
 const active = vars.get("ZavodilaOriginal").getChild("Trails").getAsBoolean();
@@ -72,7 +72,7 @@ gdjs.evtsExt__FNF__ZavodilaCrossfadeTick.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__FNF__ZavodilaCrossfadeTick.userFunc0x4cb4d80(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__ZavodilaCrossfadeTick.userFunc0x8c1888(runtimeScene, eventsFunctionContext);
 
 }
 
