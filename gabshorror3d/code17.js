@@ -369,23 +369,7 @@ gdjs.copyArray(runtimeScene.getObjects("AbrirPausa"), gdjs.exeKnuxSecretCode.GDA
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
-isConditionTrue_0 = false;
-{
-{isConditionTrue_1 = (runtimeScene.getGame().getVariables().getFromIndex(13).getAsString() == "Touch");
-}
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-isConditionTrue_1 = gdjs.evtTools.systemInfo.isMobile();
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-}
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(13).getAsString() == "Touch");
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("AbrirPausa"), gdjs.exeKnuxSecretCode.GDAbrirPausaObjects2);
@@ -464,23 +448,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
-isConditionTrue_0 = false;
-{
-{isConditionTrue_1 = (runtimeScene.getGame().getVariables().getFromIndex(13).getAsString() == "Touch");
-}
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-isConditionTrue_1 = gdjs.evtTools.systemInfo.isMobile();
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-}
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(13).getAsString() == "Touch");
 }
 }
 if (isConditionTrue_0) {
@@ -1264,7 +1232,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(81746004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34878020);
 }
 }
 }
@@ -1535,7 +1503,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(115524932);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(74688372);
 }
 }
 }
@@ -1576,7 +1544,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(45964564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(115955860);
 }
 }
 }
@@ -1775,7 +1743,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(142930876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(116690268);
 }
 }
 }
@@ -1796,7 +1764,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(59327252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(116690716);
 }
 }
 if (isConditionTrue_0) {
@@ -2605,6 +2573,68 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(13).getAsString() == "Touch");
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.camera.showLayer(runtimeScene, "MobileControls");
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !(runtimeScene.getGame().getVariables().getFromIndex(13).getAsString() == "Touch");
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "MobileControls");
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(13).getAsString() == "Touch");
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.camera.showLayer(runtimeScene, "PausaUI");
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !(runtimeScene.getGame().getVariables().getFromIndex(13).getAsString() == "Touch");
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "PausaUI");
+}
+}
+
+}
+
+
+};gdjs.exeKnuxSecretCode.eventsList19 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -2717,6 +2747,13 @@ gdjs.exeKnuxSecretCode.eventsList15(runtimeScene);
 
 
 gdjs.exeKnuxSecretCode.eventsList17(runtimeScene);
+}
+
+
+{
+
+
+gdjs.exeKnuxSecretCode.eventsList18(runtimeScene);
 }
 
 
@@ -2998,7 +3035,7 @@ gdjs.exeKnuxSecretCode.GDVsGabsVolumeLabelObjects2.length = 0;
 gdjs.exeKnuxSecretCode.GDVsGabsVolumeLabelObjects3.length = 0;
 gdjs.exeKnuxSecretCode.GDVsGabsVolumeLabelObjects4.length = 0;
 
-gdjs.exeKnuxSecretCode.eventsList18(runtimeScene);
+gdjs.exeKnuxSecretCode.eventsList19(runtimeScene);
 gdjs.exeKnuxSecretCode.GDPlayerObjects1.length = 0;
 gdjs.exeKnuxSecretCode.GDPlayerObjects2.length = 0;
 gdjs.exeKnuxSecretCode.GDPlayerObjects3.length = 0;

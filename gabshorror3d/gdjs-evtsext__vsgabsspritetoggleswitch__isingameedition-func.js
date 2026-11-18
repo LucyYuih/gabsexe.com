@@ -9,7 +9,7 @@ gdjs.evtsExt__VsGabsSpriteToggleSwitch__IsInGameEdition = {};
 gdjs.evtsExt__VsGabsSpriteToggleSwitch__IsInGameEdition.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__VsGabsSpriteToggleSwitch__IsInGameEdition.userFunc0x2fb7a68 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VsGabsSpriteToggleSwitch__IsInGameEdition.userFunc0x4b3dde8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();
@@ -19,7 +19,7 @@ gdjs.evtsExt__VsGabsSpriteToggleSwitch__IsInGameEdition.eventsList0 = function(r
 {
 
 
-gdjs.evtsExt__VsGabsSpriteToggleSwitch__IsInGameEdition.userFunc0x2fb7a68(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__VsGabsSpriteToggleSwitch__IsInGameEdition.userFunc0x4b3dde8(runtimeScene, eventsFunctionContext);
 
 }
 

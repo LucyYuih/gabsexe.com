@@ -11,7 +11,7 @@ gdjs.evtsExt__ObjectPickingTools__PickHighestVariableValueAction.GDObjectObjects
 gdjs.evtsExt__ObjectPickingTools__PickHighestVariableValueAction.GDObjectObjects2= [];
 
 
-gdjs.evtsExt__ObjectPickingTools__PickHighestVariableValueAction.userFunc0x4c80170 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ObjectPickingTools__PickHighestVariableValueAction.userFunc0xb863bc0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Create an empty array to hold the objects with the highest variable value
 let highestValueObjects = [];
@@ -54,7 +54,7 @@ gdjs.evtsExt__ObjectPickingTools__PickHighestVariableValueAction.eventsList0 = f
 {
 
 
-gdjs.evtsExt__ObjectPickingTools__PickHighestVariableValueAction.userFunc0x4c80170(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ObjectPickingTools__PickHighestVariableValueAction.userFunc0xb863bc0(runtimeScene, eventsFunctionContext);
 
 }
 

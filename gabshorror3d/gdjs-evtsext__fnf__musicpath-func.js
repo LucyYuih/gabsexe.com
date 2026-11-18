@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__MusicPath = {};
 gdjs.evtsExt__FNF__MusicPath.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__MusicPath.userFunc0x8c1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__MusicPath.userFunc0x18982b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const p = String(eventsFunctionContext.getArgument("Path"));
 const m = String(eventsFunctionContext.getArgument("Music")).toLowerCase().replace(/ /g, "-");
@@ -28,7 +28,7 @@ gdjs.evtsExt__FNF__MusicPath.eventsList0 = function(runtimeScene, eventsFunction
 {
 
 
-gdjs.evtsExt__FNF__MusicPath.userFunc0x8c1888(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__MusicPath.userFunc0x18982b0(runtimeScene, eventsFunctionContext);
 
 }
 

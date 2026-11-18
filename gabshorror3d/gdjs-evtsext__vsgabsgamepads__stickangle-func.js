@@ -9,7 +9,7 @@ gdjs.evtsExt__VsGabsGamepads__StickAngle = {};
 gdjs.evtsExt__VsGabsGamepads__StickAngle.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__VsGabsGamepads__StickAngle.userFunc0x647bc48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VsGabsGamepads__StickAngle.userFunc0x99fc270 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {Gamepad[]} */
 const gamepads = navigator.getGamepads ? navigator.getGamepads() : (navigator.webkitGetGamepads ? navigator.webkitGetGamepads() : []);
@@ -51,7 +51,7 @@ gdjs.evtsExt__VsGabsGamepads__StickAngle.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__VsGabsGamepads__StickAngle.userFunc0x647bc48(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__VsGabsGamepads__StickAngle.userFunc0x99fc270(runtimeScene, eventsFunctionContext);
 
 }
 

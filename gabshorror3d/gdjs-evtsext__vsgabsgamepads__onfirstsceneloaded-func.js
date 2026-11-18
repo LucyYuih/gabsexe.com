@@ -9,7 +9,7 @@ gdjs.evtsExt__VsGabsGamepads__onFirstSceneLoaded = {};
 gdjs.evtsExt__VsGabsGamepads__onFirstSceneLoaded.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__VsGabsGamepads__onFirstSceneLoaded.userFunc0x647bc48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VsGabsGamepads__onFirstSceneLoaded.userFunc0x99fc270 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 //Define an new private object javascript for the gamepad extension
 gdjs._vsGabsExtensionController = {
@@ -142,7 +142,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__VsGabsGamepads__onFirstSceneLoaded.userFunc0x647bc48(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__VsGabsGamepads__onFirstSceneLoaded.userFunc0x99fc270(runtimeScene, eventsFunctionContext);
 
 }
 

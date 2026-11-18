@@ -9,7 +9,7 @@ gdjs.evtsExt__PsychLuaRuntime__AutoLoadCurrentSongScripts = {};
 gdjs.evtsExt__PsychLuaRuntime__AutoLoadCurrentSongScripts.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__PsychLuaRuntime__AutoLoadCurrentSongScripts.userFunc0x56e64e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PsychLuaRuntime__AutoLoadCurrentSongScripts.userFunc0x97a31e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 var host = globalThis.__psychLuaRuntimeHost;
 var manifest = host && host.getPsychLuaManifest ? host.getPsychLuaManifest(runtimeScene) : null;
@@ -273,7 +273,7 @@ gdjs.evtsExt__PsychLuaRuntime__AutoLoadCurrentSongScripts.eventsList0 = function
 {
 
 
-gdjs.evtsExt__PsychLuaRuntime__AutoLoadCurrentSongScripts.userFunc0x56e64e0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PsychLuaRuntime__AutoLoadCurrentSongScripts.userFunc0x97a31e8(runtimeScene, eventsFunctionContext);
 
 }
 

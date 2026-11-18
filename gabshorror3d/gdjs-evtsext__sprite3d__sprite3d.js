@@ -101,7 +101,7 @@ gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.GDObjectObj
 gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.GDObjectObjects2= [];
 
 
-gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.userFunc0x1017670 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.userFunc0xb602968 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject} */
 const object = objects[0];
@@ -129,7 +129,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.GDObjectObjects1;
-gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.userFunc0x1017670(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.userFunc0xb602968(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -216,7 +216,7 @@ gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onDestroyContext.idToCallbac
 gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onDestroyContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onDestroyContext.userFunc0x24dec58 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onDestroyContext.userFunc0xb602968 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const renderer = objects[0].__sprite3DExtension?.sprite3DRenderer;
 renderer?.shadowMaterial?.dispose();
@@ -228,7 +228,7 @@ gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onDestroyContext.eventsList0
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onDestroyContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onDestroyContext.GDObjectObjects1;
-gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onDestroyContext.userFunc0x24dec58(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onDestroyContext.userFunc0xb602968(runtimeScene, objects, eventsFunctionContext);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__VsGabsGamepads__C_Axis_pushed = {};
 gdjs.evtsExt__VsGabsGamepads__C_Axis_pushed.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__VsGabsGamepads__C_Axis_pushed.userFunc0x647bc48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VsGabsGamepads__C_Axis_pushed.userFunc0x99fc270 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {Gamepad[]} */
 const gamepads = navigator.getGamepads ? navigator.getGamepads() : (navigator.webkitGetGamepads ? navigator.webkitGetGamepads() : []);
@@ -153,7 +153,7 @@ gdjs.evtsExt__VsGabsGamepads__C_Axis_pushed.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__VsGabsGamepads__C_Axis_pushed.userFunc0x647bc48(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__VsGabsGamepads__C_Axis_pushed.userFunc0x99fc270(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__Light3D__DefineSpotLightHelperClasses = {};
 gdjs.evtsExt__Light3D__DefineSpotLightHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Light3D__DefineSpotLightHelperClasses.userFunc0x8c1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Light3D__DefineSpotLightHelperClasses.userFunc0x18982b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 //@ts-ignore
 if (gdjs.__light3DExtension.spot) {
@@ -303,7 +303,7 @@ gdjs.evtsExt__Light3D__DefineSpotLightHelperClasses.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__Light3D__DefineSpotLightHelperClasses.userFunc0x8c1888(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Light3D__DefineSpotLightHelperClasses.userFunc0x18982b0(runtimeScene, eventsFunctionContext);
 
 }
 

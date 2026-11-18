@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__QTStageBG = {};
 gdjs.evtsExt__FNF__QTStageBG.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__QTStageBG.userFunc0x8c1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__QTStageBG.userFunc0x18982b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Stage visibility adapter used exclusively by native QT BG events.
 const state=Number(eventsFunctionContext.getArgument("State"));
@@ -30,7 +30,7 @@ gdjs.evtsExt__FNF__QTStageBG.eventsList0 = function(runtimeScene, eventsFunction
 {
 
 
-gdjs.evtsExt__FNF__QTStageBG.userFunc0x8c1888(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__QTStageBG.userFunc0x18982b0(runtimeScene, eventsFunctionContext);
 
 }
 

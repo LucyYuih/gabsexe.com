@@ -769,7 +769,7 @@ gdjs.Only_32UpCode.GDVsGabsVolumeLabelObjects9= [];
 gdjs.Only_32UpCode.GDVsGabsVolumeLabelObjects10= [];
 
 
-gdjs.Only_32UpCode.userFunc0x44ed1d0 = function GDJSInlineCode(runtimeScene) {
+gdjs.Only_32UpCode.userFunc0x4d57ff0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Shorten the boom in front of solid geometry. Return to its requested length smoothly.
 if (!runtimeScene.__sm64Camera) {
@@ -1101,7 +1101,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x4179b28 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x45664f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function castleScene(scene, engine, Three) {
     'use strict';
@@ -6679,7 +6679,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x5347028 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x55e4ad0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.toggleMusic();
 };
@@ -6688,7 +6688,7 @@ gdjs.Only_32UpCode.eventsList24 = function(runtimeScene) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x5347028(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x55e4ad0(runtimeScene);
 
 }
 
@@ -22081,7 +22081,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x66ba8b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x7444180 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.poundLift?.();
 };
@@ -22090,7 +22090,7 @@ gdjs.Only_32UpCode.eventsList110 = function(runtimeScene) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x66ba8b0(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x7444180(runtimeScene);
 
 }
 
@@ -22524,7 +22524,7 @@ gdjs.Only_32UpCode.eventsList111(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x70ceba8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x42275d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (runtimeScene.__onlyUpCastle) runtimeScene.__onlyUpCastle.resolve();
 };
@@ -22891,7 +22891,7 @@ gdjs.Only_32UpCode.eventsList116(runtimeScene);} //End of subevents
 {
 
 
-gdjs.Only_32UpCode.userFunc0x70ceba8(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x42275d0(runtimeScene);
 
 }
 
@@ -23038,7 +23038,7 @@ gdjs.Only_32UpCode.eventsList118(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x77fe070 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x4508328 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.afterStep();
 };
@@ -23174,7 +23174,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x572c080 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x5490ff8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (runtimeScene.__onlyUpCastle) runtimeScene.__onlyUpCastle.attack();
 };
@@ -23200,7 +23200,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x572c080(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x5490ff8(runtimeScene);
 
 }
 
@@ -29907,7 +29907,7 @@ gdjs.Only_32UpCode.eventsList119(runtimeScene);} //Subevents end.
 {
 
 
-gdjs.Only_32UpCode.userFunc0x77fe070(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x4508328(runtimeScene);
 
 }
 
@@ -32541,7 +32541,7 @@ gdjs.Only_32UpCode.eventsList190(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Only_32UpCode.userFunc0xa716ec8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x3f975f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const scene = runtimeScene;
 const camera = scene.__sm64Camera;
@@ -33334,7 +33334,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Only_32UpCode.userFunc0xa716ec8(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x3f975f0(runtimeScene);
 
 }
 
@@ -33417,7 +33417,7 @@ gdjs.copyArray(runtimeScene.getObjects("Leitura"), gdjs.Only_32UpCode.GDLeituraO
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x933498 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0xa35b690 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.updateVoice();
 };
@@ -33454,7 +33454,7 @@ gdjs.Only_32UpCode.eventsList193(runtimeScene);
 {
 
 
-gdjs.Only_32UpCode.userFunc0x933498(runtimeScene);
+gdjs.Only_32UpCode.userFunc0xa35b690(runtimeScene);
 
 }
 
@@ -33489,7 +33489,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x44ed1d0(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x4d57ff0(runtimeScene);
 
 }
 
@@ -33504,7 +33504,7 @@ gdjs.Only_32UpCode.eventsList1(runtimeScene);
 {
 
 
-gdjs.Only_32UpCode.userFunc0x4179b28(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x45664f0(runtimeScene);
 
 }
 

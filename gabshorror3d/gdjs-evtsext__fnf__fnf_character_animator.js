@@ -73,7 +73,7 @@ gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.LoadC
 gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.LoadCharacterContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.LoadCharacterContext.userFunc0x55dbb58 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.LoadCharacterContext.userFunc0x52bae40 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const globalVars = runtimeScene.getGame().getVariables();
 const optOptions = globalVars.get("OptOptions");
@@ -426,7 +426,7 @@ gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.LoadC
 {
 
 
-gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.LoadCharacterContext.userFunc0x55dbb58(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.LoadCharacterContext.userFunc0x52bae40(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -514,7 +514,7 @@ gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.PlayA
 gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.PlayAnimationContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.PlayAnimationContext.userFunc0x29eedb8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.PlayAnimationContext.userFunc0x66b01c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const obj = eventsFunctionContext.getObjects("Object")[0];
 if (!obj.modAnimData) return;
@@ -557,7 +557,7 @@ gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.PlayA
 {
 
 
-gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.PlayAnimationContext.userFunc0x29eedb8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.PlayAnimationContext.userFunc0x66b01c0(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -644,7 +644,7 @@ gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.doSte
 gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.doStepPreEventsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.doStepPreEventsContext.userFunc0x4304908 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.doStepPreEventsContext.userFunc0x66b01c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const obj = eventsFunctionContext.getObjects("Object")[0];
 if (!obj.modAnimData || obj._anchorX === undefined) return;
@@ -839,7 +839,7 @@ gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.doSte
 {
 
 
-gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.doStepPreEventsContext.userFunc0x4304908(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.doStepPreEventsContext.userFunc0x66b01c0(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -925,7 +925,7 @@ gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.IsSin
 gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.IsSingingContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.IsSingingContext.userFunc0xc1d4e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.IsSingingContext.userFunc0x52bae40 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const obj = eventsFunctionContext.getObjects("Object")[0];
 const current = obj?._modCurrentAnim;
@@ -936,7 +936,7 @@ gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.IsSin
 {
 
 
-gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.IsSingingContext.userFunc0xc1d4e0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__FNF_Character_Animator.FNF_Character_Animator.prototype.IsSingingContext.userFunc0x52bae40(runtimeScene, eventsFunctionContext);
 
 }
 

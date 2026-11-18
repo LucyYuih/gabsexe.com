@@ -412,7 +412,7 @@ for (var i = 0, k = 0, l = gdjs.Vs_32Gabs_32_45_32Game_32OverCode.GDNoObjects1.l
 gdjs.Vs_32Gabs_32_45_32Game_32OverCode.GDNoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(92150548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(74252724);
 }
 }
 if (isConditionTrue_0) {
@@ -441,7 +441,7 @@ for (var i = 0, k = 0, l = gdjs.Vs_32Gabs_32_45_32Game_32OverCode.GDYesObjects1.
 gdjs.Vs_32Gabs_32_45_32Game_32OverCode.GDYesObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10328316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(115391028);
 }
 }
 if (isConditionTrue_0) {

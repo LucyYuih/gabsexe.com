@@ -9,7 +9,7 @@ gdjs.evtsExt__ArrayTools__Sum = {};
 gdjs.evtsExt__ArrayTools__Sum.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ArrayTools__Sum.userFunc0x9a35ba8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__Sum.userFunc0x8df2a88 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue =
     eventsFunctionContext.getArgument("Array")
@@ -22,7 +22,7 @@ gdjs.evtsExt__ArrayTools__Sum.eventsList0 = function(runtimeScene, eventsFunctio
 {
 
 
-gdjs.evtsExt__ArrayTools__Sum.userFunc0x9a35ba8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ArrayTools__Sum.userFunc0x8df2a88(runtimeScene, eventsFunctionContext);
 
 }
 

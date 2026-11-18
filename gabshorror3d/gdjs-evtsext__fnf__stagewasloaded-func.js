@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__StageWasLoaded = {};
 gdjs.evtsExt__FNF__StageWasLoaded.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__StageWasLoaded.userFunc0x8c1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__StageWasLoaded.userFunc0x18982b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const root = runtimeScene.getGame().getVariables().get("FNF_Loading");
 eventsFunctionContext.returnValue = root.getChild("Stage").getChild("Loaded").getAsBoolean();
@@ -19,7 +19,7 @@ gdjs.evtsExt__FNF__StageWasLoaded.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__FNF__StageWasLoaded.userFunc0x8c1888(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__StageWasLoaded.userFunc0x18982b0(runtimeScene, eventsFunctionContext);
 
 }
 
