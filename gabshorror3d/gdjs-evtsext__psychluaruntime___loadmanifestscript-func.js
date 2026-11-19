@@ -9,7 +9,7 @@ gdjs.evtsExt__PsychLuaRuntime___LoadManifestScript = {};
 gdjs.evtsExt__PsychLuaRuntime___LoadManifestScript.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__PsychLuaRuntime___LoadManifestScript.userFunc0x21255e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PsychLuaRuntime___LoadManifestScript.userFunc0x8035540 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 var id = eventsFunctionContext.getArgument("ScriptId");
 var path = eventsFunctionContext.getArgument("ScriptPath");
@@ -44,7 +44,7 @@ gdjs.evtsExt__PsychLuaRuntime___LoadManifestScript.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__PsychLuaRuntime___LoadManifestScript.userFunc0x21255e0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PsychLuaRuntime___LoadManifestScript.userFunc0x8035540(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__GabsPause__RetomarMidia = {};
 gdjs.evtsExt__GabsPause__RetomarMidia.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__GabsPause__RetomarMidia.userFunc0x21255e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GabsPause__RetomarMidia.userFunc0x80409c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 const backdrop = runtimeScene.__gabsPauseBackdrop;
@@ -27,7 +27,7 @@ gdjs.evtsExt__GabsPause__RetomarMidia.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__GabsPause__RetomarMidia.userFunc0x21255e0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__GabsPause__RetomarMidia.userFunc0x80409c0(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -517,7 +517,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__VsGabsPanelSpriteButton__PanelSpriteBut
 gdjs.evtsExt__VsGabsPanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(102360020);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(89999300);
 }
 }
 if (isConditionTrue_0) {
@@ -590,7 +590,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__VsGabsPanelSpriteButton__PanelSpriteBut
 gdjs.evtsExt__VsGabsPanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(17204764);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(90002916);
 }
 }
 if (isConditionTrue_0) {
@@ -644,7 +644,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__VsGabsPanelSpriteButton__PanelSpriteBut
 gdjs.evtsExt__VsGabsPanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(169455420);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(90003876);
 }
 }
 if (isConditionTrue_0) {
@@ -690,7 +690,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__VsGabsPanelSpriteButton__PanelSpriteBut
 gdjs.evtsExt__VsGabsPanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(39299564);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(90005860);
 }
 }
 if (isConditionTrue_0) {

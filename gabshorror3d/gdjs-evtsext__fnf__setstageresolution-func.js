@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__SetStageResolution = {};
 gdjs.evtsExt__FNF__SetStageResolution.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__SetStageResolution.userFunc0x18982b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__SetStageResolution.userFunc0x6d11d00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const raw = Number(eventsFunctionContext.getArgument("Percent"));
 const percent = Number.isFinite(raw) ? Math.max(5, Math.min(100, raw)) : 100;
@@ -20,7 +20,7 @@ gdjs.evtsExt__FNF__SetStageResolution.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__FNF__SetStageResolution.userFunc0x18982b0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__SetStageResolution.userFunc0x6d11d00(runtimeScene, eventsFunctionContext);
 
 }
 

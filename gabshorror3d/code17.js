@@ -1232,7 +1232,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34878020);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97087820);
 }
 }
 }
@@ -1503,7 +1503,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(74688372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97100260);
 }
 }
 }
@@ -1544,7 +1544,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(115955860);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97102516);
 }
 }
 }
@@ -1743,7 +1743,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(116690268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97113436);
 }
 }
 }
@@ -1764,7 +1764,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(116690716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97114404);
 }
 }
 if (isConditionTrue_0) {

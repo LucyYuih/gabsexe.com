@@ -1248,7 +1248,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(48050924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96827988);
 }
 }
 }
@@ -1519,7 +1519,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141348372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96840428);
 }
 }
 }
@@ -1560,7 +1560,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(131996748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96842684);
 }
 }
 }
@@ -1759,7 +1759,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(36124564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96853604);
 }
 }
 }
@@ -1780,7 +1780,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(113140932);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96854028);
 }
 }
 if (isConditionTrue_0) {
@@ -2655,7 +2655,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(30167084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96891092);
 }
 }
 }
@@ -2805,7 +2805,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(175463516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96898660);
 }
 }
 }
@@ -3280,7 +3280,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12382340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96922532);
 }
 }
 }

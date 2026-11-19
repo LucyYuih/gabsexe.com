@@ -9,7 +9,7 @@ gdjs.evtsExt__Light3D__onFirstSceneLoaded = {};
 gdjs.evtsExt__Light3D__onFirstSceneLoaded.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Light3D__onFirstSceneLoaded.userFunc0x18982b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Light3D__onFirstSceneLoaded.userFunc0x24389f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Before Three.js r165, GDevelop rendered with "legacy lights": point and spot
 // lights faded linearly up to their range and every light color was
@@ -45,7 +45,7 @@ gdjs.evtsExt__Light3D__onFirstSceneLoaded.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__Light3D__onFirstSceneLoaded.userFunc0x18982b0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Light3D__onFirstSceneLoaded.userFunc0x24389f0(runtimeScene, eventsFunctionContext);
 
 }
 

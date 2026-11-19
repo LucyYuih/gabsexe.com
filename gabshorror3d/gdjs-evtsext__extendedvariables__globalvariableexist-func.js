@@ -9,7 +9,7 @@ gdjs.evtsExt__ExtendedVariables__GlobalVariableExist = {};
 gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.userFunc0x7536028 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.userFunc0x7d1aa00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const globalVariables = runtimeScene.getGame().getVariables();
 eventsFunctionContext.returnValue = globalVariables.has(eventsFunctionContext.getArgument("GlobalVariableName"));
@@ -19,7 +19,7 @@ gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.userFunc0x7536028(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.userFunc0x7d1aa00(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__PsychLuaRuntime___ConsumeEvent = {};
 gdjs.evtsExt__PsychLuaRuntime___ConsumeEvent.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__PsychLuaRuntime___ConsumeEvent.userFunc0x21255e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PsychLuaRuntime___ConsumeEvent.userFunc0x8039978 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 var host = globalThis.__psychLuaRuntimeHost;
 var data = host.getSceneData(runtimeScene);
@@ -21,7 +21,7 @@ gdjs.evtsExt__PsychLuaRuntime___ConsumeEvent.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__PsychLuaRuntime___ConsumeEvent.userFunc0x21255e0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PsychLuaRuntime___ConsumeEvent.userFunc0x8039978(runtimeScene, eventsFunctionContext);
 
 }
 

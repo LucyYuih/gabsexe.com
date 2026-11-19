@@ -9,7 +9,7 @@ gdjs.evtsExt__VsGabsGamepads__C_any_button_released = {};
 gdjs.evtsExt__VsGabsGamepads__C_any_button_released.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__VsGabsGamepads__C_any_button_released.userFunc0x99fc270 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VsGabsGamepads__C_any_button_released.userFunc0x4f5a118 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {Gamepad[]} */
 const gamepads = navigator.getGamepads ? navigator.getGamepads() : (navigator.webkitGetGamepads ? navigator.webkitGetGamepads() : []);
@@ -75,7 +75,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__VsGabsGamepads__C_any_button_released.userFunc0x99fc270(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__VsGabsGamepads__C_any_button_released.userFunc0x4f5a118(runtimeScene, eventsFunctionContext);
 
 }
 

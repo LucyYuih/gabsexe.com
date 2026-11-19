@@ -9,7 +9,7 @@ gdjs.evtsExt__GabsPause__AplicarFPS = {};
 gdjs.evtsExt__GabsPause__AplicarFPS.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__GabsPause__AplicarFPS.userFunc0x21255e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GabsPause__AplicarFPS.userFunc0x803cd00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 runtimeScene.getGame().setMaximumFps(eventsFunctionContext.getArgument("Limite"));
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__GabsPause__AplicarFPS.eventsList0 = function(runtimeScene, eventsF
 {
 
 
-gdjs.evtsExt__GabsPause__AplicarFPS.userFunc0x21255e0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__GabsPause__AplicarFPS.userFunc0x803cd00(runtimeScene, eventsFunctionContext);
 
 }
 

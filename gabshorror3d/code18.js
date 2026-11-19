@@ -1262,7 +1262,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34512324);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97290212);
 }
 }
 }
@@ -1533,7 +1533,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(162526276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97302652);
 }
 }
 }
@@ -1574,7 +1574,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(165538188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97304908);
 }
 }
 }
@@ -1773,7 +1773,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(114346172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97315828);
 }
 }
 }
@@ -1794,7 +1794,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(140656716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97316796);
 }
 }
 if (isConditionTrue_0) {
@@ -2828,7 +2828,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15204548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97364884);
 }
 }
 }

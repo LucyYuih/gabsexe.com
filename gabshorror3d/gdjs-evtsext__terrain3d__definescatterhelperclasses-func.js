@@ -9,7 +9,7 @@ gdjs.evtsExt__Terrain3D__DefineScatterHelperClasses = {};
 gdjs.evtsExt__Terrain3D__DefineScatterHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Terrain3D__DefineScatterHelperClasses.userFunc0x87f67d8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Terrain3D__DefineScatterHelperClasses.userFunc0x7bd3a30 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs.__terrainScatterExtension) {
     return;
@@ -1202,7 +1202,7 @@ gdjs.evtsExt__Terrain3D__DefineScatterHelperClasses.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__Terrain3D__DefineScatterHelperClasses.userFunc0x87f67d8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Terrain3D__DefineScatterHelperClasses.userFunc0x7bd3a30(runtimeScene, eventsFunctionContext);
 
 }
 

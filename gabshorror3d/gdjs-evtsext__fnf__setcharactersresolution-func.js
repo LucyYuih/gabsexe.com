@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__SetCharactersResolution = {};
 gdjs.evtsExt__FNF__SetCharactersResolution.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__SetCharactersResolution.userFunc0x18982b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__SetCharactersResolution.userFunc0x6d11d00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const raw = Number(eventsFunctionContext.getArgument("Percent"));
 const percent = Number.isFinite(raw) ? Math.max(5, Math.min(100, raw)) : 100;
@@ -20,7 +20,7 @@ gdjs.evtsExt__FNF__SetCharactersResolution.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__FNF__SetCharactersResolution.userFunc0x18982b0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__SetCharactersResolution.userFunc0x6d11d00(runtimeScene, eventsFunctionContext);
 
 }
 

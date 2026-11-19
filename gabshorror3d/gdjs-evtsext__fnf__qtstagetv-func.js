@@ -9,7 +9,7 @@ gdjs.evtsExt__FNF__QTStageTV = {};
 gdjs.evtsExt__FNF__QTStageTV.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FNF__QTStageTV.userFunc0x18982b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__FNF__QTStageTV.userFunc0x7aede80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Only stage animation visual adapter; event timing is native.
 const state=Number(eventsFunctionContext.getArgument("State"));
@@ -37,7 +37,7 @@ gdjs.evtsExt__FNF__QTStageTV.eventsList0 = function(runtimeScene, eventsFunction
 {
 
 
-gdjs.evtsExt__FNF__QTStageTV.userFunc0x18982b0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__FNF__QTStageTV.userFunc0x7aede80(runtimeScene, eventsFunctionContext);
 
 }
 

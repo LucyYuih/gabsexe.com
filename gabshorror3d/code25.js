@@ -769,7 +769,7 @@ gdjs.Only_32UpCode.GDVsGabsVolumeLabelObjects9= [];
 gdjs.Only_32UpCode.GDVsGabsVolumeLabelObjects10= [];
 
 
-gdjs.Only_32UpCode.userFunc0x4d57ff0 = function GDJSInlineCode(runtimeScene) {
+gdjs.Only_32UpCode.userFunc0x48b47b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Shorten the boom in front of solid geometry. Return to its requested length smoothly.
 if (!runtimeScene.__sm64Camera) {
@@ -1101,7 +1101,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x45664f0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x3dde440 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function castleScene(scene, engine, Three) {
     'use strict';
@@ -1112,6 +1112,7 @@ if (isConditionTrue_0) {
     const bodyHeight = 110;
     const contactSkin = 0.02;
     const wallNormalZ = 0.12;
+    const grippyMovementNormal = 0.985;
 
     const spawn = [-1860, 1100, 680];
     const roof = [-1740, -3730, 3174];
@@ -1232,7 +1233,8 @@ if (isConditionTrue_0) {
         const margin=solidBodyRadius+contactSkin;
         const left=Math.min(x,tx)-margin, right=Math.max(x,tx)+margin;
         const near=Math.min(y,ty)-margin, far=Math.max(y,ty)+margin;
-        const bottom=z-75, top=z+75;
+        // The body can reach the next connected tread before the feet reach its edge.
+        const bottom=z-75, top=z+75+bodyHeight;
         function canReachEdge({a,b}) {
             let enter=0, exit=1;
             for (const [axis,low,high] of [[0,left,right],[1,near,far],[2,bottom,top]]) {
@@ -1505,6 +1507,8 @@ if (isConditionTrue_0) {
                 const up = n[2]>0 ? n : n.map(value => -value);
                 const gap = dot(from.map((value,i)=>value-a[i]),up);
                 const delta = dot(move,up);
+                // An uphill tread supports the feet. Its padded sweep must not push them back first.
+                const footCanFollow = border || up[2]>=0.55 || isClimbableCourseFace(tri);
                 if (tri.placed && type!==noSlipSurface && move[2]>0 && delta>0.000001) {
                     const headGap=gap+bodyHeight*up[2];
                     if (headGap<=0.025 && headGap+delta>=0) {
@@ -1516,18 +1520,18 @@ if (isConditionTrue_0) {
                     }
                 }
                 if (gap>=-0.025) {
-                    if (grounded && gap+delta>=-75*up[2] && (border || up[2]>=0.55))
+                    if (grounded && gap+delta>=-75*up[2] && footCanFollow)
                         continue;
                     if (!grounded && delta<-0.000001 && gap+delta<=0 && (move[2]<0 || tri.placed && type!==noSlipSurface)) {
                         const time=Math.max(0,-gap/delta);
                         const point=from.map((value,i)=>value+move[i]*time);
                         if (time<=1 && pointInTriangle(tri,...point)) {
                             if (!first || time<first.time)
-                                first={time,point,floor:{z:point[2],n:up,type}};
+                                first={time,point,floor:{z:point[2],n:up,type,triangle:tri}};
                             continue;
                         }
                     }
-                    if (gap+delta>=0 && (border || up[2]>=0.55)) continue;
+                    if (gap+delta>=0 && footCanFollow) continue;
                 }
             }
             // The two uphill faces of a narrow valley support the feet.
@@ -1811,7 +1815,8 @@ if (isConditionTrue_0) {
     function place([x, y, z]) {
         for (const [name, value] of Object.entries({
             Px: x, Py: y, Pz: z, OldX: x, OldY: y, OldZ: z, PeakZ: z, CamTargetZ: z + 76,
-            Vx: 0, Vy: 0, Vz: 0, Forward: 0, Grounded: 1, FloorN: 1, FloorType: 0, FloorBorderSlide: 0, FloorNoSlip: 0,
+            Vx: 0, Vy: 0, Vz: 0, Forward: 0, Grounded: 1, FloorN: 1, FloorPhysicalN: 1, FloorSlopeX: 0, FloorSlopeY: 0,
+            FloorType: 0, FloorBorderSlide: 0, FloorNoSlip: 0,
             PendingJump: 0, PendingCrouch: 0, PendingAttack: 0, FrameDebt: 0,
             Yaw: -90, OldYaw: -90, ModelYaw: -90, OldModelYaw: -90, CamYaw: -90,
             LedgeMode: 0, PoleMode: 0, PoleCooldown: 0, SlideMode: 0, LockTime: 0, LandFrames: 0, DamageRespawn: 0,
@@ -2445,7 +2450,7 @@ if (isConditionTrue_0) {
         setNumbers({ CastleLedge:1,LedgeX:x,LedgeY:y,LedgeZ:floor.z,
             LedgeNx:nx,LedgeNy:ny,LedgeSlopeX:-floor.n[0]/floor.n[2],
             LedgeSlopeY:-floor.n[1]/floor.n[2],LedgeFloorType:friction(floor.type),
-            LedgeNoSlip:Number(floor.type === noSlipSurface),
+            LedgeNoSlip:Number(floor.type === noSlipSurface), LedgeN:movementFloorNormal(floor),
             LedgeDx:Math.atan2(-ny,-nx)*180/Math.PI });
     }
 
@@ -2555,8 +2560,23 @@ if (isConditionTrue_0) {
         setNumbers({ CastleLedge: 3, LedgeX: px-nx*12, LedgeY: py-ny*12, LedgeZ: top.z,
             LedgeNx: nx, LedgeNy: ny, LedgeSlopeX: -top.n[0]/top.n[2],
             LedgeSlopeY: -top.n[1]/top.n[2], LedgeFloorType: friction(top.type),
-            LedgeNoSlip: Number(top.type === noSlipSurface),
+            LedgeNoSlip: Number(top.type === noSlipSurface), LedgeN: movementFloorNormal(top),
             LedgeDx: Math.atan2(-ny,-nx)*180/Math.PI });
+    }
+
+    function isClimbableCourseFace(tri) {
+        // Use the same floor/wall boundary as the mesh support test.
+        return tri?.placed && tri.type === 0 && tri.n[2] > wallNormalZ;
+    }
+
+    function movementFloorNormal(floor) {
+        if (!floor || floor.type === noSlipSurface) return 1;
+        const normal = floor.n[2];
+        // The collision and the slope used by the model still follow the real mesh.
+        if (isClimbableCourseFace(floor.triangle)) {
+            return Math.max(normal, grippyMovementNormal);
+        }
+        return normal;
     }
 
     function friction(type) {
@@ -2703,6 +2723,19 @@ if (isConditionTrue_0) {
         const px = number('Px'), py = number('Py'), pz = number('Pz');
         const grounded = number('Grounded') === 1;
         const vz = number('Vz');
+        const physicalNormal = number('FloorPhysicalN');
+        if (grounded && !number('SlideMode') && number('FloorN') > physicalNormal + 0.0001) {
+            const dx = x - px, dy = y - py;
+            const sx = number('FloorSlopeX'), sy = number('FloorSlopeY');
+            const rise = dx * sx + dy * sy;
+            if (rise > 0) {
+                // Slow the uphill part of grounded movement without changing the grip or jump impulse.
+                const alignment = rise / (Math.hypot(dx, dy) * Math.hypot(sx, sy));
+                const travel = 1 - 0.45 * (1 - physicalNormal) * alignment;
+                x = px + dx * travel;
+                y = py + dy * travel;
+            }
+        }
         if (grounded && number('FloorBorderSlide')) {
             // Quarter steps cannot carry incoming uphill momentum into the slope.
             const sx = number('FloorSlopeX'), sy = number('FloorSlopeY');
@@ -2728,7 +2761,7 @@ if (isConditionTrue_0) {
                     LedgeMode:0,HitWall:0,WalkWall:0,FloorNoSlip:0,
                     FloorZ:floor?.z ?? -90000,FloorChosen:floor ? 1+friction(floor.type) : 0,
                     TmpBorderSlide:Number(floor?.type===borderSurface),TmpNoSlip:Number(grip),
-                    TmpN:normal ? normal[2] : 1,TmpSlopeX:normal ? -normal[0]/normal[2] : 0,
+                    TmpN:movementFloorNormal(floor),TmpSlopeX:normal ? -normal[0]/normal[2] : 0,
                     TmpSlopeY:normal ? -normal[1]/normal[2] : 0});
                 state.lastLetterClear=safe;
                 return;
@@ -2842,7 +2875,7 @@ if (isConditionTrue_0) {
         setNumbers({ NX:x, NY:y, NZ:z, FloorZ:floor ? floor.z : -90000,
             TmpBorderSlide:Number(floor?.type === borderSurface),
             FloorChosen:floor ? 1+friction(floor.type) : 0, TmpNoSlip:Number(noSlip),
-            TmpN:slope ? slope[2] : 1, TmpSlopeX:slope ? -slope[0]/slope[2] : 0,
+            TmpN:movementFloorNormal(floor), TmpSlopeX:slope ? -slope[0]/slope[2] : 0,
             TmpSlopeY:slope ? -slope[1]/slope[2] : 0 });
     }
 
@@ -6679,7 +6712,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x55e4ad0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x32a8258 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.toggleMusic();
 };
@@ -6688,7 +6721,7 @@ gdjs.Only_32UpCode.eventsList24 = function(runtimeScene) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x55e4ad0(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x32a8258(runtimeScene);
 
 }
 
@@ -7790,13 +7823,15 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(196).setNumber(1);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(197).setNumber(1 + (1 / Math.sqrt(1 + runtimeScene.getScene().getVariables().getFromIndex(241).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(241).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(242).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(242).getAsNumber()) - 1) * (1 - runtimeScene.getScene().getVariables().getFromIndex(259).getAsNumber()));
+{runtimeScene.getScene().getVariables().getFromIndex(197).setNumber(runtimeScene.getScene().getVariables().getFromIndex(300).getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(198).setNumber(runtimeScene.getScene().getVariables().getFromIndex(240).getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(142).setNumber(runtimeScene.getScene().getVariables().getFromIndex(241).getAsNumber() * (1 - runtimeScene.getScene().getVariables().getFromIndex(259).getAsNumber()));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(143).setNumber(runtimeScene.getScene().getVariables().getFromIndex(242).getAsNumber() * (1 - runtimeScene.getScene().getVariables().getFromIndex(259).getAsNumber()));
+}
+{runtimeScene.getScene().getVariables().getFromIndex(301).setNumber(1 / Math.sqrt(1 + runtimeScene.getScene().getVariables().getFromIndex(142).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(142).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(143).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(143).getAsNumber()));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(212).setString("Parado");
 }
@@ -12042,9 +12077,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-{runtimeScene.getScene().getVariables().getFromIndex(55).setNumber((runtimeScene.getScene().getVariables().getFromIndex(55).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(63).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(142).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(197).getAsNumber()) * runtimeScene.getScene().getVariables().getFromIndex(62).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(55).setNumber((runtimeScene.getScene().getVariables().getFromIndex(55).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(63).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(142).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(301).getAsNumber()) * runtimeScene.getScene().getVariables().getFromIndex(62).getAsNumber());
 }
-{runtimeScene.getScene().getVariables().getFromIndex(56).setNumber((runtimeScene.getScene().getVariables().getFromIndex(56).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(63).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(143).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(197).getAsNumber()) * runtimeScene.getScene().getVariables().getFromIndex(62).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(56).setNumber((runtimeScene.getScene().getVariables().getFromIndex(56).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(63).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(143).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(301).getAsNumber()) * runtimeScene.getScene().getVariables().getFromIndex(62).getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(55).getAsNumber());
 }
@@ -22081,7 +22116,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x7444180 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x7af3178 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.poundLift?.();
 };
@@ -22090,7 +22125,7 @@ gdjs.Only_32UpCode.eventsList110 = function(runtimeScene) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x7444180(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x7af3178(runtimeScene);
 
 }
 
@@ -22524,7 +22559,7 @@ gdjs.Only_32UpCode.eventsList111(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x42275d0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x31a4fc0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (runtimeScene.__onlyUpCastle) runtimeScene.__onlyUpCastle.resolve();
 };
@@ -22716,6 +22751,8 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(143).setNumber(runtimeScene.getScene().getVariables().getFromIndex(145).getAsNumber());
 }
+{runtimeScene.getScene().getVariables().getFromIndex(301).setNumber(1 / Math.sqrt(1 + runtimeScene.getScene().getVariables().getFromIndex(142).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(142).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(143).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(143).getAsNumber()));
+}
 {runtimeScene.getScene().getVariables().getFromIndex(257).setNumber(runtimeScene.getScene().getVariables().getFromIndex(258).getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(260).setNumber(runtimeScene.getScene().getVariables().getFromIndex(261).getAsNumber());
@@ -22789,6 +22826,8 @@ if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(142).setNumber(runtimeScene.getScene().getVariables().getFromIndex(144).getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(143).setNumber(runtimeScene.getScene().getVariables().getFromIndex(145).getAsNumber());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(301).setNumber(1 / Math.sqrt(1 + runtimeScene.getScene().getVariables().getFromIndex(142).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(142).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(143).getAsNumber() * runtimeScene.getScene().getVariables().getFromIndex(143).getAsNumber()));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(139).setNumber(1);
 }
@@ -22891,7 +22930,7 @@ gdjs.Only_32UpCode.eventsList116(runtimeScene);} //End of subevents
 {
 
 
-gdjs.Only_32UpCode.userFunc0x42275d0(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x31a4fc0(runtimeScene);
 
 }
 
@@ -23010,9 +23049,9 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(139).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(11).setNumber(runtimeScene.getScene().getVariables().getFromIndex(186).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() * (1 + (runtimeScene.getScene().getVariables().getFromIndex(197).getAsNumber() - 1) * runtimeScene.getScene().getVariables().getFromIndex(196).getAsNumber()) / runtimeScene.getScene().getVariables().getFromIndex(136).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(11).setNumber(runtimeScene.getScene().getVariables().getFromIndex(186).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() * (1 + (runtimeScene.getScene().getVariables().getFromIndex(301).getAsNumber() - 1) * runtimeScene.getScene().getVariables().getFromIndex(196).getAsNumber()) / runtimeScene.getScene().getVariables().getFromIndex(136).getAsNumber());
 }
-{runtimeScene.getScene().getVariables().getFromIndex(12).setNumber(runtimeScene.getScene().getVariables().getFromIndex(187).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(18).getAsNumber() * (1 + (runtimeScene.getScene().getVariables().getFromIndex(197).getAsNumber() - 1) * runtimeScene.getScene().getVariables().getFromIndex(196).getAsNumber()) / runtimeScene.getScene().getVariables().getFromIndex(136).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(12).setNumber(runtimeScene.getScene().getVariables().getFromIndex(187).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(18).getAsNumber() * (1 + (runtimeScene.getScene().getVariables().getFromIndex(301).getAsNumber() - 1) * runtimeScene.getScene().getVariables().getFromIndex(196).getAsNumber()) / runtimeScene.getScene().getVariables().getFromIndex(136).getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(13).setNumber(runtimeScene.getScene().getVariables().getFromIndex(188).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(19).getAsNumber() / runtimeScene.getScene().getVariables().getFromIndex(136).getAsNumber());
 }
@@ -23038,7 +23077,7 @@ gdjs.Only_32UpCode.eventsList118(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x4508328 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x1482530 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.afterStep();
 };
@@ -23174,7 +23213,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x5490ff8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x40a4490 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (runtimeScene.__onlyUpCastle) runtimeScene.__onlyUpCastle.attack();
 };
@@ -23200,7 +23239,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x5490ff8(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x40a4490(runtimeScene);
 
 }
 
@@ -29907,7 +29946,7 @@ gdjs.Only_32UpCode.eventsList119(runtimeScene);} //Subevents end.
 {
 
 
-gdjs.Only_32UpCode.userFunc0x4508328(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x1482530(runtimeScene);
 
 }
 
@@ -32541,7 +32580,7 @@ gdjs.Only_32UpCode.eventsList190(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Only_32UpCode.userFunc0x3f975f0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x1ff6a70 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const scene = runtimeScene;
 const camera = scene.__sm64Camera;
@@ -33334,7 +33373,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Only_32UpCode.userFunc0x3f975f0(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x1ff6a70(runtimeScene);
 
 }
 
@@ -33417,7 +33456,7 @@ gdjs.copyArray(runtimeScene.getObjects("Leitura"), gdjs.Only_32UpCode.GDLeituraO
 }
 
 
-};gdjs.Only_32UpCode.userFunc0xa35b690 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Only_32UpCode.userFunc0x7a93500 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.__onlyUpCastle?.course?.updateVoice();
 };
@@ -33454,7 +33493,7 @@ gdjs.Only_32UpCode.eventsList193(runtimeScene);
 {
 
 
-gdjs.Only_32UpCode.userFunc0xa35b690(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x7a93500(runtimeScene);
 
 }
 
@@ -33489,7 +33528,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.Only_32UpCode.userFunc0x4d57ff0(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x48b47b0(runtimeScene);
 
 }
 
@@ -33504,7 +33543,7 @@ gdjs.Only_32UpCode.eventsList1(runtimeScene);
 {
 
 
-gdjs.Only_32UpCode.userFunc0x45664f0(runtimeScene);
+gdjs.Only_32UpCode.userFunc0x3dde440(runtimeScene);
 
 }
 

@@ -1220,7 +1220,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(80165356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(94206588);
 }
 }
 }
@@ -1491,7 +1491,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(45942836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(94219028);
 }
 }
 }
@@ -1532,7 +1532,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "A", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(121677236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(94221284);
 }
 }
 }
@@ -1821,7 +1821,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func(runtimeScene, 1, "F", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(50380148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(94236340);
 }
 }
 }
@@ -1842,7 +1842,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "h");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(93849820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(94237852);
 }
 }
 if (isConditionTrue_0) {
@@ -2686,7 +2686,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22750964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(94279428);
 }
 }
 }

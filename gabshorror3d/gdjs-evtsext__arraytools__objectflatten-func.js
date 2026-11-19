@@ -10,7 +10,7 @@ gdjs.evtsExt__ArrayTools__ObjectFlatten.idToCallbackMap = new Map();
 gdjs.evtsExt__ArrayTools__ObjectFlatten.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__ArrayTools__ObjectFlatten.userFunc0x27147a8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__ObjectFlatten.userFunc0x7f56d30 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.Variable} */
 const array = eventsFunctionContext.getArgument("Array");
@@ -42,7 +42,7 @@ gdjs.evtsExt__ArrayTools__ObjectFlatten.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__ArrayTools__ObjectFlatten.userFunc0x27147a8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ArrayTools__ObjectFlatten.userFunc0x7f56d30(runtimeScene, eventsFunctionContext);
 
 }
 
