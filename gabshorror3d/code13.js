@@ -33653,7 +33653,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 64, 1);
 }
 }
 
@@ -33668,7 +33668,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "single");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 64, 1);
 }
 }
 
@@ -33683,7 +33683,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "1");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 64, 1);
 }
 }
 
@@ -33698,7 +33698,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "0");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 64, 1);
 }
 }
 
@@ -33713,7 +33713,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "double");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_double.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_double.ogg", false, 64, 1);
 }
 }
 
@@ -33728,7 +33728,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "2");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_double.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_double.ogg", false, 64, 1);
 }
 }
 
@@ -33743,7 +33743,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "triple");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_triple.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_triple.ogg", false, 64, 1);
 }
 }
 
@@ -33758,7 +33758,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "3");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_triple.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_triple.ogg", false, 64, 1);
 }
 }
 
@@ -33773,7 +33773,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "quadruple");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_quadruple.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_quadruple.ogg", false, 64, 1);
 }
 }
 
@@ -33788,7 +33788,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "quad");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_quadruple.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_quadruple.ogg", false, 64, 1);
 }
 }
 
@@ -33803,7 +33803,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(88).getChild("Value1").getAsString() == "4");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_quadruple.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_quadruple.ogg", false, 64, 1);
 }
 }
 
@@ -33868,7 +33868,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_single.ogg", false, 64, 1);
 }
 }
 
@@ -37087,7 +37087,7 @@ gdjs.copyArray(runtimeScene.getObjects("QTBladeVisual"), gdjs.Vs_32Gabs_32_45_32
 }
 {runtimeScene.getScene().getVariables().getFromIndex(88).getChild("PendingCount").add(1);
 }
-{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_double.ogg", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "mods\\VsGabs\\sounds\\qt_attack_double.ogg", false, 64, 1);
 }
 
 { //Subevents
